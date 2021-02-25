@@ -1,7 +1,7 @@
 This Lab focusses on how to access AWS S3, dynamoDB and how to move data from S3 to dynamoDB using Lambda functions. Complete Setup and Results are contained in the CodeLab doucment - https://codelabs-preview.appspot.com/?file_id=18Cm3gKgtO_HV6AAbpTbxHusXV6eb8hU2Yfl5f7z225Q#0 \n
 
-Below are the files which serves the purpose:
-s3_upload.ipynb - Upload random generated csv file into S3 bucket
+Below are the files which serves the purpose:\n
+s3_upload.ipynb - Upload random generated csv file into S3 bucket\n
 s3_donwload.ipynb - Download csv files from s3 bucket
 s3_dynamodb.ipynb - Reading data from s3 bucket and uploading data into dynamodb table
 comprehend_demo.ipynb - Sentiment Analysis using AWS comprehend
