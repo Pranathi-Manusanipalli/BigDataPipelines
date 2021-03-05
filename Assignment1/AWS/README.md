@@ -11,13 +11,16 @@ Here, we are leveraging AWS for developing data pipeline using AWS Glue, query a
 ** Storm_to_s3: Connects to .gz files in local S3 and then carry out the below filtering:
 . Filtering the data based on date range
 . Converting the Damage property and damage crops to Numeric 
-
 Once all these filterings are done it loads back the transformed data to S3
+
 ** sevir_storm_joined.py : Performs 3 joins:
 . Sevir data with Storm details data(Many to One)
 . Storm Fatalities data with Storm Details data(Many to One)
 . Storm Locations data with Storm Details data(Many to One)
 . Once all these joins are performed it stores back to S3
+
+** ftp_storm.py: 
+Extracts the file from ftp server and loads into s3
 
 * Add these jobs to the workflow as per the below image
 ![](images/awsflow.png)
