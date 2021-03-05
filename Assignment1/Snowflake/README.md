@@ -1,5 +1,6 @@
 Snowflake Pipeline:<br/>
 
+![](images/flow.png)
 
 
 
