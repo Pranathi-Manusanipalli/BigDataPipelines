@@ -5,7 +5,7 @@ Here, we are leveraging Google Cloud Platform for developing data pipeline using
 * GCP_DATAFLOW_SEVIR_STORM.py -> Includes the code to run the data pipeline to sample the data from s3 and cloud storage and load back into storage and into BigQuery
 * SEVIR_STORM_JOIN_BQUERY.sql -> SQL Scripts for joining Sevir and Storm data and creating views 
 
-## Instructions 
+## Instructions to run 
 - Download the storm data from https://www.ncdc.noaa.gov/stormevents/ftp.jsp and store it in your cloud storage buckets
 - Modify the Bucket_name in the code 
 - Run the 'GCP_DATAFLOW_SEVIR_STORM.py' to start the Dataflow Pipeline Job
