@@ -23,5 +23,5 @@ Once all these filterings are done it loads back the transformed data to S3
 ![](images/awsflow.png)
 
 ## Report
-Refer to https://codelabs-preview.appspot.com/?file_id=1jBm19uLwkIqiLjWorO7ClJ5UcWRHkf_WgXqZcVmBPM0#2 for detailed description of the pipeline illustration
+Refer to https://codelabs-preview.appspot.com/?file_id=1jBm19uLwkIqiLjWorO7ClJ5UcWRHkf_WgXqZcVmBPM0#0 for detailed description of the pipeline illustration
 
