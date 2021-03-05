@@ -1,4 +1,5 @@
-Snowflake Architecture:<br/>
+Snowflake Pipeline:<br/>
+
 
 
 
@@ -24,6 +25,10 @@ Add the database connection details and run the file for setting up database con
 Using **SQLAlchemy.ipynb**<br/>
 
 Run this file for querying the snowflake database<br/>
+
+**Apache Superset Dashboard**
+
+
 
 
 
