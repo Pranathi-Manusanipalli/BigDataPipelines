@@ -7,11 +7,11 @@ Here, we are leveraging AWS for developing data pipeline using AWS Glue, query a
 *   * h5py-3.1.0-py3.8-macosx-10.9-x86_64.egg
 
 * Create jobs in Amazon glue for each of the python files 
-** Sevir_s3_to_s3: To connect to the source(sevir) S3 bucket and do 3 level filtering and then upload the data to our S3 bucket with reduced file sizes 
-** Storm_to_s3: Connects to .gz files in local S3 and then carry out the below filtering:
-. Filtering the data based on date range
-. Converting the Damage property and damage crops to Numeric 
-Once all these filterings are done it loads back the transformed data to S3
+  * Sevir_s3_to_s3: To connect to the source(sevir) S3 bucket and do 3 level filtering and then upload the data to our S3 bucket with reduced file sizes 
+  * Storm_to_s3: Connects to .gz files in local S3 and then carry out the below filtering:
+  Filtering the data based on date range
+  . Converting the Damage property and damage crops to Numeric 
+  . Once all these filterings are done it loads back the transformed data to S3
 
 ** sevir_storm_joined.py : Performs 3 joins:
 . Sevir data with Storm details data(Many to One)
