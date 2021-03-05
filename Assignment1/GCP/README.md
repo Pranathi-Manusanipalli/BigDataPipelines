@@ -13,4 +13,4 @@ Here, we are leveraging Google Cloud Platform for developing data pipeline using
 
 
 ## Report 
-Refer to https://codelabs-preview.appspot.com/?file_id=1jBm19uLwkIqiLjWorO7ClJ5UcWRHkf_WgXqZcVmBPM0#0 for detailed description of the pipeline illustration 
+Refer to https://codelabs-preview.appspot.com/?file_id=1jBm19uLwkIqiLjWorO7ClJ5UcWRHkf_WgXqZcVmBPM0#3 for detailed description of the pipeline illustration 
