@@ -1,14 +1,36 @@
-Snowflake Architecture:
+Snowflake Architecture:<br/>
 
 
-**Getting Started**
-Download & Configure Apache Superset from [here](https://superset.apache.org/docs/installation/installing-superset-from-scratch)
-Connect to Apache Superset with connection string :
-              **snowflake://{username}:{password}@{account}/{database}/{schema}?warehouse={warehouse}&role={role}**
-Python Libraries
-ConfigParser
-sqlalchemy
-apache-superset
 
-**Usage**
-Add the database connection details and run **config_file.ipynb** 
+**Getting Started**<br/>
+Download & Configure Apache Superset from [here](https://superset.apache.org/docs/installation/installing-superset-from-scratch)<br/>
+Connect to Apache Superset with connection string :<br/>
+              **snowflake://{username}:{password}@{account}/{database}/{schema}?warehouse={warehouse}&role={role}**<br/><br/>
+*Python Libraries*<br/>
+- ConfigParser<br/>
+- sqlalchemy<br/>
+- apache-superset<br/><br/>
+
+**Usage**<br/><br/>
+
+Using **snowflake_scripts**<br/>
+
+Run this file in snowflake database to create tables/views and import data from S3 <br/><br/>
+
+Using **config_file.ipynb** <br/>
+
+Add the database connection details and run the file for setting up database connection parameters<br/><br/>
+
+Using **SQLAlchemy.ipynb**<br/>
+
+Run this file for querying the snowflake database<br/>
+
+
+
+
+
+
+
+
+
+
