@@ -1,0 +1,70 @@
+[2021-03-17 18:33:15,229] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.ScrapeData 2021-03-18T01:31:24+00:00 [queued]>
+[2021-03-17 18:33:15,235] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.ScrapeData 2021-03-18T01:31:24+00:00 [queued]>
+[2021-03-17 18:33:15,235] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:33:15,235] {taskinstance.py:1043} INFO - Starting attempt 2 of 1
+[2021-03-17 18:33:15,235] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:33:15,243] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): ScrapeData> on 2021-03-18T01:31:24+00:00
+[2021-03-17 18:33:15,245] {standard_task_runner.py:52} INFO - Started process 31551 to run task
+[2021-03-17 18:33:15,256] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CNN-Training-Pipeline', 'ScrapeData', '2021-03-18T01:31:24+00:00', '--job-id', '15', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/train_model.py', '--cfg-path', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmpyshqczw6', '--error-file', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmpceqfs3r3']
+[2021-03-17 18:33:15,258] {standard_task_runner.py:77} INFO - Job 15: Subtask ScrapeData
+[2021-03-17 18:33:15,295] {logging_mixin.py:104} INFO - Running <TaskInstance: CNN-Training-Pipeline.ScrapeData 2021-03-18T01:31:24+00:00 [running]> on host prathyushas-mbp.home
+[2021-03-17 18:33:15,317] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CNN-Training-Pipeline
+AIRFLOW_CTX_TASK_ID=ScrapeData
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-18T01:31:24+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-18T01:31:24+00:00
+[2021-03-17 18:33:15,982] {logging_mixin.py:104} INFO - http://www.dermnet.com//images/Acne-Closed-Comedo
+[2021-03-17 18:33:15,982] {logging_mixin.py:104} INFO - Pages:  4
+[2021-03-17 18:33:17,123] {logging_mixin.py:104} INFO - Links:  43
+[2021-03-17 18:33:17,476] {logging_mixin.py:104} INFO - http://www.dermnet.com//images/Acne-Cystic
+[2021-03-17 18:33:17,476] {logging_mixin.py:104} INFO - Pages:  13
+[2021-03-17 18:33:19,595] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 31551
+[2021-03-17 18:33:19,596] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-03-17 18:33:19,603] {taskinstance.py:1455} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py", line 18, in scrape_from_dermnet
+    dermnet_scrape.get_data()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/scraper/dermnet_scrape.py", line 124, in get_data
+    realLinks = images2links(imagesL)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/scraper/dermnet_scrape.py", line 64, in images2links
+    soup_page1_1_ = BeautifulSoup(requests.get(url_).text, "html.parser")
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/sessions.py", line 697, in send
+    r.content
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/models.py", line 831, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/requests/models.py", line 753, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/urllib3/response.py", line 572, in stream
+    for line in self.read_chunked(amt, decode_content=decode_content):
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/urllib3/response.py", line 767, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/urllib3/response.py", line 720, in _handle_chunk
+    returned_chunk = self._fp._safe_read(self.chunk_left)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 620, in _safe_read
+    chunk = self.fp.read(min(amt, MAXAMOUNT))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-03-17 18:33:19,649] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=CNN-Training-Pipeline, task_id=ScrapeData, execution_date=20210318T013124, start_date=20210318T013315, end_date=20210318T013319
+[2021-03-17 18:33:19,694] {process_utils.py:66} INFO - Process psutil.Process(pid=31551, status='terminated', exitcode=1, started='18:33:15') (31551) terminated with exit code 1

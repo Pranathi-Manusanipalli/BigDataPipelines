@@ -1,0 +1,371 @@
+[2021-03-17 16:32:21,006] {scheduler_job.py:182} INFO - Started process (PID=28218) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:21,008] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:32:21,009] {logging_mixin.py:104} INFO - [2021-03-17 16:32:21,009] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:21,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:21,186] {logging_mixin.py:104} INFO - [2021-03-17 16:32:21,186] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:32:21,198] {logging_mixin.py:104} INFO - [2021-03-17 16:32:21,198] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:32:21,205] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.203 seconds
+[2021-03-17 16:32:52,048] {scheduler_job.py:182} INFO - Started process (PID=28269) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:52,052] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:32:52,054] {logging_mixin.py:104} INFO - [2021-03-17 16:32:52,053] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:52,246] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:32:52,259] {logging_mixin.py:104} INFO - [2021-03-17 16:32:52,259] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:32:52,269] {logging_mixin.py:104} INFO - [2021-03-17 16:32:52,269] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:32:52,275] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.231 seconds
+[2021-03-17 16:33:22,881] {scheduler_job.py:182} INFO - Started process (PID=28298) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:22,883] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:33:22,885] {logging_mixin.py:104} INFO - [2021-03-17 16:33:22,884] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:23,023] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:23,036] {logging_mixin.py:104} INFO - [2021-03-17 16:33:23,035] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:33:23,045] {logging_mixin.py:104} INFO - [2021-03-17 16:33:23,045] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:33:23,051] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.173 seconds
+[2021-03-17 16:33:53,756] {scheduler_job.py:182} INFO - Started process (PID=28333) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:53,760] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:33:53,762] {logging_mixin.py:104} INFO - [2021-03-17 16:33:53,761] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:54,086] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:33:54,099] {logging_mixin.py:104} INFO - [2021-03-17 16:33:54,099] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:33:54,110] {logging_mixin.py:104} INFO - [2021-03-17 16:33:54,110] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:33:54,117] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.365 seconds
+[2021-03-17 16:34:24,449] {scheduler_job.py:182} INFO - Started process (PID=28362) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:24,450] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:34:24,452] {logging_mixin.py:104} INFO - [2021-03-17 16:34:24,451] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:24,583] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:24,596] {logging_mixin.py:104} INFO - [2021-03-17 16:34:24,595] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:34:24,605] {logging_mixin.py:104} INFO - [2021-03-17 16:34:24,605] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:34:24,611] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.166 seconds
+[2021-03-17 16:34:55,251] {scheduler_job.py:182} INFO - Started process (PID=28394) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:55,253] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:34:55,254] {logging_mixin.py:104} INFO - [2021-03-17 16:34:55,254] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:55,386] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:34:55,399] {logging_mixin.py:104} INFO - [2021-03-17 16:34:55,398] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:34:55,408] {logging_mixin.py:104} INFO - [2021-03-17 16:34:55,408] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:34:55,414] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.167 seconds
+[2021-03-17 16:35:25,978] {scheduler_job.py:182} INFO - Started process (PID=28427) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:25,980] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:35:25,981] {logging_mixin.py:104} INFO - [2021-03-17 16:35:25,981] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:26,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:26,140] {logging_mixin.py:104} INFO - [2021-03-17 16:35:26,140] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:35:26,152] {logging_mixin.py:104} INFO - [2021-03-17 16:35:26,151] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:35:26,158] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.184 seconds
+[2021-03-17 16:35:56,825] {scheduler_job.py:182} INFO - Started process (PID=28469) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:56,830] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:35:56,831] {logging_mixin.py:104} INFO - [2021-03-17 16:35:56,831] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:57,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:35:57,159] {logging_mixin.py:104} INFO - [2021-03-17 16:35:57,159] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:35:57,169] {logging_mixin.py:104} INFO - [2021-03-17 16:35:57,169] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:35:57,175] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.354 seconds
+[2021-03-17 16:36:27,623] {scheduler_job.py:182} INFO - Started process (PID=28504) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:27,627] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:36:27,628] {logging_mixin.py:104} INFO - [2021-03-17 16:36:27,628] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:27,931] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:27,944] {logging_mixin.py:104} INFO - [2021-03-17 16:36:27,943] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:36:27,955] {logging_mixin.py:104} INFO - [2021-03-17 16:36:27,954] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:36:27,960] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.342 seconds
+[2021-03-17 16:36:58,459] {scheduler_job.py:182} INFO - Started process (PID=28533) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:58,461] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:36:58,462] {logging_mixin.py:104} INFO - [2021-03-17 16:36:58,462] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:58,598] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:36:58,610] {logging_mixin.py:104} INFO - [2021-03-17 16:36:58,610] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:36:58,623] {logging_mixin.py:104} INFO - [2021-03-17 16:36:58,622] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:36:58,629] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.173 seconds
+[2021-03-17 16:37:29,305] {scheduler_job.py:182} INFO - Started process (PID=28564) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:37:29,307] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:37:29,308] {logging_mixin.py:104} INFO - [2021-03-17 16:37:29,308] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:37:29,481] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:37:29,495] {logging_mixin.py:104} INFO - [2021-03-17 16:37:29,495] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:37:29,508] {logging_mixin.py:104} INFO - [2021-03-17 16:37:29,508] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:37:29,515] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.214 seconds
+[2021-03-17 16:38:00,047] {scheduler_job.py:182} INFO - Started process (PID=28596) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:00,050] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:38:00,051] {logging_mixin.py:104} INFO - [2021-03-17 16:38:00,051] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:00,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:00,195] {logging_mixin.py:104} INFO - [2021-03-17 16:38:00,195] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:38:00,206] {logging_mixin.py:104} INFO - [2021-03-17 16:38:00,206] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:38:00,212] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.169 seconds
+[2021-03-17 16:38:30,448] {scheduler_job.py:182} INFO - Started process (PID=28626) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:30,451] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:38:30,452] {logging_mixin.py:104} INFO - [2021-03-17 16:38:30,451] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:30,607] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:38:30,622] {logging_mixin.py:104} INFO - [2021-03-17 16:38:30,621] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:38:30,687] {logging_mixin.py:104} INFO - [2021-03-17 16:38:30,687] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:38:30,693] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.249 seconds
+[2021-03-17 16:39:00,957] {scheduler_job.py:182} INFO - Started process (PID=28693) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:00,961] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:39:00,962] {logging_mixin.py:104} INFO - [2021-03-17 16:39:00,962] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:01,196] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:01,211] {logging_mixin.py:104} INFO - [2021-03-17 16:39:01,211] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:39:01,272] {logging_mixin.py:104} INFO - [2021-03-17 16:39:01,271] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:39:01,279] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.326 seconds
+[2021-03-17 16:39:31,554] {scheduler_job.py:182} INFO - Started process (PID=28741) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:31,555] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:39:31,557] {logging_mixin.py:104} INFO - [2021-03-17 16:39:31,556] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:31,690] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:39:31,703] {logging_mixin.py:104} INFO - [2021-03-17 16:39:31,703] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:39:31,758] {logging_mixin.py:104} INFO - [2021-03-17 16:39:31,757] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:39:31,763] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.213 seconds
+[2021-03-17 16:40:01,918] {scheduler_job.py:182} INFO - Started process (PID=28772) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:01,920] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:40:01,922] {logging_mixin.py:104} INFO - [2021-03-17 16:40:01,921] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:02,136] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:02,154] {logging_mixin.py:104} INFO - [2021-03-17 16:40:02,153] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:40:02,224] {logging_mixin.py:104} INFO - [2021-03-17 16:40:02,223] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:40:02,231] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.317 seconds
+[2021-03-17 16:40:32,553] {scheduler_job.py:182} INFO - Started process (PID=28821) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:32,556] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:40:32,558] {logging_mixin.py:104} INFO - [2021-03-17 16:40:32,557] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:32,830] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:40:32,850] {logging_mixin.py:104} INFO - [2021-03-17 16:40:32,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:40:32,915] {logging_mixin.py:104} INFO - [2021-03-17 16:40:32,914] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:40:32,921] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.373 seconds
+[2021-03-17 16:41:03,261] {scheduler_job.py:182} INFO - Started process (PID=28855) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:03,266] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:41:03,268] {logging_mixin.py:104} INFO - [2021-03-17 16:41:03,267] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:03,539] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:03,554] {logging_mixin.py:104} INFO - [2021-03-17 16:41:03,554] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:41:03,611] {logging_mixin.py:104} INFO - [2021-03-17 16:41:03,611] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:41:03,617] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.361 seconds
+[2021-03-17 16:41:33,860] {scheduler_job.py:182} INFO - Started process (PID=28885) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:33,864] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:41:33,865] {logging_mixin.py:104} INFO - [2021-03-17 16:41:33,865] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:34,189] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:41:34,261] {logging_mixin.py:104} INFO - [2021-03-17 16:41:34,261] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:41:34,273] {logging_mixin.py:104} INFO - [2021-03-17 16:41:34,272] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:41:34,281] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.424 seconds
+[2021-03-17 16:42:04,564] {scheduler_job.py:182} INFO - Started process (PID=28925) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:04,568] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:42:04,570] {logging_mixin.py:104} INFO - [2021-03-17 16:42:04,569] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:04,924] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:05,014] {logging_mixin.py:104} INFO - [2021-03-17 16:42:05,012] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:42:05,026] {logging_mixin.py:104} INFO - [2021-03-17 16:42:05,026] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:42:05,032] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.473 seconds
+[2021-03-17 16:42:35,305] {scheduler_job.py:182} INFO - Started process (PID=28956) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:35,307] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:42:35,309] {logging_mixin.py:104} INFO - [2021-03-17 16:42:35,308] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:35,479] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:42:35,546] {logging_mixin.py:104} INFO - [2021-03-17 16:42:35,546] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:42:35,557] {logging_mixin.py:104} INFO - [2021-03-17 16:42:35,557] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:42:35,567] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.267 seconds
+[2021-03-17 16:43:05,803] {scheduler_job.py:182} INFO - Started process (PID=28985) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:05,806] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:43:05,807] {logging_mixin.py:104} INFO - [2021-03-17 16:43:05,807] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:05,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:06,072] {logging_mixin.py:104} INFO - [2021-03-17 16:43:06,071] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:43:06,084] {logging_mixin.py:104} INFO - [2021-03-17 16:43:06,083] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:43:06,089] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.290 seconds
+[2021-03-17 16:43:36,304] {scheduler_job.py:182} INFO - Started process (PID=29019) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:36,307] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:43:36,309] {logging_mixin.py:104} INFO - [2021-03-17 16:43:36,308] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:36,671] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:43:36,685] {logging_mixin.py:104} INFO - [2021-03-17 16:43:36,685] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:43:36,700] {logging_mixin.py:104} INFO - [2021-03-17 16:43:36,699] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:43:36,706] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.407 seconds
+[2021-03-17 16:44:06,902] {scheduler_job.py:182} INFO - Started process (PID=29051) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:06,904] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:44:06,905] {logging_mixin.py:104} INFO - [2021-03-17 16:44:06,905] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:07,140] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:07,151] {logging_mixin.py:104} INFO - [2021-03-17 16:44:07,151] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:44:07,162] {logging_mixin.py:104} INFO - [2021-03-17 16:44:07,161] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:44:07,167] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.270 seconds
+[2021-03-17 16:44:38,346] {scheduler_job.py:182} INFO - Started process (PID=29083) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:38,348] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:44:38,349] {logging_mixin.py:104} INFO - [2021-03-17 16:44:38,349] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:38,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:44:38,596] {logging_mixin.py:104} INFO - [2021-03-17 16:44:38,595] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:44:38,607] {logging_mixin.py:104} INFO - [2021-03-17 16:44:38,607] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:44:38,619] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.277 seconds
+[2021-03-17 16:45:09,108] {scheduler_job.py:182} INFO - Started process (PID=29121) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:09,111] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:45:09,113] {logging_mixin.py:104} INFO - [2021-03-17 16:45:09,112] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:09,407] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:09,421] {logging_mixin.py:104} INFO - [2021-03-17 16:45:09,421] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:45:09,436] {logging_mixin.py:104} INFO - [2021-03-17 16:45:09,436] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:45:09,443] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.340 seconds
+[2021-03-17 16:45:39,782] {scheduler_job.py:182} INFO - Started process (PID=29160) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:39,784] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:45:39,785] {logging_mixin.py:104} INFO - [2021-03-17 16:45:39,785] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:40,021] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:45:40,034] {logging_mixin.py:104} INFO - [2021-03-17 16:45:40,034] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:45:40,047] {logging_mixin.py:104} INFO - [2021-03-17 16:45:40,047] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:45:40,053] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.276 seconds
+[2021-03-17 16:46:10,406] {scheduler_job.py:182} INFO - Started process (PID=29200) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:10,410] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:46:10,411] {logging_mixin.py:104} INFO - [2021-03-17 16:46:10,411] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:10,771] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:10,788] {logging_mixin.py:104} INFO - [2021-03-17 16:46:10,787] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:46:10,799] {logging_mixin.py:104} INFO - [2021-03-17 16:46:10,799] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:46:10,806] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.404 seconds
+[2021-03-17 16:46:41,845] {scheduler_job.py:182} INFO - Started process (PID=29306) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:41,851] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:46:41,853] {logging_mixin.py:104} INFO - [2021-03-17 16:46:41,852] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:42,246] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:46:42,259] {logging_mixin.py:104} INFO - [2021-03-17 16:46:42,258] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:46:42,270] {logging_mixin.py:104} INFO - [2021-03-17 16:46:42,270] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:46:42,275] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.435 seconds
+[2021-03-17 16:47:12,758] {scheduler_job.py:182} INFO - Started process (PID=29342) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:12,762] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:47:12,763] {logging_mixin.py:104} INFO - [2021-03-17 16:47:12,763] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:13,058] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:13,073] {logging_mixin.py:104} INFO - [2021-03-17 16:47:13,072] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:47:13,090] {logging_mixin.py:104} INFO - [2021-03-17 16:47:13,089] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:47:13,097] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.344 seconds
+[2021-03-17 16:47:43,503] {scheduler_job.py:182} INFO - Started process (PID=29374) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:43,507] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:47:43,508] {logging_mixin.py:104} INFO - [2021-03-17 16:47:43,508] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:43,888] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:47:43,900] {logging_mixin.py:104} INFO - [2021-03-17 16:47:43,898] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:47:43,913] {logging_mixin.py:104} INFO - [2021-03-17 16:47:43,913] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:47:43,919] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.421 seconds
+[2021-03-17 16:48:15,046] {scheduler_job.py:182} INFO - Started process (PID=29404) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:15,051] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:48:15,053] {logging_mixin.py:104} INFO - [2021-03-17 16:48:15,052] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:15,417] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:15,432] {logging_mixin.py:104} INFO - [2021-03-17 16:48:15,432] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:48:15,447] {logging_mixin.py:104} INFO - [2021-03-17 16:48:15,447] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:48:15,453] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.411 seconds
+[2021-03-17 16:48:45,910] {scheduler_job.py:182} INFO - Started process (PID=29436) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:45,914] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:48:45,915] {logging_mixin.py:104} INFO - [2021-03-17 16:48:45,915] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:46,288] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:48:46,298] {logging_mixin.py:104} INFO - [2021-03-17 16:48:46,297] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:48:46,311] {logging_mixin.py:104} INFO - [2021-03-17 16:48:46,311] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:48:46,318] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.411 seconds
+[2021-03-17 16:49:16,835] {scheduler_job.py:182} INFO - Started process (PID=29469) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:16,837] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:49:16,839] {logging_mixin.py:104} INFO - [2021-03-17 16:49:16,838] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:17,073] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:17,083] {logging_mixin.py:104} INFO - [2021-03-17 16:49:17,082] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:49:17,094] {logging_mixin.py:104} INFO - [2021-03-17 16:49:17,093] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:49:17,105] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.275 seconds
+[2021-03-17 16:49:47,789] {scheduler_job.py:182} INFO - Started process (PID=29500) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:47,793] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:49:47,795] {logging_mixin.py:104} INFO - [2021-03-17 16:49:47,794] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:48,094] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:49:48,109] {logging_mixin.py:104} INFO - [2021-03-17 16:49:48,108] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:49:48,120] {logging_mixin.py:104} INFO - [2021-03-17 16:49:48,119] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:49:48,127] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.343 seconds
+[2021-03-17 16:50:18,800] {scheduler_job.py:182} INFO - Started process (PID=29530) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:18,803] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:50:18,806] {logging_mixin.py:104} INFO - [2021-03-17 16:50:18,805] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:19,033] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:19,049] {logging_mixin.py:104} INFO - [2021-03-17 16:50:19,048] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:50:19,058] {logging_mixin.py:104} INFO - [2021-03-17 16:50:19,058] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:50:19,065] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.269 seconds
+[2021-03-17 16:50:49,754] {scheduler_job.py:182} INFO - Started process (PID=29563) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:49,758] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:50:49,762] {logging_mixin.py:104} INFO - [2021-03-17 16:50:49,760] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:50,053] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:50:50,067] {logging_mixin.py:104} INFO - [2021-03-17 16:50:50,067] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:50:50,077] {logging_mixin.py:104} INFO - [2021-03-17 16:50:50,077] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:50:50,085] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.335 seconds
+[2021-03-17 16:51:20,809] {scheduler_job.py:182} INFO - Started process (PID=29592) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:20,814] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:51:20,816] {logging_mixin.py:104} INFO - [2021-03-17 16:51:20,816] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:21,151] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:21,167] {logging_mixin.py:104} INFO - [2021-03-17 16:51:21,166] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:51:21,177] {logging_mixin.py:104} INFO - [2021-03-17 16:51:21,176] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:51:21,185] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.384 seconds
+[2021-03-17 16:51:51,757] {scheduler_job.py:182} INFO - Started process (PID=29625) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:51,760] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:51:51,762] {logging_mixin.py:104} INFO - [2021-03-17 16:51:51,761] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:52,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:51:52,156] {logging_mixin.py:104} INFO - [2021-03-17 16:51:52,156] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:51:52,167] {logging_mixin.py:104} INFO - [2021-03-17 16:51:52,166] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:51:52,177] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.423 seconds
+[2021-03-17 16:52:22,824] {scheduler_job.py:182} INFO - Started process (PID=29739) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:22,830] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:52:22,832] {logging_mixin.py:104} INFO - [2021-03-17 16:52:22,832] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:23,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:23,156] {logging_mixin.py:104} INFO - [2021-03-17 16:52:23,155] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:52:23,168] {logging_mixin.py:104} INFO - [2021-03-17 16:52:23,168] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:52:23,174] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.355 seconds
+[2021-03-17 16:52:53,799] {scheduler_job.py:182} INFO - Started process (PID=29804) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:53,802] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:52:53,804] {logging_mixin.py:104} INFO - [2021-03-17 16:52:53,803] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:54,199] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:52:54,232] {logging_mixin.py:104} INFO - [2021-03-17 16:52:54,229] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:52:54,254] {logging_mixin.py:104} INFO - [2021-03-17 16:52:54,254] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:52:54,262] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.468 seconds
+[2021-03-17 16:53:24,364] {scheduler_job.py:182} INFO - Started process (PID=29876) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:24,371] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:53:24,373] {logging_mixin.py:104} INFO - [2021-03-17 16:53:24,372] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:24,755] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:24,772] {logging_mixin.py:104} INFO - [2021-03-17 16:53:24,771] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:53:24,784] {logging_mixin.py:104} INFO - [2021-03-17 16:53:24,783] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:53:24,793] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.434 seconds
+[2021-03-17 16:53:55,259] {scheduler_job.py:182} INFO - Started process (PID=29917) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:55,261] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:53:55,263] {logging_mixin.py:104} INFO - [2021-03-17 16:53:55,263] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:55,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:53:55,558] {logging_mixin.py:104} INFO - [2021-03-17 16:53:55,557] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:53:55,575] {logging_mixin.py:104} INFO - [2021-03-17 16:53:55,574] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:53:55,582] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.328 seconds
+[2021-03-17 16:54:25,719] {scheduler_job.py:182} INFO - Started process (PID=29959) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:25,722] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:54:25,724] {logging_mixin.py:104} INFO - [2021-03-17 16:54:25,723] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:26,372] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:26,419] {logging_mixin.py:104} INFO - [2021-03-17 16:54:26,417] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:54:26,512] {logging_mixin.py:104} INFO - [2021-03-17 16:54:26,511] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:54:26,530] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.818 seconds
+[2021-03-17 16:54:57,651] {scheduler_job.py:182} INFO - Started process (PID=30009) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:57,653] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:54:57,655] {logging_mixin.py:104} INFO - [2021-03-17 16:54:57,654] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:57,905] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:54:57,921] {logging_mixin.py:104} INFO - [2021-03-17 16:54:57,920] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:54:57,934] {logging_mixin.py:104} INFO - [2021-03-17 16:54:57,933] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:54:57,939] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.293 seconds
+[2021-03-17 16:55:28,442] {scheduler_job.py:182} INFO - Started process (PID=30049) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:28,446] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:55:28,448] {logging_mixin.py:104} INFO - [2021-03-17 16:55:28,447] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:28,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:28,838] {logging_mixin.py:104} INFO - [2021-03-17 16:55:28,837] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:55:28,849] {logging_mixin.py:104} INFO - [2021-03-17 16:55:28,848] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:55:28,855] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.418 seconds
+[2021-03-17 16:55:59,344] {scheduler_job.py:182} INFO - Started process (PID=30094) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:59,347] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:55:59,349] {logging_mixin.py:104} INFO - [2021-03-17 16:55:59,348] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:59,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:55:59,662] {logging_mixin.py:104} INFO - [2021-03-17 16:55:59,660] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:55:59,676] {logging_mixin.py:104} INFO - [2021-03-17 16:55:59,675] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:55:59,681] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.343 seconds
+[2021-03-17 16:56:29,966] {scheduler_job.py:182} INFO - Started process (PID=30126) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:56:29,971] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:56:29,974] {logging_mixin.py:104} INFO - [2021-03-17 16:56:29,973] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:56:30,239] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:56:30,250] {logging_mixin.py:104} INFO - [2021-03-17 16:56:30,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:56:30,259] {logging_mixin.py:104} INFO - [2021-03-17 16:56:30,258] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-17 00:00:00+00:00
+[2021-03-17 16:56:30,265] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.305 seconds
+[2021-03-17 16:57:00,594] {scheduler_job.py:182} INFO - Started process (PID=30161) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:00,597] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:57:00,599] {logging_mixin.py:104} INFO - [2021-03-17 16:57:00,598] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:00,969] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:00,985] {logging_mixin.py:104} INFO - [2021-03-17 16:57:00,984] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:57:01,000] {logging_mixin.py:104} INFO - [2021-03-17 16:57:00,999] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-17 16:57:01,006] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.418 seconds
+[2021-03-17 16:57:31,308] {scheduler_job.py:182} INFO - Started process (PID=30190) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:31,310] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:57:31,313] {logging_mixin.py:104} INFO - [2021-03-17 16:57:31,312] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:31,785] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:57:31,803] {logging_mixin.py:104} INFO - [2021-03-17 16:57:31,802] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:57:31,823] {logging_mixin.py:104} INFO - [2021-03-17 16:57:31,822] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-17 16:57:31,833] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.529 seconds
+[2021-03-17 16:58:04,242] {scheduler_job.py:182} INFO - Started process (PID=30240) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:04,244] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:58:04,246] {logging_mixin.py:104} INFO - [2021-03-17 16:58:04,245] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:04,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:04,936] {logging_mixin.py:104} INFO - [2021-03-17 16:58:04,935] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:58:04,961] {logging_mixin.py:104} INFO - [2021-03-17 16:58:04,961] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-17 16:58:04,979] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.742 seconds
+[2021-03-17 16:58:38,997] {scheduler_job.py:182} INFO - Started process (PID=30293) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:39,001] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:58:39,003] {logging_mixin.py:104} INFO - [2021-03-17 16:58:39,003] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:39,587] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:58:39,609] {logging_mixin.py:104} INFO - [2021-03-17 16:58:39,609] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:58:39,628] {logging_mixin.py:104} INFO - [2021-03-17 16:58:39,627] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-17 16:58:39,646] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 0.655 seconds
+[2021-03-17 16:59:09,709] {scheduler_job.py:182} INFO - Started process (PID=30345) to work on /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:59:09,712] {scheduler_job.py:629} INFO - Processing file /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py for tasks to queue
+[2021-03-17 16:59:09,714] {logging_mixin.py:104} INFO - [2021-03-17 16:59:09,713] {dagbag.py:448} INFO - Filling up the DagBag from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:59:10,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py
+[2021-03-17 16:59:10,673] {logging_mixin.py:104} INFO - [2021-03-17 16:59:10,670] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 16:59:10,895] {logging_mixin.py:104} INFO - [2021-03-17 16:59:10,872] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-17 16:59:10,921] {scheduler_job.py:190} INFO - Processing /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py took 1.217 seconds

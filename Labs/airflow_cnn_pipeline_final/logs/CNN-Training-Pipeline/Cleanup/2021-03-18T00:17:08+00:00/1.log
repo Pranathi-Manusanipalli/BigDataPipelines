@@ -1,0 +1,34 @@
+[2021-03-17 17:24:56,530] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.Cleanup 2021-03-18T00:17:08+00:00 [queued]>
+[2021-03-17 17:24:56,552] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.Cleanup 2021-03-18T00:17:08+00:00 [queued]>
+[2021-03-17 17:24:56,552] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 17:24:56,552] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 17:24:56,553] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 17:24:56,566] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): Cleanup> on 2021-03-18T00:17:08+00:00
+[2021-03-17 17:24:56,570] {standard_task_runner.py:52} INFO - Started process 30996 to run task
+[2021-03-17 17:24:56,586] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CNN-Training-Pipeline', 'Cleanup', '2021-03-18T00:17:08+00:00', '--job-id', '8', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/train_model.py', '--cfg-path', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmp12r8t6uo', '--error-file', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmp3t83a0vs']
+[2021-03-17 17:24:56,589] {standard_task_runner.py:77} INFO - Job 8: Subtask Cleanup
+[2021-03-17 17:24:56,693] {logging_mixin.py:104} INFO - Running <TaskInstance: CNN-Training-Pipeline.Cleanup 2021-03-18T00:17:08+00:00 [running]> on host prathyushas-mbp.home
+[2021-03-17 17:24:56,748] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CNN-Training-Pipeline
+AIRFLOW_CTX_TASK_ID=Cleanup
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-18T00:17:08+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-18T00:17:08+00:00
+[2021-03-17 17:24:56,772] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Rosacea-Granulomatous removed
+[2021-03-17 17:24:56,774] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Nevus-Comedonicus removed
+[2021-03-17 17:24:56,779] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Hyperhidrosis removed
+[2021-03-17 17:24:56,783] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Acne-Histology removed
+[2021-03-17 17:24:56,785] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/testcat-6 removed
+[2021-03-17 17:24:56,787] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Acne-Scar removed
+[2021-03-17 17:24:56,794] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Tes-Cate removed
+[2021-03-17 17:24:56,795] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Acne-Mechanica removed
+[2021-03-17 17:24:56,797] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Rosacea-Steroid removed
+[2021-03-17 17:24:56,800] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Gram-Negative-Folliculitis removed
+[2021-03-17 17:24:56,801] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Minocycline-Pigmentation removed
+[2021-03-17 17:24:56,805] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/ScrapedData-Acne-and-Rosacea-Photos/Acne-Primary-Lesions removed
+[2021-03-17 17:24:56,809] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-17 17:24:56,814] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=CNN-Training-Pipeline, task_id=Cleanup, execution_date=20210318T001708, start_date=20210318T002456, end_date=20210318T002456
+[2021-03-17 17:24:56,836] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-17 17:24:56,863] {local_task_job.py:146} INFO - Task exited with return code 0

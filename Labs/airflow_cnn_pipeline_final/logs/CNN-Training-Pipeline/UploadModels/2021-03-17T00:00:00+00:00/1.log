@@ -1,0 +1,73 @@
+[2021-03-17 16:56:39,294] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.UploadModels 2021-03-17T00:00:00+00:00 [queued]>
+[2021-03-17 16:56:39,301] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.UploadModels 2021-03-17T00:00:00+00:00 [queued]>
+[2021-03-17 16:56:39,301] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 16:56:39,301] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 16:56:39,301] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 16:56:39,313] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): UploadModels> on 2021-03-17T00:00:00+00:00
+[2021-03-17 16:56:39,317] {standard_task_runner.py:52} INFO - Started process 30139 to run task
+[2021-03-17 16:56:39,327] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CNN-Training-Pipeline', 'UploadModels', '2021-03-17T00:00:00+00:00', '--job-id', '2', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/train_model.py', '--cfg-path', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmpiayyects', '--error-file', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmpsjik96op']
+[2021-03-17 16:56:39,330] {standard_task_runner.py:77} INFO - Job 2: Subtask UploadModels
+[2021-03-17 16:56:39,377] {logging_mixin.py:104} INFO - Running <TaskInstance: CNN-Training-Pipeline.UploadModels 2021-03-17T00:00:00+00:00 [running]> on host prathyushas-mbp.home
+[2021-03-17 16:56:39,412] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CNN-Training-Pipeline
+AIRFLOW_CTX_TASK_ID=UploadModels
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-17T00:00:00+00:00
+[2021-03-17 16:56:39,498] {credentials.py:1223} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-17 16:56:39,680] {logging_mixin.py:104} INFO - /Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/models/retrained_graph_v2.pb
+[2021-03-17 16:56:39,693] {taskinstance.py:1455} ERROR - Parameter validation failed:
+Invalid bucket name "": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:s3:[a-z\-0-9]+:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+Traceback (most recent call last):
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/dags/train_model.py", line 13, in push_models_to_s3
+    upload_models.upload_to_s3()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/s3_uploader/upload_models.py", line 21, in upload_to_s3
+    '%Y-%m-%d-%H:%M:%S') + '_' + os.path.basename(file))
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/boto3/s3/inject.py", line 209, in bucket_upload_file
+    ExtraArgs=ExtraArgs, Callback=Callback, Config=Config)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/boto3/s3/inject.py", line 131, in upload_file
+    extra_args=ExtraArgs, callback=Callback)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/boto3/s3/transfer.py", line 279, in upload_file
+    future.result()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/s3transfer/futures.py", line 106, in result
+    return self._coordinator.result()
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/s3transfer/futures.py", line 265, in result
+    raise self._exception
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/s3transfer/tasks.py", line 126, in __call__
+    return self._execute_main(kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/s3transfer/tasks.py", line 150, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/s3transfer/tasks.py", line 333, in _main
+    Bucket=bucket, Key=key, **extra_args)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/client.py", line 649, in _make_api_call
+    api_params, operation_model, context=request_context)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/client.py", line 695, in _convert_to_request_dict
+    api_params, operation_model, context)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/client.py", line 727, in _emit_api_params
+    params=api_params, model=operation_model, context=context)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/hooks.py", line 356, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/airflow_cnn_pipeline_final/airflow_test_env/lib/python3.7/site-packages/botocore/handlers.py", line 236, in validate_bucket_name
+    raise ParamValidationError(report=error_msg)
+botocore.exceptions.ParamValidationError: Parameter validation failed:
+Invalid bucket name "": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:s3:[a-z\-0-9]+:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+[2021-03-17 16:56:39,721] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=CNN-Training-Pipeline, task_id=UploadModels, execution_date=20210317T000000, start_date=20210317T235639, end_date=20210317T235639
+[2021-03-17 16:56:39,781] {local_task_job.py:146} INFO - Task exited with return code 1
