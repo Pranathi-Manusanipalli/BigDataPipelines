@@ -5,13 +5,6 @@ In this Lab, we are going to learn how to use FastAPI framework for building API
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
-#### Requirements
-
-```
-pip3 install fastapi
-pip3 install uvicorn
-pip3 install iexfinance
-```
 #### Content
 - **Usecase 1** - Demonstrates simple API to fetch and create items
     - main.py -> Cotains the basic usage code of API with all the required routing logic
@@ -23,13 +16,5 @@ Prerequisite - Create a DynamoDB table named `customer-trades` with `id` as uniq
     -   trades.py -> Script to deploy the FastAPI endpoint. 
 
 
-### Instructions to run 
-- Run the server with `uvicorn main:app --reload`. 
-
-    For the second usecase replace `main` with `trades` as it contains the routing logic 
-`uvicorn trades:app --reload`
-
-- Go to `http://127.0.0.1:8000/docs` and you should see the interactive API documentation.
-
 ##### CLAT Document - 
-Refer to <> for detailed documentation of the lab
+Refer to https://codelabs-preview.appspot.com/?file_id=1qklKQZcFrBYmHJ4hkwDmHMw5QjZCyuFgj7xmncNXM3I#0 for detailed documentation of the lab with complete setup and instructions to run

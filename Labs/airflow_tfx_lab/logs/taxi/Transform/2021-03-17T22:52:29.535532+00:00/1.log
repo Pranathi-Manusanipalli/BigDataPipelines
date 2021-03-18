@@ -1,0 +1,152 @@
+[2021-03-17 18:54:36,229] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.Transform 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:54:36,244] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.Transform 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:54:36,244] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:54:36,244] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 18:54:36,244] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:54:36,253] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): Transform> on 2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:54:36,257] {standard_task_runner.py:52} INFO - Started process 26701 to run task
+[2021-03-17 18:54:36,266] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'Transform', '2021-03-17T22:52:29.535532+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp_2oho42m', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmph8nyjaac']
+[2021-03-17 18:54:36,269] {standard_task_runner.py:77} INFO - Job 5: Subtask Transform
+[2021-03-17 18:54:36,324] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.Transform 2021-03-17T22:52:29.535532+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 18:54:36,365] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=Transform
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T22:52:29.535532+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:54:36,371] {base_component_launcher.py:196} INFO - Running driver for Transform
+[2021-03-17 18:54:36,379] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 18:54:36,423] {base_component_launcher.py:202} INFO - Running executor for Transform
+[2021-03-17 18:54:36,450] {dependency_utils.py:68} INFO - Attempting to infer TFX Python dependency for beam
+[2021-03-17 18:54:36,451] {dependency_utils.py:109} INFO - Copying all content from install dir /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx to temp dir /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpqdgqv21k/build/tfx
+[2021-03-17 18:54:38,422] {dependency_utils.py:115} INFO - Generating a temp setup file at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpqdgqv21k/build/tfx/setup.py
+[2021-03-17 18:54:38,424] {dependency_utils.py:128} INFO - Creating temporary sdist package, logs available at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpqdgqv21k/build/tfx/setup.log
+[2021-03-17 18:54:42,090] {dependency_utils.py:71} INFO - Added --extra_package=/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpqdgqv21k/build/tfx/dist/tfx_ephemeral-0.27.0.tar.gz to beam args
+[2021-03-17 18:54:42,095] {executor.py:383} INFO - Analyze the 'train' split and transform all splits when splits_config is not set.
+[2021-03-17 18:54:42,098] {executor.py:431} WARNING - The default value of `force_tf_compat_v1` will change in a future release from `True` to `False`. Since this pipeline has TF 2 behaviors enabled, Transform will use native TF 2 at that point. You can test this behavior now by passing `force_tf_compat_v1=False` or disable it by explicitly setting `force_tf_compat_v1=True` in the Transform component.
+[2021-03-17 18:54:42,108] {deprecation.py:339} WARNING - From /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/components/transform/executor.py:573: Schema (from tensorflow_transform.tf_metadata.dataset_schema) is deprecated and will be removed in a future version.
+Instructions for updating:
+Schema is a deprecated, use schema_utils.schema_from_feature_spec to create a `Schema`
+[2021-03-17 18:54:42,109] {import_utils.py:60} INFO - Loading /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/dags/taxi_utils.py because it has not been loaded before.
+[2021-03-17 18:54:42,114] {import_utils.py:79} INFO - /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/dags/taxi_utils.py is already loaded.
+[2021-03-17 18:54:42,132] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,133] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,134] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,134] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,135] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,135] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,136] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,136] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,137] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,137] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,138] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,139] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,139] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,140] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,141] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,141] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,142] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,142] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,370] {deprecation.py:537} WARNING - From /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/dags/taxi_utils.py:129: calling bucketize (from tensorflow_transform.mappers) with always_return_num_quantiles is deprecated and will be removed in a future version.
+Instructions for updating:
+Number of generated buckets is now always `num_buckets` - 1.
+[2021-03-17 18:54:42,582] {deprecation.py:339} WARNING - From /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tensorflow_transform/tf_utils.py:266: Tensor.experimental_ref (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use ref() instead.
+[2021-03-17 18:54:42,626] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,626] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,626] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,627] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,627] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,628] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,628] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,629] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,629] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,630] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,630] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,631] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,631] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,631] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,632] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,632] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,632] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:42,633] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,931] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,931] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,932] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,932] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,932] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,933] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,933] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,933] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,934] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,934] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,935] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,935] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,936] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,936] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,937] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,937] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,937] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,938] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,941] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,942] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,943] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,944] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,945] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,946] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,946] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,947] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,948] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,949] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,949] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,950] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,951] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,952] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,953] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,954] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,954] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,955] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,958] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,958] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,959] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,961] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,963] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,963] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,964] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,965] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,965] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,966] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,966] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,967] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,967] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,968] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,969] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,969] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,970] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,970] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,972] {tensor_representation_util.py:272} INFO - Feature company has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,973] {tensor_representation_util.py:272} INFO - Feature payment_type has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,973] {tensor_representation_util.py:272} INFO - Feature dropoff_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,974] {tensor_representation_util.py:272} INFO - Feature dropoff_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,974] {tensor_representation_util.py:272} INFO - Feature dropoff_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,975] {tensor_representation_util.py:272} INFO - Feature dropoff_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,975] {tensor_representation_util.py:272} INFO - Feature fare has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,975] {tensor_representation_util.py:272} INFO - Feature pickup_census_tract has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,976] {tensor_representation_util.py:272} INFO - Feature pickup_community_area has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,976] {tensor_representation_util.py:272} INFO - Feature pickup_latitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,977] {tensor_representation_util.py:272} INFO - Feature pickup_longitude has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,977] {tensor_representation_util.py:272} INFO - Feature tips has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,978] {tensor_representation_util.py:272} INFO - Feature trip_miles has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,979] {tensor_representation_util.py:272} INFO - Feature trip_seconds has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,980] {tensor_representation_util.py:272} INFO - Feature trip_start_day has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,980] {tensor_representation_util.py:272} INFO - Feature trip_start_hour has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,981] {tensor_representation_util.py:272} INFO - Feature trip_start_month has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,981] {tensor_representation_util.py:272} INFO - Feature trip_start_timestamp has no shape. Setting to VarLenSparseTensor.
+[2021-03-17 18:54:43,985] {base_executor.py:151} WARNING - If direct_num_workers is not equal to 1, direct_running_mode should be `multi_processing` or `multi_threading` instead of `in_memory` in order for it to have the desired worker parallelism effect.
+[2021-03-17 18:54:44,132] {decorators.py:433} WARNING - This output type hint will be ignored and not used for type-checking purposes. Typically, output type hints for a PTransform are single (or nested) types wrapped by a PCollection, PDone, or None. Got: Tuple[Dict[str, Union[NoneType, _Dataset]], Union[Dict[str, Dict[str, PCollection]], NoneType]] instead.
+[2021-03-17 18:54:45,223] {decorators.py:433} WARNING - This output type hint will be ignored and not used for type-checking purposes. Typically, output type hints for a PTransform are single (or nested) types wrapped by a PCollection, PDone, or None. Got: Tuple[Dict[str, Union[NoneType, _Dataset]], Union[Dict[str, Dict[str, PCollection]], NoneType]] instead.
+[2021-03-17 18:54:45,329] {impl.py:447} WARNING - Tensorflow version (2.4.1) found. Note that Tensorflow Transform support for TF 2.0 is currently in beta, and features such as tf.function may not work as intended. 
+[2021-03-17 18:54:46,290] {local_task_job.py:146} INFO - Task exited with return code Negsignal.SIGSEGV

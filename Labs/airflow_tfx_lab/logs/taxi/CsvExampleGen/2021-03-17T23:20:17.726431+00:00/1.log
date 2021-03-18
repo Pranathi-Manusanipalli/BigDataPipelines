@@ -1,0 +1,28 @@
+[2021-03-17 19:20:38,745] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:20:17.726431+00:00 [queued]>
+[2021-03-17 19:20:38,758] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:20:17.726431+00:00 [queued]>
+[2021-03-17 19:20:38,758] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:20:38,759] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 19:20:38,759] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:20:38,767] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): CsvExampleGen> on 2021-03-17T23:20:17.726431+00:00
+[2021-03-17 19:20:38,771] {standard_task_runner.py:52} INFO - Started process 28858 to run task
+[2021-03-17 19:20:38,779] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'CsvExampleGen', '2021-03-17T23:20:17.726431+00:00', '--job-id', '9', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpumcp6o0v', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp077voytl']
+[2021-03-17 19:20:38,782] {standard_task_runner.py:77} INFO - Job 9: Subtask CsvExampleGen
+[2021-03-17 19:20:38,834] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:20:17.726431+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 19:20:38,870] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=CsvExampleGen
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T23:20:17.726431+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T23:20:17.726431+00:00
+[2021-03-17 19:20:38,882] {base_component_launcher.py:196} INFO - Running driver for CsvExampleGen
+[2021-03-17 19:20:38,907] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 19:20:38,909] {utils.py:631} INFO - select span and version = (0, None)
+[2021-03-17 19:20:38,910] {utils.py:640} INFO - latest span and version = (0, None)
+[2021-03-17 19:20:38,949] {base_component_launcher.py:212} INFO - Running publisher for CsvExampleGen
+[2021-03-17 19:20:38,953] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 19:20:38,955] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-17 19:20:38,960] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=taxi, task_id=CsvExampleGen, execution_date=20210317T232017, start_date=20210317T232038, end_date=20210317T232038
+[2021-03-17 19:20:38,984] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-17 19:20:39,005] {local_task_job.py:146} INFO - Task exited with return code 0

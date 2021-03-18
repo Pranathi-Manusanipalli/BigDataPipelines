@@ -1,0 +1,273 @@
+[2021-03-17 20:00:01,809] {scheduler_job.py:182} INFO - Started process (PID=31082) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:01,811] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:00:01,813] {logging_mixin.py:104} INFO - [2021-03-17 20:00:01,812] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:01,828] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:01,847] {logging_mixin.py:104} INFO - [2021-03-17 20:00:01,847] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:00:01,862] {logging_mixin.py:104} INFO - [2021-03-17 20:00:01,861] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:00:01,881] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2021-03-17 20:00:44,141] {scheduler_job.py:182} INFO - Started process (PID=31125) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:44,143] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:00:44,145] {logging_mixin.py:104} INFO - [2021-03-17 20:00:44,145] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:44,161] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:00:44,178] {logging_mixin.py:104} INFO - [2021-03-17 20:00:44,178] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:00:44,192] {logging_mixin.py:104} INFO - [2021-03-17 20:00:44,192] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:00:44,201] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-03-17 20:01:26,924] {scheduler_job.py:182} INFO - Started process (PID=31158) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:01:26,927] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:01:26,930] {logging_mixin.py:104} INFO - [2021-03-17 20:01:26,929] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:01:26,947] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:01:26,971] {logging_mixin.py:104} INFO - [2021-03-17 20:01:26,971] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:01:26,990] {logging_mixin.py:104} INFO - [2021-03-17 20:01:26,989] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:01:27,001] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2021-03-17 20:02:08,141] {scheduler_job.py:182} INFO - Started process (PID=31190) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:08,144] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:02:08,146] {logging_mixin.py:104} INFO - [2021-03-17 20:02:08,146] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:08,162] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:08,178] {logging_mixin.py:104} INFO - [2021-03-17 20:02:08,178] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:02:08,191] {logging_mixin.py:104} INFO - [2021-03-17 20:02:08,190] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:02:08,200] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-03-17 20:02:46,741] {scheduler_job.py:182} INFO - Started process (PID=31220) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:46,745] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:02:46,746] {logging_mixin.py:104} INFO - [2021-03-17 20:02:46,746] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:46,761] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:02:46,781] {logging_mixin.py:104} INFO - [2021-03-17 20:02:46,780] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:02:46,799] {logging_mixin.py:104} INFO - [2021-03-17 20:02:46,796] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:02:46,814] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2021-03-17 20:03:26,399] {scheduler_job.py:182} INFO - Started process (PID=31267) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:03:26,402] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:03:26,403] {logging_mixin.py:104} INFO - [2021-03-17 20:03:26,403] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:03:26,420] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:03:26,438] {logging_mixin.py:104} INFO - [2021-03-17 20:03:26,437] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:03:26,450] {logging_mixin.py:104} INFO - [2021-03-17 20:03:26,449] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:03:26,458] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-03-17 20:04:04,986] {scheduler_job.py:182} INFO - Started process (PID=31303) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:04,988] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:04:04,990] {logging_mixin.py:104} INFO - [2021-03-17 20:04:04,990] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:05,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:05,020] {logging_mixin.py:104} INFO - [2021-03-17 20:04:05,019] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:04:05,035] {logging_mixin.py:104} INFO - [2021-03-17 20:04:05,034] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:04:05,043] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2021-03-17 20:04:44,462] {scheduler_job.py:182} INFO - Started process (PID=31334) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:44,465] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:04:44,469] {logging_mixin.py:104} INFO - [2021-03-17 20:04:44,468] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:44,486] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:04:44,503] {logging_mixin.py:104} INFO - [2021-03-17 20:04:44,502] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:04:44,516] {logging_mixin.py:104} INFO - [2021-03-17 20:04:44,515] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:04:44,524] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-03-17 20:05:21,882] {scheduler_job.py:182} INFO - Started process (PID=31372) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:21,885] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:05:21,886] {logging_mixin.py:104} INFO - [2021-03-17 20:05:21,886] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:21,900] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:21,917] {logging_mixin.py:104} INFO - [2021-03-17 20:05:21,917] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:05:21,931] {logging_mixin.py:104} INFO - [2021-03-17 20:05:21,930] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:05:21,941] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2021-03-17 20:05:58,370] {scheduler_job.py:182} INFO - Started process (PID=31397) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:58,374] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:05:58,376] {logging_mixin.py:104} INFO - [2021-03-17 20:05:58,375] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:58,389] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:05:58,404] {logging_mixin.py:104} INFO - [2021-03-17 20:05:58,404] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:05:58,420] {logging_mixin.py:104} INFO - [2021-03-17 20:05:58,420] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:05:58,429] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2021-03-17 20:06:40,583] {scheduler_job.py:182} INFO - Started process (PID=31431) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:06:40,585] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:06:40,587] {logging_mixin.py:104} INFO - [2021-03-17 20:06:40,587] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:06:40,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:06:40,624] {logging_mixin.py:104} INFO - [2021-03-17 20:06:40,624] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:06:40,642] {logging_mixin.py:104} INFO - [2021-03-17 20:06:40,641] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:06:40,650] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-03-17 20:07:20,171] {scheduler_job.py:182} INFO - Started process (PID=31460) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:20,173] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:07:20,175] {logging_mixin.py:104} INFO - [2021-03-17 20:07:20,174] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:20,191] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:20,208] {logging_mixin.py:104} INFO - [2021-03-17 20:07:20,208] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:07:20,228] {logging_mixin.py:104} INFO - [2021-03-17 20:07:20,226] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:07:20,238] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2021-03-17 20:07:58,146] {scheduler_job.py:182} INFO - Started process (PID=31494) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:58,149] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:07:58,151] {logging_mixin.py:104} INFO - [2021-03-17 20:07:58,151] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:58,167] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:07:58,185] {logging_mixin.py:104} INFO - [2021-03-17 20:07:58,184] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:07:58,199] {logging_mixin.py:104} INFO - [2021-03-17 20:07:58,199] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:07:58,209] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-03-17 20:08:38,798] {scheduler_job.py:182} INFO - Started process (PID=31532) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:08:38,801] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:08:38,804] {logging_mixin.py:104} INFO - [2021-03-17 20:08:38,803] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:08:38,818] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:08:38,834] {logging_mixin.py:104} INFO - [2021-03-17 20:08:38,834] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:08:38,848] {logging_mixin.py:104} INFO - [2021-03-17 20:08:38,847] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:08:38,856] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2021-03-17 20:09:17,886] {scheduler_job.py:182} INFO - Started process (PID=31566) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:17,889] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:09:17,891] {logging_mixin.py:104} INFO - [2021-03-17 20:09:17,890] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:17,907] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:17,928] {logging_mixin.py:104} INFO - [2021-03-17 20:09:17,927] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:09:17,941] {logging_mixin.py:104} INFO - [2021-03-17 20:09:17,941] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:09:17,951] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-03-17 20:09:56,098] {scheduler_job.py:182} INFO - Started process (PID=31600) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:56,101] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:09:56,104] {logging_mixin.py:104} INFO - [2021-03-17 20:09:56,103] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:56,118] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:09:56,134] {logging_mixin.py:104} INFO - [2021-03-17 20:09:56,133] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:09:56,147] {logging_mixin.py:104} INFO - [2021-03-17 20:09:56,147] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:09:56,156] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2021-03-17 20:10:36,697] {scheduler_job.py:182} INFO - Started process (PID=31644) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:10:36,700] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:10:36,702] {logging_mixin.py:104} INFO - [2021-03-17 20:10:36,701] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:10:36,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:10:36,735] {logging_mixin.py:104} INFO - [2021-03-17 20:10:36,735] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:10:36,751] {logging_mixin.py:104} INFO - [2021-03-17 20:10:36,750] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:10:36,760] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2021-03-17 20:11:16,139] {scheduler_job.py:182} INFO - Started process (PID=31673) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:16,142] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:11:16,143] {logging_mixin.py:104} INFO - [2021-03-17 20:11:16,143] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:16,158] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:16,176] {logging_mixin.py:104} INFO - [2021-03-17 20:11:16,176] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:11:16,191] {logging_mixin.py:104} INFO - [2021-03-17 20:11:16,190] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:11:16,200] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-03-17 20:11:55,276] {scheduler_job.py:182} INFO - Started process (PID=31718) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:55,278] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:11:55,281] {logging_mixin.py:104} INFO - [2021-03-17 20:11:55,280] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:55,294] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:11:55,310] {logging_mixin.py:104} INFO - [2021-03-17 20:11:55,310] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:11:55,326] {logging_mixin.py:104} INFO - [2021-03-17 20:11:55,325] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:11:55,336] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-03-17 20:12:35,876] {scheduler_job.py:182} INFO - Started process (PID=31747) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:12:35,880] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:12:35,881] {logging_mixin.py:104} INFO - [2021-03-17 20:12:35,881] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:12:35,894] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:12:35,911] {logging_mixin.py:104} INFO - [2021-03-17 20:12:35,910] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:12:35,924] {logging_mixin.py:104} INFO - [2021-03-17 20:12:35,924] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:12:36,020] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.148 seconds
+[2021-03-17 20:13:13,552] {scheduler_job.py:182} INFO - Started process (PID=31783) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:13,554] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:13:13,556] {logging_mixin.py:104} INFO - [2021-03-17 20:13:13,555] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:13,569] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:13,585] {logging_mixin.py:104} INFO - [2021-03-17 20:13:13,584] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:13:13,682] {logging_mixin.py:104} INFO - [2021-03-17 20:13:13,681] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:13:13,688] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.141 seconds
+[2021-03-17 20:13:51,861] {scheduler_job.py:182} INFO - Started process (PID=31811) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:51,864] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:13:51,865] {logging_mixin.py:104} INFO - [2021-03-17 20:13:51,865] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:51,879] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:13:51,894] {logging_mixin.py:104} INFO - [2021-03-17 20:13:51,894] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:13:52,000] {logging_mixin.py:104} INFO - [2021-03-17 20:13:52,000] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:13:52,010] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.153 seconds
+[2021-03-17 20:14:31,754] {scheduler_job.py:182} INFO - Started process (PID=31841) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:14:31,756] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:14:31,758] {logging_mixin.py:104} INFO - [2021-03-17 20:14:31,757] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:14:31,771] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:14:31,787] {logging_mixin.py:104} INFO - [2021-03-17 20:14:31,787] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:14:31,896] {logging_mixin.py:104} INFO - [2021-03-17 20:14:31,895] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:14:31,906] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.156 seconds
+[2021-03-17 20:15:09,680] {scheduler_job.py:182} INFO - Started process (PID=31872) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:09,682] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:15:09,684] {logging_mixin.py:104} INFO - [2021-03-17 20:15:09,684] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:09,699] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:09,714] {logging_mixin.py:104} INFO - [2021-03-17 20:15:09,714] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:15:09,819] {logging_mixin.py:104} INFO - [2021-03-17 20:15:09,818] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:15:09,826] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.150 seconds
+[2021-03-17 20:15:48,490] {scheduler_job.py:182} INFO - Started process (PID=31907) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:48,492] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:15:48,494] {logging_mixin.py:104} INFO - [2021-03-17 20:15:48,493] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:48,510] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:15:48,526] {logging_mixin.py:104} INFO - [2021-03-17 20:15:48,525] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:15:48,638] {logging_mixin.py:104} INFO - [2021-03-17 20:15:48,638] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:15:48,647] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.164 seconds
+[2021-03-17 20:16:24,070] {scheduler_job.py:182} INFO - Started process (PID=31940) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:16:24,071] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:16:24,073] {logging_mixin.py:104} INFO - [2021-03-17 20:16:24,072] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:16:24,097] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:16:24,205] {logging_mixin.py:104} INFO - [2021-03-17 20:16:24,205] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:16:24,218] {logging_mixin.py:104} INFO - [2021-03-17 20:16:24,217] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:16:24,227] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.162 seconds
+[2021-03-17 20:17:06,098] {scheduler_job.py:182} INFO - Started process (PID=31974) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:06,100] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:17:06,101] {logging_mixin.py:104} INFO - [2021-03-17 20:17:06,101] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:06,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:06,227] {logging_mixin.py:104} INFO - [2021-03-17 20:17:06,226] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:17:06,238] {logging_mixin.py:104} INFO - [2021-03-17 20:17:06,238] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:17:06,246] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.153 seconds
+[2021-03-17 20:17:40,789] {scheduler_job.py:182} INFO - Started process (PID=32001) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:40,791] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:17:40,793] {logging_mixin.py:104} INFO - [2021-03-17 20:17:40,792] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:40,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:17:40,930] {logging_mixin.py:104} INFO - [2021-03-17 20:17:40,930] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:17:40,943] {logging_mixin.py:104} INFO - [2021-03-17 20:17:40,943] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:17:40,954] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.170 seconds
+[2021-03-17 20:18:22,896] {scheduler_job.py:182} INFO - Started process (PID=32051) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:18:22,899] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:18:22,901] {logging_mixin.py:104} INFO - [2021-03-17 20:18:22,900] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:18:23,017] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:18:23,029] {logging_mixin.py:104} INFO - [2021-03-17 20:18:23,029] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:18:23,039] {logging_mixin.py:104} INFO - [2021-03-17 20:18:23,039] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:18:23,048] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.157 seconds
+[2021-03-17 20:19:02,745] {scheduler_job.py:182} INFO - Started process (PID=32086) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:02,748] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:19:02,750] {logging_mixin.py:104} INFO - [2021-03-17 20:19:02,749] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:02,858] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:02,871] {logging_mixin.py:104} INFO - [2021-03-17 20:19:02,870] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:19:02,881] {logging_mixin.py:104} INFO - [2021-03-17 20:19:02,881] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:19:02,888] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.148 seconds
+[2021-03-17 20:19:47,147] {scheduler_job.py:182} INFO - Started process (PID=32125) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:47,151] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:19:47,153] {logging_mixin.py:104} INFO - [2021-03-17 20:19:47,152] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:47,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:19:47,310] {logging_mixin.py:104} INFO - [2021-03-17 20:19:47,309] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:19:47,321] {logging_mixin.py:104} INFO - [2021-03-17 20:19:47,321] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:19:47,336] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2021-03-17 20:20:26,790] {scheduler_job.py:182} INFO - Started process (PID=32154) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:20:26,792] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:20:26,794] {logging_mixin.py:104} INFO - [2021-03-17 20:20:26,793] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:20:26,916] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:20:26,933] {logging_mixin.py:104} INFO - [2021-03-17 20:20:26,932] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:20:26,944] {logging_mixin.py:104} INFO - [2021-03-17 20:20:26,943] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:20:26,951] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.166 seconds
+[2021-03-17 20:21:06,814] {scheduler_job.py:182} INFO - Started process (PID=32186) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:06,823] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:21:06,833] {logging_mixin.py:104} INFO - [2021-03-17 20:21:06,828] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:06,890] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:06,950] {logging_mixin.py:104} INFO - [2021-03-17 20:21:06,949] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:21:06,973] {logging_mixin.py:104} INFO - [2021-03-17 20:21:06,971] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:21:07,002] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.200 seconds
+[2021-03-17 20:21:49,142] {scheduler_job.py:182} INFO - Started process (PID=32242) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:49,146] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:21:49,150] {logging_mixin.py:104} INFO - [2021-03-17 20:21:49,149] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:49,179] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:21:49,215] {logging_mixin.py:104} INFO - [2021-03-17 20:21:49,214] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:21:49,250] {logging_mixin.py:104} INFO - [2021-03-17 20:21:49,249] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:21:49,274] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.139 seconds
+[2021-03-17 20:22:27,190] {scheduler_job.py:182} INFO - Started process (PID=32288) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:22:27,197] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:22:27,200] {logging_mixin.py:104} INFO - [2021-03-17 20:22:27,199] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:22:27,221] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:22:27,247] {logging_mixin.py:104} INFO - [2021-03-17 20:22:27,246] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:22:27,266] {logging_mixin.py:104} INFO - [2021-03-17 20:22:27,266] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:22:27,276] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2021-03-17 20:23:08,666] {scheduler_job.py:182} INFO - Started process (PID=32333) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:08,669] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:23:08,671] {logging_mixin.py:104} INFO - [2021-03-17 20:23:08,670] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:08,684] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:08,699] {logging_mixin.py:104} INFO - [2021-03-17 20:23:08,699] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:23:08,711] {logging_mixin.py:104} INFO - [2021-03-17 20:23:08,711] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:23:08,718] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2021-03-17 20:23:51,591] {scheduler_job.py:182} INFO - Started process (PID=32374) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:51,594] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:23:51,596] {logging_mixin.py:104} INFO - [2021-03-17 20:23:51,595] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:51,613] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:23:51,638] {logging_mixin.py:104} INFO - [2021-03-17 20:23:51,637] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:23:51,661] {logging_mixin.py:104} INFO - [2021-03-17 20:23:51,661] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:23:51,676] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2021-03-17 20:24:36,059] {scheduler_job.py:182} INFO - Started process (PID=32428) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:24:36,066] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:24:36,072] {logging_mixin.py:104} INFO - [2021-03-17 20:24:36,071] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:24:36,096] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:24:36,119] {logging_mixin.py:104} INFO - [2021-03-17 20:24:36,118] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:24:36,136] {logging_mixin.py:104} INFO - [2021-03-17 20:24:36,136] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:24:36,149] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2021-03-17 20:25:11,681] {scheduler_job.py:182} INFO - Started process (PID=32466) to work on /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:25:11,685] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-17 20:25:11,687] {logging_mixin.py:104} INFO - [2021-03-17 20:25:11,686] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:25:11,706] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-03-17 20:25:11,727] {logging_mixin.py:104} INFO - [2021-03-17 20:25:11,726] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-17 20:25:11,742] {logging_mixin.py:104} INFO - [2021-03-17 20:25:11,742] {dag.py:2273} INFO - Setting next_dagrun for tutorial to 2021-03-16 00:00:00+00:00
+[2021-03-17 20:25:11,751] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds

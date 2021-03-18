@@ -1,0 +1,78 @@
+[2021-03-17 18:52:49,714] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:52:49,724] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:52:49,724] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:52:49,725] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 18:52:49,725] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:52:49,760] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): CsvExampleGen> on 2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:52:49,765] {standard_task_runner.py:52} INFO - Started process 26532 to run task
+[2021-03-17 18:52:49,774] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'CsvExampleGen', '2021-03-17T22:52:29.535532+00:00', '--job-id', '2', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmppx1t31v7', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpx6tx6xu4']
+[2021-03-17 18:52:49,777] {standard_task_runner.py:77} INFO - Job 2: Subtask CsvExampleGen
+[2021-03-17 18:52:49,830] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.CsvExampleGen 2021-03-17T22:52:29.535532+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 18:52:49,871] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=CsvExampleGen
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T22:52:29.535532+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:52:49,883] {base_component_launcher.py:196} INFO - Running driver for CsvExampleGen
+[2021-03-17 18:52:49,954] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 18:52:49,955] {utils.py:631} INFO - select span and version = (0, None)
+[2021-03-17 18:52:49,958] {utils.py:640} INFO - latest span and version = (0, None)
+[2021-03-17 18:52:50,022] {base_component_launcher.py:202} INFO - Running executor for CsvExampleGen
+[2021-03-17 18:52:50,030] {dependency_utils.py:68} INFO - Attempting to infer TFX Python dependency for beam
+[2021-03-17 18:52:50,032] {dependency_utils.py:109} INFO - Copying all content from install dir /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx to temp dir /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmps0obrto4/build/tfx
+[2021-03-17 18:52:52,843] {dependency_utils.py:115} INFO - Generating a temp setup file at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmps0obrto4/build/tfx/setup.py
+[2021-03-17 18:52:52,845] {dependency_utils.py:128} INFO - Creating temporary sdist package, logs available at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmps0obrto4/build/tfx/setup.log
+[2021-03-17 18:52:56,766] {dependency_utils.py:71} INFO - Added --extra_package=/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmps0obrto4/build/tfx/dist/tfx_ephemeral-0.27.0.tar.gz to beam args
+[2021-03-17 18:52:56,774] {base_example_gen_executor.py:294} INFO - Generating examples.
+[2021-03-17 18:52:56,778] {base_executor.py:151} WARNING - If direct_num_workers is not equal to 1, direct_running_mode should be `multi_processing` or `multi_threading` instead of `in_memory` in order for it to have the desired worker parallelism effect.
+[2021-03-17 18:52:56,808] {executor.py:127} INFO - Processing input csv data /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/data/taxi_data/* to TFExample.
+[2021-03-17 18:52:58,059] {translations.py:641} INFO - ==================== <function annotate_downstream_side_inputs at 0x7fab08a698c0> ====================
+[2021-03-17 18:52:58,062] {translations.py:641} INFO - ==================== <function fix_side_input_pcoll_coders at 0x7fab08a699e0> ====================
+[2021-03-17 18:52:58,064] {translations.py:641} INFO - ==================== <function lift_combiners at 0x7fab08a69cb0> ====================
+[2021-03-17 18:52:58,066] {translations.py:641} INFO - ==================== <function expand_sdf at 0x7fab08a69e60> ====================
+[2021-03-17 18:52:58,068] {translations.py:641} INFO - ==================== <function expand_gbk at 0x7fab08a69ef0> ====================
+[2021-03-17 18:52:58,069] {translations.py:641} INFO - ==================== <function sink_flattens at 0x7fab08a6b050> ====================
+[2021-03-17 18:52:58,070] {translations.py:641} INFO - ==================== <function greedily_fuse at 0x7fab08a6b0e0> ====================
+[2021-03-17 18:52:58,078] {translations.py:641} INFO - ==================== <function read_to_impulse at 0x7fab08a6b170> ====================
+[2021-03-17 18:52:58,083] {translations.py:641} INFO - ==================== <function impulse_to_input at 0x7fab08a6b200> ====================
+[2021-03-17 18:52:58,085] {translations.py:641} INFO - ==================== <function sort_stages at 0x7fab08a6b440> ====================
+[2021-03-17 18:52:58,088] {translations.py:641} INFO - ==================== <function setup_timer_mapping at 0x7fab08a6b3b0> ====================
+[2021-03-17 18:52:58,090] {translations.py:641} INFO - ==================== <function populate_data_channel_coders at 0x7fab08a6b4d0> ====================
+[2021-03-17 18:52:58,106] {statecache.py:174} INFO - Creating state cache with size 100
+[2021-03-17 18:52:58,108] {worker_handlers.py:893} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fab09f7bc10> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2021-03-17 18:52:58,108] {statecache.py:174} INFO - Creating state cache with size 100
+[2021-03-17 18:52:58,109] {worker_handlers.py:893} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fab09fe4b10> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2021-03-17 18:52:58,109] {statecache.py:174} INFO - Creating state cache with size 100
+[2021-03-17 18:52:58,110] {worker_handlers.py:893} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fab09fe4510> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2021-03-17 18:52:58,110] {statecache.py:174} INFO - Creating state cache with size 100
+[2021-03-17 18:52:58,111] {worker_handlers.py:893} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fab09fc2210> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2021-03-17 18:52:58,112] {fn_runner.py:510} INFO - Running ((((ref_AppliedPTransform_InputToRecord/ReadFromText/Read/Impulse_5)+(ref_AppliedPTransform_InputToRecord/ReadFromText/Read/Map(<lambda at iobase.py:899>)_6))+(InputToRecord/ReadFromText/Read/SDFBoundedSourceReader/ParDo(SDFBoundedSourceDoFn)/PairWithRestriction))+(InputToRecord/ReadFromText/Read/SDFBoundedSourceReader/ParDo(SDFBoundedSourceDoFn)/SplitAndSizeRestriction))+(ref_PCollection_PCollection_2_split/Write)
+[2021-03-17 18:52:58,314] {fn_runner.py:510} INFO - Running (((((((ref_PCollection_PCollection_2_split/Read)+(InputToRecord/ReadFromText/Read/SDFBoundedSourceReader/ParDo(SDFBoundedSourceDoFn)/Process))+(ref_AppliedPTransform_InputToRecord/ParseCSVLine_9))+(ref_AppliedPTransform_InputToRecord/ExtractParsedCSVLines_10))+(ref_AppliedPTransform_InputToRecord/InferColumnTypes/KeyWithVoid_12))+(ref_PCollection_PCollection_5/Write))+(InputToRecord/InferColumnTypes/CombinePerKey/Precombine))+(InputToRecord/InferColumnTypes/CombinePerKey/Group/Write)
+[2021-03-17 18:53:00,438] {fn_runner.py:510} INFO - Running ((((InputToRecord/InferColumnTypes/CombinePerKey/Group/Read)+(InputToRecord/InferColumnTypes/CombinePerKey/Merge))+(InputToRecord/InferColumnTypes/CombinePerKey/ExtractOutputs))+(ref_AppliedPTransform_InputToRecord/InferColumnTypes/UnKey_17))+(ref_PCollection_PCollection_9/Write)
+[2021-03-17 18:53:00,500] {fn_runner.py:510} INFO - Running ((((ref_AppliedPTransform_InputToRecord/InferColumnTypes/DoOnce/Impulse_19)+(ref_AppliedPTransform_InputToRecord/InferColumnTypes/DoOnce/FlatMap(<lambda at core.py:2957>)_20))+(ref_AppliedPTransform_InputToRecord/InferColumnTypes/DoOnce/Map(decode)_22))+(ref_AppliedPTransform_InputToRecord/InferColumnTypes/InjectDefault_23))+(ref_PCollection_PCollection_13/Write)
+[2021-03-17 18:53:00,620] {fn_runner.py:510} INFO - Running ((((((((((ref_PCollection_PCollection_5/Read)+(ref_AppliedPTransform_InputToRecord/ToTFExample_24))+(ref_AppliedPTransform_SplitData/ParDo(ApplyPartitionFnFn)/ParDo(ApplyPartitionFnFn)_27))+(ref_AppliedPTransform_WriteSplit[train]/MaybeSerialize_29))+(ref_AppliedPTransform_WriteSplit[eval]/MaybeSerialize_54))+(ref_AppliedPTransform_WriteSplit[train]/Shuffle/AddRandomKeys_31))+(ref_AppliedPTransform_WriteSplit[train]/Shuffle/ReshufflePerKey/Map(reify_timestamps)_33))+(WriteSplit[train]/Shuffle/ReshufflePerKey/GroupByKey/Write))+(ref_AppliedPTransform_WriteSplit[eval]/Shuffle/AddRandomKeys_56))+(ref_AppliedPTransform_WriteSplit[eval]/Shuffle/ReshufflePerKey/Map(reify_timestamps)_58))+(WriteSplit[eval]/Shuffle/ReshufflePerKey/GroupByKey/Write)
+[2021-03-17 18:53:10,313] {fn_runner.py:510} INFO - Running (((((ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/DoOnce/Impulse_66)+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/DoOnce/FlatMap(<lambda at core.py:2957>)_67))+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/DoOnce/Map(decode)_69))+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/InitializeWrite_70))+(ref_PCollection_PCollection_43/Write))+(ref_PCollection_PCollection_44/Write)
+[2021-03-17 18:53:10,414] {fn_runner.py:510} INFO - Running ((((((WriteSplit[eval]/Shuffle/ReshufflePerKey/GroupByKey/Read)+(ref_AppliedPTransform_WriteSplit[eval]/Shuffle/ReshufflePerKey/FlatMap(restore_timestamps)_60))+(ref_AppliedPTransform_WriteSplit[eval]/Shuffle/RemoveRandomKeys_61))+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/WindowInto(WindowIntoFn)_71))+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/WriteBundles_72))+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/Pair_73))+(WriteSplit[eval]/Write/Write/WriteImpl/GroupByKey/Write)
+[2021-03-17 18:53:10,652] {tfrecordio.py:63} WARNING - Couldn't find python-snappy so the implementation of _TFRecordUtil._masked_crc32c is not as fast as it could be.
+[2021-03-17 18:53:11,356] {fn_runner.py:510} INFO - Running ((WriteSplit[eval]/Write/Write/WriteImpl/GroupByKey/Read)+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/Extract_75))+(ref_PCollection_PCollection_49/Write)
+[2021-03-17 18:53:11,422] {fn_runner.py:510} INFO - Running ((ref_PCollection_PCollection_43/Read)+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/PreFinalize_76))+(ref_PCollection_PCollection_50/Write)
+[2021-03-17 18:53:11,472] {fn_runner.py:510} INFO - Running (ref_PCollection_PCollection_43/Read)+(ref_AppliedPTransform_WriteSplit[eval]/Write/Write/WriteImpl/FinalizeWrite_77)
+[2021-03-17 18:53:11,556] {filebasedsink.py:310} INFO - Starting finalize_write threads with num_shards: 4 (skipped: 0), batches: 4, num_threads: 4
+[2021-03-17 18:53:11,664] {filebasedsink.py:355} INFO - Renamed 4 shards in 0.11 seconds.
+[2021-03-17 18:53:11,684] {fn_runner.py:510} INFO - Running (((((ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/DoOnce/Impulse_41)+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/DoOnce/FlatMap(<lambda at core.py:2957>)_42))+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/DoOnce/Map(decode)_44))+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/InitializeWrite_45))+(ref_PCollection_PCollection_26/Write))+(ref_PCollection_PCollection_27/Write)
+[2021-03-17 18:53:11,825] {fn_runner.py:510} INFO - Running ((((((WriteSplit[train]/Shuffle/ReshufflePerKey/GroupByKey/Read)+(ref_AppliedPTransform_WriteSplit[train]/Shuffle/ReshufflePerKey/FlatMap(restore_timestamps)_35))+(ref_AppliedPTransform_WriteSplit[train]/Shuffle/RemoveRandomKeys_36))+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/WindowInto(WindowIntoFn)_46))+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/WriteBundles_47))+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/Pair_48))+(WriteSplit[train]/Write/Write/WriteImpl/GroupByKey/Write)
+[2021-03-17 18:53:13,372] {fn_runner.py:510} INFO - Running ((WriteSplit[train]/Write/Write/WriteImpl/GroupByKey/Read)+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/Extract_50))+(ref_PCollection_PCollection_32/Write)
+[2021-03-17 18:53:13,426] {fn_runner.py:510} INFO - Running ((ref_PCollection_PCollection_26/Read)+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/PreFinalize_51))+(ref_PCollection_PCollection_33/Write)
+[2021-03-17 18:53:13,532] {fn_runner.py:510} INFO - Running (ref_PCollection_PCollection_26/Read)+(ref_AppliedPTransform_WriteSplit[train]/Write/Write/WriteImpl/FinalizeWrite_52)
+[2021-03-17 18:53:13,633] {filebasedsink.py:310} INFO - Starting finalize_write threads with num_shards: 4 (skipped: 0), batches: 4, num_threads: 4
+[2021-03-17 18:53:13,744] {filebasedsink.py:355} INFO - Renamed 4 shards in 0.11 seconds.
+[2021-03-17 18:53:13,769] {base_example_gen_executor.py:311} INFO - Examples generated.
+[2021-03-17 18:53:13,770] {base_component_launcher.py:212} INFO - Running publisher for CsvExampleGen
+[2021-03-17 18:53:13,774] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 18:53:13,781] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-17 18:53:13,788] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=taxi, task_id=CsvExampleGen, execution_date=20210317T225229, start_date=20210317T225249, end_date=20210317T225313
+[2021-03-17 18:53:13,819] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-17 18:53:13,854] {local_task_job.py:146} INFO - Task exited with return code 0

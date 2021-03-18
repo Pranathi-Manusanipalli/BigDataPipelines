@@ -1,0 +1,72 @@
+[2021-03-17 19:25:59,486] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:25:41.034808+00:00 [queued]>
+[2021-03-17 19:25:59,497] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:25:41.034808+00:00 [queued]>
+[2021-03-17 19:25:59,497] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:25:59,498] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 19:25:59,498] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:25:59,506] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): CsvExampleGen> on 2021-03-17T23:25:41.034808+00:00
+[2021-03-17 19:25:59,510] {standard_task_runner.py:52} INFO - Started process 29074 to run task
+[2021-03-17 19:25:59,519] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'CsvExampleGen', '2021-03-17T23:25:41.034808+00:00', '--job-id', '15', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpe4kipdv6', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpo6mt2ojs']
+[2021-03-17 19:25:59,522] {standard_task_runner.py:77} INFO - Job 15: Subtask CsvExampleGen
+[2021-03-17 19:25:59,575] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.CsvExampleGen 2021-03-17T23:25:41.034808+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 19:25:59,619] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=CsvExampleGen
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T23:25:41.034808+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T23:25:41.034808+00:00
+[2021-03-17 19:25:59,628] {base_component_launcher.py:196} INFO - Running driver for CsvExampleGen
+[2021-03-17 19:25:59,655] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 19:25:59,658] {utils.py:631} INFO - select span and version = (0, None)
+[2021-03-17 19:25:59,659] {utils.py:640} INFO - latest span and version = (0, None)
+[2021-03-17 19:25:59,753] {base_component_launcher.py:202} INFO - Running executor for CsvExampleGen
+[2021-03-17 19:25:59,762] {dependency_utils.py:68} INFO - Attempting to infer TFX Python dependency for beam
+[2021-03-17 19:25:59,763] {dependency_utils.py:109} INFO - Copying all content from install dir /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx to temp dir /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpwycqx717/build/tfx
+[2021-03-17 19:26:02,369] {dependency_utils.py:115} INFO - Generating a temp setup file at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpwycqx717/build/tfx/setup.py
+[2021-03-17 19:26:02,372] {dependency_utils.py:128} INFO - Creating temporary sdist package, logs available at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpwycqx717/build/tfx/setup.log
+[2021-03-17 19:26:08,523] {dependency_utils.py:71} INFO - Added --extra_package=/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpwycqx717/build/tfx/dist/tfx_ephemeral-0.27.0.tar.gz to beam args
+[2021-03-17 19:26:08,528] {base_example_gen_executor.py:294} INFO - Generating examples.
+[2021-03-17 19:26:08,531] {base_executor.py:151} WARNING - If direct_num_workers is not equal to 1, direct_running_mode should be `multi_processing` or `multi_threading` instead of `in_memory` in order for it to have the desired worker parallelism effect.
+[2021-03-17 19:26:08,548] {executor.py:127} INFO - Processing input csv data /Users/harika/PycharmProjects/airflow_tfx/data/taxi_data/* to TFExample.
+[2021-03-17 19:26:08,549] {taskinstance.py:1455} ERROR - Split pattern /Users/harika/PycharmProjects/airflow_tfx/data/taxi_data/* does not match any files.
+Traceback (most recent call last):
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/orchestration/airflow/airflow_component.py", line 79, in _airflow_component_launcher
+    launcher.launch()
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/orchestration/launcher/base_component_launcher.py", line 209, in launch
+    copy.deepcopy(execution_decision.exec_properties))
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/orchestration/launcher/in_process_component_launcher.py", line 72, in _run_executor
+    copy.deepcopy(input_dict), output_dict, copy.deepcopy(exec_properties))
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/components/example_gen/base_example_gen_executor.py", line 296, in Do
+    example_splits = self.GenerateExamplesByBeam(pipeline, exec_properties)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/components/example_gen/base_example_gen_executor.py", line 230, in GenerateExamplesByBeam
+    | 'SplitData' >> beam.Partition(_PartitionFn, len(buckets), buckets,
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/transforms/ptransform.py", line 1058, in __ror__
+    return self.transform.__ror__(pvalueish, self.label)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/transforms/ptransform.py", line 573, in __ror__
+    result = p.apply(self, pvalueish, label)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/pipeline.py", line 646, in apply
+    return self.apply(transform, pvalueish)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/pipeline.py", line 689, in apply
+    pvalueish_result = self.runner.apply(transform, pvalueish, self._options)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/runners/runner.py", line 188, in apply
+    return m(transform, input, options)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/runners/runner.py", line 218, in apply_PTransform
+    return transform.expand(input)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/apache_beam/transforms/ptransform.py", line 964, in expand
+    return self._fn(pcoll, *args, **kwargs)
+  File "/Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx/components/example_gen/csv_example_gen/executor.py", line 132, in _CsvToExample
+    'Split pattern {} does not match any files.'.format(csv_pattern))
+RuntimeError: Split pattern /Users/harika/PycharmProjects/airflow_tfx/data/taxi_data/* does not match any files.
+[2021-03-17 19:26:08,559] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=taxi, task_id=CsvExampleGen, execution_date=20210317T232541, start_date=20210317T232559, end_date=20210317T232608
+[2021-03-17 19:26:08,618] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,39 @@
+[2021-03-17 18:54:10,442] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.SchemaGen 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:54:10,454] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.SchemaGen 2021-03-17T22:52:29.535532+00:00 [queued]>
+[2021-03-17 18:54:10,454] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:54:10,454] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 18:54:10,454] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 18:54:10,469] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): SchemaGen> on 2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:54:10,473] {standard_task_runner.py:52} INFO - Started process 26650 to run task
+[2021-03-17 18:54:10,485] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'SchemaGen', '2021-03-17T22:52:29.535532+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp_5ykv5yi', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpdr9gqlle']
+[2021-03-17 18:54:10,488] {standard_task_runner.py:77} INFO - Job 4: Subtask SchemaGen
+[2021-03-17 18:54:10,541] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.SchemaGen 2021-03-17T22:52:29.535532+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 18:54:10,576] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=SchemaGen
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T22:52:29.535532+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T22:52:29.535532+00:00
+[2021-03-17 18:54:10,583] {base_component_launcher.py:196} INFO - Running driver for SchemaGen
+[2021-03-17 18:54:10,595] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 18:54:10,626] {base_component_launcher.py:202} INFO - Running executor for SchemaGen
+[2021-03-17 18:54:10,636] {dependency_utils.py:68} INFO - Attempting to infer TFX Python dependency for beam
+[2021-03-17 18:54:10,637] {dependency_utils.py:109} INFO - Copying all content from install dir /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tfx to temp dir /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp6cmffa82/build/tfx
+[2021-03-17 18:54:12,894] {dependency_utils.py:115} INFO - Generating a temp setup file at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp6cmffa82/build/tfx/setup.py
+[2021-03-17 18:54:12,898] {dependency_utils.py:128} INFO - Creating temporary sdist package, logs available at /var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp6cmffa82/build/tfx/setup.log
+[2021-03-17 18:54:16,116] {dependency_utils.py:71} INFO - Added --extra_package=/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp6cmffa82/build/tfx/dist/tfx_ephemeral-0.27.0.tar.gz to beam args
+[2021-03-17 18:54:16,118] {executor.py:95} INFO - Processing schema from statistics for split train.
+[2021-03-17 18:54:16,119] {deprecation.py:339} WARNING - From /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/vlab/lib/python3.7/site-packages/tensorflow_data_validation/utils/stats_util.py:247: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+[2021-03-17 18:54:16,125] {executor.py:95} INFO - Processing schema from statistics for split eval.
+[2021-03-17 18:54:16,132] {executor.py:109} INFO - Schema written to /Users/harika/Desktop/CSYE_7245/Labs/airflow_tfx_lab/tfx/pipelines/taxi/SchemaGen/schema/3/schema.pbtxt.
+[2021-03-17 18:54:16,133] {base_component_launcher.py:212} INFO - Running publisher for SchemaGen
+[2021-03-17 18:54:16,140] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 18:54:16,150] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-17 18:54:16,160] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=taxi, task_id=SchemaGen, execution_date=20210317T225229, start_date=20210317T225410, end_date=20210317T225416
+[2021-03-17 18:54:16,184] {taskinstance.py:1220} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2021-03-17 18:54:16,212] {local_task_job.py:146} INFO - Task exited with return code 0

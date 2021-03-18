@@ -1,0 +1,26 @@
+[2021-03-17 19:28:53,128] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.StatisticsGen 2021-03-17T23:28:18.372751+00:00 [queued]>
+[2021-03-17 19:28:53,138] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: taxi.StatisticsGen 2021-03-17T23:28:18.372751+00:00 [queued]>
+[2021-03-17 19:28:53,138] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:28:53,138] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-17 19:28:53,138] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-17 19:28:53,146] {taskinstance.py:1063} INFO - Executing <Task(AirflowComponent): StatisticsGen> on 2021-03-17T23:28:18.372751+00:00
+[2021-03-17 19:28:53,151] {standard_task_runner.py:52} INFO - Started process 29157 to run task
+[2021-03-17 19:28:53,166] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'taxi', 'StatisticsGen', '2021-03-17T23:28:18.372751+00:00', '--job-id', '18', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/taxi_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp324714xg', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpubxsdlb3']
+[2021-03-17 19:28:53,170] {standard_task_runner.py:77} INFO - Job 18: Subtask StatisticsGen
+[2021-03-17 19:28:53,227] {logging_mixin.py:104} INFO - Running <TaskInstance: taxi.StatisticsGen 2021-03-17T23:28:18.372751+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-17 19:28:53,263] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=taxi
+AIRFLOW_CTX_TASK_ID=StatisticsGen
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-17T23:28:18.372751+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-17T23:28:18.372751+00:00
+[2021-03-17 19:28:53,270] {base_component_launcher.py:196} INFO - Running driver for StatisticsGen
+[2021-03-17 19:28:53,282] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 19:28:53,318] {base_component_launcher.py:212} INFO - Running publisher for StatisticsGen
+[2021-03-17 19:28:53,321] {metadata_store.py:93} INFO - MetadataStore with DB connection initialized
+[2021-03-17 19:28:53,323] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-17 19:28:53,328] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=taxi, task_id=StatisticsGen, execution_date=20210317T232818, start_date=20210317T232853, end_date=20210317T232853
+[2021-03-17 19:28:53,350] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-17 19:28:53,394] {local_task_job.py:146} INFO - Task exited with return code 0
