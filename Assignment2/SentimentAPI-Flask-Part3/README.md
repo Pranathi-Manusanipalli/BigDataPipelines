@@ -1,6 +1,6 @@
 # Sentiment Analysis Flask API:
 
-The main aim of this module is to download the trained tensorflow from s3 bucket and expose it as Flask API for inference.
+The main aim of this module is to download the trained tensorflow model from s3 bucket and expose it as Flask API for inference.
 
 ***Technical Requirements:***
 - Docker pre-installed
