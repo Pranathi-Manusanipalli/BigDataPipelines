@@ -4,8 +4,8 @@ This pipeline aims to predict sentiments for each sentence in a list of company 
 ![Pipeline](images/AnnotationPipeline.png)
 
 ***Project Structure*** :
-Part1_AnnotationPipeline/ <br/>
 ```
+Part1_AnnotationPipeline/
 ├── dags/ 
 │   ├── config.yaml: setting up parameters for running the file 
 │   ├── edgar_annotation.py : an entry module for airflow 
