@@ -8,7 +8,7 @@ Pipeline to fetch the data from s3 containing the labelled dataset from annotati
 │   ├── train.py : entry module for airflow
 │   └── utils/
 │       └── utils.py: Function to load the config.yaml file
-├── logs/:
+├── logs/: Log files
 ├── README.md
 ├── requirements.txt : Requirements to be installed
 ```
