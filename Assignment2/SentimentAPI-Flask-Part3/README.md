@@ -45,14 +45,14 @@ Now the sentiment API is up and running and can be connected on http://0.0.0.0:5
 - Authenicate docker to push images to Google Cloud Container Repositories<br>
   google auth configure-docker<br>
 - Create a tag for your image<br>
-  docker tag <imagename> us.gcr.io/<project-id>/<imagename> <br>
+  docker tag imagename us.gcr.io/project-id/imagename <br>
 - Push the docker image<br>
-  docker push us.gcr.io/<project-id>/<imagename> <br>
+  docker push us.gcr.io/project-id/imagename <br>
 - Now to go to Cloud run and create a service with following parameters: <br>
   select the image from the container repository which we pushed<br>
   Memory: min 4GB<br>
   Create<br>
 - Once Cloud Run service is created we will get the service url and our API is up and running<br>
-- To access the API use <SERVICE URL>/predict<br>
+- To access the API use SERVICE URL/predict<br>
 
 ***Claat Document:*** https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0
