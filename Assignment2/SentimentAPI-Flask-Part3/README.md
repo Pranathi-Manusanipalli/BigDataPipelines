@@ -7,15 +7,15 @@ The main aim of this module is to download the trained tensorflow model from s3 
 - s3 bucket access
 
 ***Python Files:***
-- api: app.py - Initialises the Flask app based on a blueprint
-- api: ml_app.py - The entire blueprint of the flask app withn POST and GET methods
-- saved_models: load_model.py - Contains the code which loads the model
-- config.yaml - Contains the dynamic parameters for the app execution
-- loadyaml.py - Contains the code to load a specified yaml file
-- predict.py - Contains the code to get loaded model do the predictions and return the results
-- s3_download.py - Contains the code to download model from s3 bucket
-- Dockerfile - Contains the steps required for dockerizing the application
-- run.py - The main file where the app execution starts
+- `api: app.py` - Initialises the Flask app based on a blueprint
+- `api: ml_app.py` - The entire blueprint of the flask app withn POST and GET methods
+- `saved_models: load_model.py` - Contains the code which loads the model
+- `config.yaml` - Contains the dynamic parameters for the app execution
+- `loadyaml.py` - Contains the code to load a specified yaml file
+- `predict.py` - Contains the code to get loaded model do the predictions and return the results
+- `s3_download.py` - Contains the code to download model from s3 bucket
+- `Dockerfile` - Contains the steps required for dockerizing the application
+- `run.py` - The main file where the app execution starts
 
 ***Steps to follow:***
 - git clone the repository
