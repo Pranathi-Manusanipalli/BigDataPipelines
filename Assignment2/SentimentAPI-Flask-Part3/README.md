@@ -68,18 +68,18 @@ Here in our case it is: `https://sentimentapi-zi7kg63pga-ue.a.run.app/predict`<b
 ***Output:***<br>
 JSON having to list predictions<br>
 
-`{<br>
-    "input": {<br>
-        "data": [<br>
+`{\n
+    "input": 
+        "data": [
             "this is the best. It is a good watch",<br>
-            "this is worst!"<br>
-        ]<br>
-    },<br>
-    "pred": [<br>
-        0.9969875812530518,<br>
-        -0.5278245210647583<br>
-    ]<br>
-}`<br>
+            "this is worst!"
+        ]
+    },
+    "pred": [
+        0.9969875812530518,
+        -0.5278245210647583
+    ]
+}`
 
 
 ***Claat Document:*** https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0
