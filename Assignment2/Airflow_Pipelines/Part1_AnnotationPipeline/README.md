@@ -1,6 +1,8 @@
 Annotation Pipeline
 This pipeline aims to predict sentiments for each sentence in a list of company earnings call transcripts
 
+![Pipeline](/images/pipeline.png)
+
 Requirements -
 Install the dependencies as outlines in the requirements.txt by running pip install -r requirements.txt
 
