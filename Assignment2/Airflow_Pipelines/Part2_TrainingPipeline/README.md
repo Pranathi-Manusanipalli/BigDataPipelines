@@ -2,7 +2,7 @@
 Pipeline to fetch the data from s3 containing the labelled dataset from annotation pipeline and train/fine tune a BERT model using Transfer learning to train on our data and save the model to s3 bucket
 
 ## Github Pipeline
-
+```
 Part2_TrainingPipeline/
 ├── .DS_Store
 ├── airflow-webserver.err
@@ -164,7 +164,7 @@ Part2_TrainingPipeline/
 ├── requirements.txt
 ├── unittests.cfg
 └── webserver_config.py
-
+```
 ### Requirements - 
 Install the dependencies as outlines in the requirements.txt by running 
 `pip install -r requirements.txt`
