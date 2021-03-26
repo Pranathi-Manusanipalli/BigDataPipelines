@@ -1,0 +1,2 @@
+2021-03-25 14:17:54,160 ERROR - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected
+2021-03-25 14:56:22,059 ERROR - [0 / 0] Some workers seem to have died and gunicorn did not restart them as expected

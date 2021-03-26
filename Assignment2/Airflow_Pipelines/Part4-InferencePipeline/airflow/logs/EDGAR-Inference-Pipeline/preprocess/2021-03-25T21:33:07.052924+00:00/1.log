@@ -1,0 +1,68 @@
+[2021-03-25 14:33:20,335] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: EDGAR-Inference-Pipeline.preprocess 2021-03-25T21:33:07.052924+00:00 [queued]>
+[2021-03-25 14:33:20,346] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: EDGAR-Inference-Pipeline.preprocess 2021-03-25T21:33:07.052924+00:00 [queued]>
+[2021-03-25 14:33:20,346] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-25 14:33:20,347] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-25 14:33:20,347] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-25 14:33:20,356] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): preprocess> on 2021-03-25T21:33:07.052924+00:00
+[2021-03-25 14:33:20,360] {standard_task_runner.py:52} INFO - Started process 3689 to run task
+[2021-03-25 14:33:20,368] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'EDGAR-Inference-Pipeline', 'preprocess', '2021-03-25T21:33:07.052924+00:00', '--job-id', '23', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/edgar_inference.py', '--cfg-path', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmpxkavv9rm', '--error-file', '/var/folders/_j/s8vbc0cs1fvgclq8hnvtq1wm0000gn/T/tmp7gaj2782']
+[2021-03-25 14:33:20,371] {standard_task_runner.py:77} INFO - Job 23: Subtask preprocess
+[2021-03-25 14:33:20,412] {logging_mixin.py:104} INFO - Running <TaskInstance: EDGAR-Inference-Pipeline.preprocess 2021-03-25T21:33:07.052924+00:00 [running]> on host prathyushas-mbp.home
+[2021-03-25 14:33:20,440] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=EDGAR-Inference-Pipeline
+AIRFLOW_CTX_TASK_ID=preprocess
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-25T21:33:07.052924+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-25T21:33:07.052924+00:00
+[2021-03-25 14:33:20,446] {logging_mixin.py:104} INFO - ['CELTF', 'ACFN', 'KGFHF', 'BLFS', 'IRIX', 'BMMJ', 'GHLD', 'TME']
+[2021-03-25 14:33:20,746] {taskinstance.py:1455} ERROR - Install s3fs to access S3
+Traceback (most recent call last):
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/registry.py", line 211, in get_filesystem_class
+    register_implementation(protocol, _import_class(bit["class"]))
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/registry.py", line 226, in _import_class
+    mod = importlib.import_module(mod)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 's3fs'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/dags/edgar_inference.py", line 133, in preprocess
+    final_df.to_csv(path,index=False)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/pandas/core/generic.py", line 3402, in to_csv
+    storage_options=storage_options,
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1083, in to_csv
+    csv_formatter.save()
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 234, in save
+    storage_options=self.storage_options,
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/pandas/io/common.py", line 563, in get_handle
+    storage_options=storage_options,
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/pandas/io/common.py", line 334, in _get_filepath_or_buffer
+    filepath_or_buffer, mode=fsspec_mode, **(storage_options or {})
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/core.py", line 438, in open
+    **kwargs,
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/core.py", line 287, in open_files
+    expand=expand,
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/core.py", line 600, in get_fs_token_paths
+    cls = get_filesystem_class(protocol)
+  File "/Users/prathyusha/Desktop/pranathi/CSYE7245-Spring2021-Labs/transcript-simulated-api/airflow/edgar4_env/lib/python3.7/site-packages/fsspec/registry.py", line 213, in get_filesystem_class
+    raise ImportError(bit["err"]) from e
+ImportError: Install s3fs to access S3
+[2021-03-25 14:33:20,764] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=EDGAR-Inference-Pipeline, task_id=preprocess, execution_date=20210325T213307, start_date=20210325T213320, end_date=20210325T213320
+[2021-03-25 14:33:20,821] {local_task_job.py:146} INFO - Task exited with return code 1
