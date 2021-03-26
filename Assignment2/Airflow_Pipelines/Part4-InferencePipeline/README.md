@@ -9,22 +9,22 @@ Install the dependencies as outlines in the requirements.txt by running pip inst
 Configurations
 Update the dags/config.yaml with dynamic parameters for execution of the pipeline as described below
 
-bucket -> your s3 bucket <br/>
-downloadpath -> root directory path to download files <br/>
-fetchpath -> local directory where your files are downloaded from s3 and stored <br/>
-APIKey -> API key for accesing Microsoft Cognitive Service  <br/>
-aws_access_key_id -> AWS access key <br/>
-aws_secret_access_key -> AWS secret key <br/>
-FlaskUrl -> Flask URL <br/>
-fileinput: <br/>
-    object_key: Input company name filelist <br/>
-    prefix: Input S3 storage location <br/>
-stage: <br/>
-    object_key: Earning transcripts file name <br/>
-    prefix: Staging S3 storage location <br/>
-final: <br/>
-    sentiment_key:Transcripts with Sentiment <br/>
-    prefix: Final S3 storage location <br/><br/>
+ - bucket -> your s3 bucket <br/>
+ - downloadpath -> root directory path to download files <br/>
+ - fetchpath -> local directory where your files are downloaded from s3 and stored <br/>
+ - APIKey -> API key for accesing Microsoft Cognitive Service  <br/>
+ - aws_access_key_id -> AWS access key <br/>
+ - aws_secret_access_key -> AWS secret key <br/>
+ - FlaskUrl -> Flask URL <br/>
+ - fileinput: <br/>
+     - object_key: Input company name filelist <br/>
+     - prefix: Input S3 storage location <br/>
+ - stage: <br/>
+     - object_key: Earning transcripts file name <br/>
+     - prefix: Staging S3 storage location <br/>
+ - final: <br/>
+     - sentiment_key:Transcripts with Sentiment <br/>
+     - prefix: Final S3 storage location <br/><br/>
 
 ***Airflow Configuration*** <br/>
 - Use your present working directory as the airflow home export AIRFLOW_HOME=~(pwd) <br/>
