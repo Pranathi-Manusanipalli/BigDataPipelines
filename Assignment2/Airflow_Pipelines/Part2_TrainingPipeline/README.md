@@ -32,7 +32,7 @@ from s3
     --email example@example.com
 `
 
-#### Instructions to run
+### Instructions to run
 **Run airflow by following these commands**
 - Start the airflow server in daemon on port 8081 `airflow webserver -D -p 8081`
 - Start the scheduler 
