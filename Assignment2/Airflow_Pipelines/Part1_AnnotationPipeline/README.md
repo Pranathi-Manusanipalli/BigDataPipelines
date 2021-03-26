@@ -23,7 +23,8 @@ Part1_AnnotationPipeline/ <br/>
 │   └── README.md 
 ├── logs/: Logs 
 ├── README.md 
-├── requirements.txt: Requirements file ```<br/><br/>
+├── requirements.txt: Requirements file 
+```
 
 ***Requirements*** -
 Install the dependencies as outlines in the requirements.txt by running pip install -r requirements.txt
