@@ -56,16 +56,16 @@ Now the sentiment API is up and running and can be connected on http://0.0.0.0:5
 - To access the API use `SERVICE URL/predict`<br>
 
     
-***Testing the API using Postman:***<br>
-***Input:*** <br>
-Should be in json format with a list of strings/sentences.<br>
-`{"data": ["this is the best. It is a good watch", "this is worst!"]}`<br>
-***Method:***<br>
+***Testing the API using Postman:***<br><br>
+***Input:*** <br><br>
+Should be in json format with a list of strings/sentences.<br><br>
+`{"data": ["this is the best. It is a good watch", "this is worst!"]}`<br><br>
+***Method:***<br><br>
 POST<br>
-***URL:***<br>
-The service URL we get from Google Cloud Run and concatenating it with /predict <br>
-Here in our case it is: `https://sentimentapi-zi7kg63pga-ue.a.run.app/predict`<br>
-***Output:***<br>
+***URL:***<br><br>
+The service URL we get from Google Cloud Run and concatenating it with /predict <br><br>
+Here in our case it is: `https://sentimentapi-zi7kg63pga-ue.a.run.app/predict`<br><br>
+***Output:***<br><br>
 JSON having to list predictions<br>
 
 {<br>
