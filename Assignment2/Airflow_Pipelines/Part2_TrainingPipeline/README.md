@@ -1,6 +1,7 @@
 ## Training Pipeline
 Pipeline to fetch the data from s3 containing the labelled dataset from annotation pipeline and train/fine tune a BERT model using Transfer learning to train on our data and save the model to s3 bucket
 
+![Pipeline](images/TrainingPipeline.png)
 ## Github Pipeline
 ```
 ├── dags/
@@ -8,6 +9,8 @@ Pipeline to fetch the data from s3 containing the labelled dataset from annotati
 │   ├── train.py : entry module for airflow
 │   └── utils/
 │       └── utils.py: Function to load the config.yaml file
+├── images/ 
+│   ├── TrainingPipeline.png 
 ├── logs/: Log files
 ├── README.md
 ├── requirements.txt : Requirements to be installed
