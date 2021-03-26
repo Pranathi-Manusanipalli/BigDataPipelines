@@ -42,7 +42,7 @@ Update the dags/config.yaml with dynamic parameters for execution of the pipelin
 Run airflow by following these commands <br/>
 - Start the airflow server in daemon on port 8081 airflow webserver -D -p 8081 <br/>
 - Start the scheduler airflow scheduler Once both are running , you can access the UI by visting http://127.0.0.1:8080/home on your browser. <br/>
-- Once you login to Airflow on the browser, run the DAG ***EDGAR-Annotation-Pipeline*** <br/>
+- Once you login to Airflow on the browser, run the DAG ***EDGAR-Inference-Pipeline*** <br/>
 - Once the pipeline is run successfully, the model is saved in the specified path in the s3 bucket. <br/>
 - The command lsof -i tcp:8081  shows a list of processes with PIDs <br/>
 - kill PID command can be used to kill the process <br/><br/>
