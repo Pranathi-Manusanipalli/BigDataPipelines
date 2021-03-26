@@ -2,11 +2,11 @@
 
 The main aim of this module is to download the trained tensorflow from s3 bucket and expose it as Flask API for inference.
 
-Technical Requirements:
+***Technical Requirements:***
 - Docker pre-installed
 - s3 bucket access
 
-Python Files:
+***Python Files:***
 - api: app.py - Initialises the Flask app based on a blueprint
 - api: ml_app.py - The entire blueprint of the flask app withn POST and GET methods
 - saved_models: load_model.py - Contains the code which loads the model
@@ -17,7 +17,7 @@ Python Files:
 - Dockerfile - Contains the steps required for dockerizing the application
 - run.py - The main file where the app execution starts
 
-Steps to follow:
+***Steps to follow:***
 - git clone the repository
 - create a python3.7 environment using
 
@@ -37,7 +37,7 @@ Steps to follow:
   
 Now the sentiment API is up and running and can be connected on http://0.0.0.0:5000/predict
 
-Deploying the app on Google Cloud Run:<br>
+***Deploying the app on Google Cloud Run:***<br>
 
 - Install Google Cloud SDK 
 - Authenticate the SDK using<br>
@@ -54,3 +54,5 @@ Deploying the app on Google Cloud Run:<br>
   Create<br>
 - Once Cloud Run service is created we will get the service url and our API is up and running<br>
 - To access the API use <SERVICE URL>/predict<br>
+
+***Claat Document:*** https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0
