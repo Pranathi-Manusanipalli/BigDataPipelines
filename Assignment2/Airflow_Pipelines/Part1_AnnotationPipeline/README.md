@@ -5,6 +5,7 @@ This pipeline aims to predict sentiments for each sentence in a list of company 
 
 ***Project Structure*** :
 Part1_AnnotationPipeline/ <br/>
+```
 ├── airflow-webserver.err <br/>
 ├── airflow-webserver.log <br/>
 ├── airflow-webserver.out <br/>
@@ -22,7 +23,7 @@ Part1_AnnotationPipeline/ <br/>
 │   └── README.md <br/>
 ├── logs/: Logs <br/>
 ├── README.md <br/>
-├── requirements.txt: Requirements file <br/><br/>
+├── requirements.txt: Requirements file ```<br/><br/>
 
 ***Requirements*** -
 Install the dependencies as outlines in the requirements.txt by running pip install -r requirements.txt
