@@ -1,4 +1,4 @@
-Inference Pipeline
+**Airflow Inference Pipeline**
 This pipeline aims to give sentiments as positive or negative based on dynamic inputs.
 
 ![Pipeline](images/InferencePipeline.png)
