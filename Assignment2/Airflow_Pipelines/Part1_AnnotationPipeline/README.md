@@ -15,18 +15,14 @@ downloadpath -> root directory path to download files <br/>
 fetchpath -> local directory where your files are downloaded from s3 and stored <br/>
 APIKey -> API key for accesing Microsoft Cognitive Service  <br/><br/>
 
-Airflow Configuration
-Use your present working directory as the airflow home export AIRFLOW_HOME=~(pwd)
+Airflow Configuration <br/>
+- Use your present working directory as the airflow home export AIRFLOW_HOME=~(pwd) <br/>
+- export Python Path to allow use of custom modules by Airflow export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}" <br/>
+- initialize the database airflow db init <br/>
+- airflow users create \ --username admin \ --firstname <YourName> \ --lastname <YourLastName> \ --role Admin \ --email example@example.com <br/>
 
-export Python Path to allow use of custom modules by Airflow export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}"
-
-initialize the database airflow db init
-
-airflow users create \ --username admin \ --firstname <YourName> \ --lastname <YourLastName> \ --role Admin \ --email example@example.com
-
-Instructions to run<br/>
-Run airflow by following these commands<br/><br/>
-
+Instructions to run <br/>
+Run airflow by following these commands <br/>
 - Start the airflow server in daemon on port 8081 airflow webserver -D -p 8081 <br/>
 - Start the scheduler airflow scheduler Once both are running , you can access the UI by visting http://127.0.0.1:8080/home on your browser. <br/>
 - Once you login to Airflow on the browser, run the DAG ***EDGAR-Annotation-Pipeline*** <br/>
