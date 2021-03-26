@@ -29,10 +29,9 @@ Run airflow by following these commands
 
 - Start the airflow server in daemon on port 8081 airflow webserver -D -p 8081 <br/>
 - Start the scheduler airflow scheduler Once both are running , you can access the UI by visting http://127.0.0.1:8080/home on your browser. <br/>
-- To kill the web server <br/>
-lsof -i tcp:8081 It shows a list of processes with PIDs <br/>
-kill PID to kill the process <br/>
-Once you login to Airflow on the browser, run the DAG 'Model-Training-Pipeline' <br/>
-Once the pipeline is run successfully, the model is saved in the specified path in the s3 bucket. <br/>
+- Once you login to Airflow on the browser, run the DAG 'EDGAR-Annotation-Pipeline' <br/>
+- Once the pipeline is run successfully, the model is saved in the specified path in the s3 bucket. <br/>
+- To kill the web server lsof -i tcp:8081 It shows a list of processes with PIDs <br/>
+- kill PID to kill the process <br/>
 CLAT document - <br/>
 Refer to https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0 for detailed report on the creating an annotation pipeline
