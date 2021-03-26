@@ -3,6 +3,34 @@ This pipeline aims to give sentiments as positive or negative based on dynamic i
 
 ![Pipeline](images/InferencePipeline.png)
 
+***GitHub Pipeline***:
+```
+Part4-InferencePipeline/
+├── airflow/
+│   ├── dags/
+│   │   ├── companies_list.csv : List of companies we to extract the earning call transcripts
+│   │   ├── config.yaml: Configuration parameters
+│   │   └── edgar_inference.py : Airflow dag file
+│   ├── requirements.txt : Requirements file
+├── annotation.csv : Annotated text data
+├── CompaniesCallData.csv : Call transcripts extracted from 
+├── fastAPI_run.sh : Run this script to activate FAST API app
+├── images/
+│   └── InferencePipeline.png
+├── inference-data/ : Transcript file storage
+│   ├── ACFN
+│   ├── BLFS
+│   ├── BMMJ
+│   ├── CELTF
+│   ├── GHLD
+│   ├── IRIX
+│   ├── KGFHF
+│   └── TME
+├── main.py : FASTAPI code file
+├── README.md
+└── Sentiments.csv : Text data with sentiments as positive or negative
+```
+
 Requirements -
 Install the dependencies as outlines in the requirements.txt by running pip install -r requirements.txt
 
