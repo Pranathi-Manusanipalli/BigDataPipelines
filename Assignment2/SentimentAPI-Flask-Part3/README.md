@@ -49,9 +49,9 @@ Now the sentiment API is up and running and can be connected on http://0.0.0.0:5
 - Push the docker image<br>
   `docker push us.gcr.io/project-id/imagename` <br>
 - Now to go to Cloud run and create a service with following parameters: <br>
-  select the image from the container repository which we pushed<br>
-  Memory: min 4GB<br>
-  Create<br>
+  - select the image from the container repository which we pushed<br>
+  - Memory: min 4GB<br>
+  - Create<br>
 - Once Cloud Run service is created we will get the service url and our API is up and running<br>
 - To access the API use `SERVICE URL/predict`<br>
 
