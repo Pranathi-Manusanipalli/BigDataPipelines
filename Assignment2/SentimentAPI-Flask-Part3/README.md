@@ -6,16 +6,22 @@ The main aim of this module is to download the trained tensorflow model from s3 
 - Docker pre-installed
 - s3 bucket access
 
-***Python Files:***
-- `api: app.py` - Initialises the Flask app based on a blueprint
-- `api: ml_app.py` - The entire blueprint of the flask app withn POST and GET methods
-- `saved_models: load_model.py` - Contains the code which loads the model
-- `config.yaml` - Contains the dynamic parameters for the app execution
-- `loadyaml.py` - Contains the code to load a specified yaml file
-- `predict.py` - Contains the code to get loaded model do the predictions and return the results
-- `s3_download.py` - Contains the code to download model from s3 bucket
-- `Dockerfile` - Contains the steps required for dockerizing the application
-- `run.py` - The main file where the app execution starts
+***Folder Structure:***
+```
+SentimentAPI-Flask-Part3/
+├── api/
+│   ├── app.py - Initialises the Flask app based on a blueprint
+│   └── ml_app.py - The entire blueprint of the flask app withn POST and GET methods
+├── config.yaml - Contains the dynamic parameters for the app execution
+├── Dockerfile - Contains the steps required for dockerizing the application
+├── loadyaml.py - Contains the code to load a specified yaml file
+├── predict.py - Contains the code to get loaded model do the predictions and return the results
+├── requirements.txt - Contains all the package requirements for app execution
+├── run.py - The main file where the app execution starts
+├── s3_download.py - Contains the code to download model from s3 bucket
+└── saved_models/
+    └── load_model.py - Contains the code which loads the model
+```
 
 ***Steps to follow:***
 - git clone the repository
@@ -67,19 +73,20 @@ The service URL we get from Google Cloud Run and concatenating it with /predict 
 Here in our case it is: `https://sentimentapi-zi7kg63pga-ue.a.run.app/predict`<br><br>
 ***Output:***<br><br>
 JSON having to list predictions<br>
-
-{<br>
-    "input": <br>
-        "data": [<br>
-            "this is the best. It is a good watch",<br>
-            "this is worst!"<br>
-        ]<br>
-    },<br>
-    "pred": [<br>
-        0.9969875812530518,<br>
-        -0.5278245210647583<br>
-    ]<br>
-}<br>
+```
+{
+    "input": 
+        "data": [
+            "this is the best. It is a good watch",
+            "this is worst!"
+        ]
+    },
+    "pred": [
+        0.9969875812530518,
+        -0.5278245210647583
+    ]
+}
+```
 
 
 ***Claat Document:*** https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0
