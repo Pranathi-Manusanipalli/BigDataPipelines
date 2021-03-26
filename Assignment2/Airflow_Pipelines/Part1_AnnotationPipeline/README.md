@@ -6,23 +6,23 @@ This pipeline aims to predict sentiments for each sentence in a list of company 
 ***Project Structure*** :
 Part1_AnnotationPipeline/ <br/>
 ```
-├── airflow-webserver.err <br/>
-├── airflow-webserver.log <br/>
-├── airflow-webserver.out <br/>
-├── airflow.cfg <br/>
-├── airflow.db <br/>
-├── dags/ <br/>
-│   ├── config.yaml: setting up parameters for running the file <br/>
-│   ├── edgar_annotation.py : an entry module for airflow <br/>
-│   ├── files_upload.py: file that fecthes data from S3 <br/>
-│   └── sec-edgar/ <br/>
-│       └── call_transcripts/: List of files that are uploaded to S3 <br/>
-├── edgar_download/: Files downloaded from s3 <br/>
-├── images/ <br/>
-│   ├── AnnotationPipeline.png <br/>
-│   └── README.md <br/>
-├── logs/: Logs <br/>
-├── README.md <br/>
+├── airflow-webserver.err 
+├── airflow-webserver.log 
+├── airflow-webserver.out 
+├── airflow.cfg 
+├── airflow.db 
+├── dags/ 
+│   ├── config.yaml: setting up parameters for running the file 
+│   ├── edgar_annotation.py : an entry module for airflow 
+│   ├── files_upload.py: file that fecthes data from S3 
+│   └── sec-edgar/ 
+│       └── call_transcripts/: List of files that are uploaded to S3 
+├── edgar_download/: Files downloaded from s3 
+├── images/ 
+│   ├── AnnotationPipeline.png 
+│   └── README.md 
+├── logs/: Logs 
+├── README.md 
 ├── requirements.txt: Requirements file ```<br/><br/>
 
 ***Requirements*** -
