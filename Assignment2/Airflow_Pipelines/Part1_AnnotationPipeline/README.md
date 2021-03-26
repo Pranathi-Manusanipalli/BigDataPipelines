@@ -6,11 +6,6 @@ This pipeline aims to predict sentiments for each sentence in a list of company 
 ***Project Structure*** :
 Part1_AnnotationPipeline/ <br/>
 ```
-├── airflow-webserver.err 
-├── airflow-webserver.log 
-├── airflow-webserver.out 
-├── airflow.cfg 
-├── airflow.db 
 ├── dags/ 
 │   ├── config.yaml: setting up parameters for running the file 
 │   ├── edgar_annotation.py : an entry module for airflow 
