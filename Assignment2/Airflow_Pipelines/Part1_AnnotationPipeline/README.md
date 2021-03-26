@@ -9,11 +9,11 @@ Install the dependencies as outlines in the requirements.txt by running pip inst
 Configurations
 Update the dags/config.yaml with dynamic parameters for execution of the pipeline as described below
 
-bucket -> your s3 bucket
-filepath -> local directory where your intial source files are present and are uploaded to s3
-downloadpath -> root directory path to download files
-fetchpath -> local directory where your files are downloaded from s3 and stored
-APIKey -> API key for accesing Microsoft Cognitive Service 
+bucket -> your s3 bucket <br/>
+filepath -> local directory where your intial source files are present and are uploaded to s3 <br/>
+downloadpath -> root directory path to download files <br/>
+fetchpath -> local directory where your files are downloaded from s3 and stored <br/>
+APIKey -> API key for accesing Microsoft Cognitive Service  <br/><br/>
 
 Airflow Configuration
 Use your present working directory as the airflow home export AIRFLOW_HOME=~(pwd)
@@ -24,8 +24,8 @@ initialize the database airflow db init
 
 airflow users create \ --username admin \ --firstname <YourName> \ --lastname <YourLastName> \ --role Admin \ --email example@example.com
 
-Instructions to run
-Run airflow by following these commands
+Instructions to run<br/>
+Run airflow by following these commands<br/><br/>
 
 - Start the airflow server in daemon on port 8081 airflow webserver -D -p 8081 <br/>
 - Start the scheduler airflow scheduler Once both are running , you can access the UI by visting http://127.0.0.1:8080/home on your browser. <br/>
