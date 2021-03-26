@@ -28,6 +28,6 @@ Run airflow by following these commands <br/>
 - Once you login to Airflow on the browser, run the DAG ***EDGAR-Annotation-Pipeline*** <br/>
 - Once the pipeline is run successfully, the model is saved in the specified path in the s3 bucket. <br/>
 - The command lsof -i tcp:8081  shows a list of processes with PIDs <br/>
-- kill PID command can be used to kill the process <br/>
+- kill PID command can be used to kill the process <br/><br/>
 CLAT document - <br/>
 Refer to https://codelabs-preview.appspot.com/?file_id=1jCLBg9N-M6sL1eEP3I5kE4cvZVNoPEeiTT1aiGq8qdY#0 for detailed report on the creating an annotation pipeline
