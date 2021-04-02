@@ -13,7 +13,20 @@ Install the dependencies as outlines in the requirements.txt by running
 * pytest
 * Locust
 * Diagrams
+
+
 ### Instructions to run
--  Basic usage of the API is available in main.py. 
+-  Basic usage of the API is available in 'main.py'
 - Run the server with uvicorn main:app --reload
 - Go to http://127.0.0.1:8000/docs and you should see the interactive API documentation
+- Run the pytests defined in the in the 'test_main.py' file using the following commands
+
+`pytest -m configtest -v`  - To run the tests marked as 'configtest'
+`pytest -m starttest -v`  - To run the tests marked as starttest
+`pytest -m valuetest -v` - To run the tests marked as valuetests
+
+- To load test using locust, run the following command in the terminal `locust` which starts a web user interface at a specific port number, in our case it is localhost:8089
+
+- Unittesting.ipynb -> Jupyter notebook to run API test cases
+
+
