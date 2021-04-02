@@ -32,4 +32,6 @@ Install the dependencies as outlines in the requirements.txt by running
 
 - Unittesting.ipynb -> Jupyter notebook to run API test cases
 
+Detailed Claat Document - https://codelabs-preview.appspot.com/?file_id=1Xudq8lRNntqg1U7c-0w1jIf_eJcNshnpj5vEi0Zdwt0#0
+
 
