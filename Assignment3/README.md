@@ -1,6 +1,9 @@
 ## Data As a Service
 In this Assignment we have reviewed the Moody's Analytics portal to understand how APIs are designed and made the Nasa Turbofan Jet Engine Data available as an API
 
+## Pipeline
+![Pipeline](images/pipeline.png)
+
 ### Requirements - 
 Install the dependencies as outlines in the requirements.txt by running 
 `pip install -r requirements.txt`
