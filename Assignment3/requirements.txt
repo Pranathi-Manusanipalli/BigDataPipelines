@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+snowflake-connector-python
+pandas
+pyarrow
+fastparquet
+SQLAlchemy==1.3.18
+apache-airflow
+pytest
+locust
+requests==2.22.0
+ipytest
+pytest-tornasync
+ipynb
+nest_asyncio

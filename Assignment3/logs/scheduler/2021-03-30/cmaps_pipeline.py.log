@@ -1,0 +1,238 @@
+[2021-03-30 19:08:48,926] {scheduler_job.py:182} INFO - Started process (PID=20543) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:08:48,928] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:08:48,931] {logging_mixin.py:104} INFO - [2021-03-30 19:08:48,930] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:08:54,259] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:08:54,283] {logging_mixin.py:104} INFO - [2021-03-30 19:08:54,282] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:08:54,303] {logging_mixin.py:104} INFO - [2021-03-30 19:08:54,302] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to 2021-03-30 00:00:00+00:00
+[2021-03-30 19:08:54,316] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.395 seconds
+[2021-03-30 19:13:24,218] {scheduler_job.py:182} INFO - Started process (PID=20680) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:13:24,225] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:13:24,230] {logging_mixin.py:104} INFO - [2021-03-30 19:13:24,229] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:13:30,645] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:13:30,683] {logging_mixin.py:104} INFO - [2021-03-30 19:13:30,682] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:13:30,722] {logging_mixin.py:104} INFO - [2021-03-30 19:13:30,714] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to 2021-03-30 00:00:00+00:00
+[2021-03-30 19:13:30,744] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 6.534 seconds
+[2021-03-30 19:16:05,559] {scheduler_job.py:182} INFO - Started process (PID=20753) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:05,562] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:16:05,564] {logging_mixin.py:104} INFO - [2021-03-30 19:16:05,563] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:09,491] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:09,513] {logging_mixin.py:104} INFO - [2021-03-30 19:16:09,512] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:16:09,541] {logging_mixin.py:104} INFO - [2021-03-30 19:16:09,540] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:16:09,603] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.009 seconds
+[2021-03-30 19:16:44,402] {scheduler_job.py:182} INFO - Started process (PID=20799) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:44,406] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:16:44,407] {logging_mixin.py:104} INFO - [2021-03-30 19:16:44,407] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:47,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:16:47,433] {logging_mixin.py:104} INFO - [2021-03-30 19:16:47,432] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:16:47,460] {logging_mixin.py:104} INFO - [2021-03-30 19:16:47,459] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:16:47,475] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.077 seconds
+[2021-03-30 19:17:21,525] {scheduler_job.py:182} INFO - Started process (PID=20837) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:17:21,529] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:17:21,531] {logging_mixin.py:104} INFO - [2021-03-30 19:17:21,531] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:17:25,639] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:17:25,669] {logging_mixin.py:104} INFO - [2021-03-30 19:17:25,668] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:17:25,687] {logging_mixin.py:104} INFO - [2021-03-30 19:17:25,687] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:17:25,698] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.187 seconds
+[2021-03-30 19:17:58,063] {scheduler_job.py:182} INFO - Started process (PID=20873) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:17:58,067] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:17:58,070] {logging_mixin.py:104} INFO - [2021-03-30 19:17:58,069] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:18:03,807] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:18:03,821] {logging_mixin.py:104} INFO - [2021-03-30 19:18:03,820] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:18:03,840] {logging_mixin.py:104} INFO - [2021-03-30 19:18:03,839] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:18:03,850] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.795 seconds
+[2021-03-30 19:21:12,098] {scheduler_job.py:182} INFO - Started process (PID=20953) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:21:12,102] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:21:12,107] {logging_mixin.py:104} INFO - [2021-03-30 19:21:12,105] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:21:19,534] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:21:19,558] {logging_mixin.py:104} INFO - [2021-03-30 19:21:19,557] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:21:19,730] {logging_mixin.py:104} INFO - [2021-03-30 19:21:19,729] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:21:19,750] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 7.657 seconds
+[2021-03-30 19:21:57,602] {scheduler_job.py:182} INFO - Started process (PID=21003) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:21:57,611] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:21:57,613] {logging_mixin.py:104} INFO - [2021-03-30 19:21:57,613] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:22:04,192] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:22:04,299] {logging_mixin.py:104} INFO - [2021-03-30 19:22:04,288] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:22:04,486] {logging_mixin.py:104} INFO - [2021-03-30 19:22:04,476] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:22:04,505] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 6.912 seconds
+[2021-03-30 19:22:39,013] {scheduler_job.py:182} INFO - Started process (PID=21035) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:22:39,017] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:22:39,020] {logging_mixin.py:104} INFO - [2021-03-30 19:22:39,019] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:22:43,763] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:22:43,875] {logging_mixin.py:104} INFO - [2021-03-30 19:22:43,874] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:22:44,054] {logging_mixin.py:104} INFO - [2021-03-30 19:22:44,053] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:22:44,066] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.059 seconds
+[2021-03-30 19:23:24,301] {scheduler_job.py:182} INFO - Started process (PID=21077) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:23:24,307] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:23:24,310] {logging_mixin.py:104} INFO - [2021-03-30 19:23:24,309] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:23:30,799] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:23:30,813] {logging_mixin.py:104} INFO - [2021-03-30 19:23:30,812] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:23:30,831] {logging_mixin.py:104} INFO - [2021-03-30 19:23:30,830] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:23:30,859] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 6.570 seconds
+[2021-03-30 19:24:05,779] {scheduler_job.py:182} INFO - Started process (PID=21116) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:05,783] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:24:05,786] {logging_mixin.py:104} INFO - [2021-03-30 19:24:05,784] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:09,501] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:09,524] {logging_mixin.py:104} INFO - [2021-03-30 19:24:09,517] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:24:09,581] {logging_mixin.py:104} INFO - [2021-03-30 19:24:09,579] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:24:09,610] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.836 seconds
+[2021-03-30 19:24:43,427] {scheduler_job.py:182} INFO - Started process (PID=21156) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:43,436] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:24:43,438] {logging_mixin.py:104} INFO - [2021-03-30 19:24:43,437] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:47,239] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:24:47,271] {logging_mixin.py:104} INFO - [2021-03-30 19:24:47,269] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:24:47,306] {logging_mixin.py:104} INFO - [2021-03-30 19:24:47,305] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:24:47,323] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.908 seconds
+[2021-03-30 19:25:24,356] {scheduler_job.py:182} INFO - Started process (PID=21196) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:25:24,359] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:25:24,361] {logging_mixin.py:104} INFO - [2021-03-30 19:25:24,360] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:25:29,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:25:29,209] {logging_mixin.py:104} INFO - [2021-03-30 19:25:29,208] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:25:29,234] {logging_mixin.py:104} INFO - [2021-03-30 19:25:29,233] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:25:29,244] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.895 seconds
+[2021-03-30 19:26:02,238] {scheduler_job.py:182} INFO - Started process (PID=21228) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:02,241] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:26:02,244] {logging_mixin.py:104} INFO - [2021-03-30 19:26:02,243] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:08,796] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:08,828] {logging_mixin.py:104} INFO - [2021-03-30 19:26:08,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:26:08,878] {logging_mixin.py:104} INFO - [2021-03-30 19:26:08,877] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:26:08,897] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 6.669 seconds
+[2021-03-30 19:26:42,155] {scheduler_job.py:182} INFO - Started process (PID=21273) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:42,158] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:26:42,161] {logging_mixin.py:104} INFO - [2021-03-30 19:26:42,160] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:46,786] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:26:46,800] {logging_mixin.py:104} INFO - [2021-03-30 19:26:46,799] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:26:46,832] {logging_mixin.py:104} INFO - [2021-03-30 19:26:46,832] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:26:46,850] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.704 seconds
+[2021-03-30 19:32:44,823] {scheduler_job.py:182} INFO - Started process (PID=21419) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:32:44,827] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:32:44,834] {logging_mixin.py:104} INFO - [2021-03-30 19:32:44,832] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:32:55,905] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:32:56,030] {logging_mixin.py:104} INFO - [2021-03-30 19:32:56,024] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:32:56,188] {logging_mixin.py:104} INFO - [2021-03-30 19:32:56,188] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:32:56,202] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 11.390 seconds
+[2021-03-30 19:33:29,246] {scheduler_job.py:182} INFO - Started process (PID=21470) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:33:29,250] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:33:29,253] {logging_mixin.py:104} INFO - [2021-03-30 19:33:29,252] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:33:32,726] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:33:32,741] {logging_mixin.py:104} INFO - [2021-03-30 19:33:32,739] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:33:32,753] {logging_mixin.py:104} INFO - [2021-03-30 19:33:32,752] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:33:32,768] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.534 seconds
+[2021-03-30 19:34:04,356] {scheduler_job.py:182} INFO - Started process (PID=21501) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:04,359] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:34:04,362] {logging_mixin.py:104} INFO - [2021-03-30 19:34:04,361] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:08,118] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:08,196] {logging_mixin.py:104} INFO - [2021-03-30 19:34:08,184] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:34:08,278] {logging_mixin.py:104} INFO - [2021-03-30 19:34:08,277] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:34:08,335] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.986 seconds
+[2021-03-30 19:34:41,361] {scheduler_job.py:182} INFO - Started process (PID=21543) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:41,368] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:34:41,372] {logging_mixin.py:104} INFO - [2021-03-30 19:34:41,371] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:48,981] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:34:49,046] {logging_mixin.py:104} INFO - [2021-03-30 19:34:49,045] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:34:49,088] {logging_mixin.py:104} INFO - [2021-03-30 19:34:49,087] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:34:49,106] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 7.759 seconds
+[2021-03-30 19:35:21,350] {scheduler_job.py:182} INFO - Started process (PID=21592) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:35:21,352] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:35:21,355] {logging_mixin.py:104} INFO - [2021-03-30 19:35:21,354] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:35:25,001] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:35:25,027] {logging_mixin.py:104} INFO - [2021-03-30 19:35:25,026] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:35:25,077] {logging_mixin.py:104} INFO - [2021-03-30 19:35:25,074] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:35:25,088] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.746 seconds
+[2021-03-30 19:35:59,673] {scheduler_job.py:182} INFO - Started process (PID=21646) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:35:59,677] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:35:59,681] {logging_mixin.py:104} INFO - [2021-03-30 19:35:59,679] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:36:04,540] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:36:04,561] {logging_mixin.py:104} INFO - [2021-03-30 19:36:04,560] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:36:04,583] {logging_mixin.py:104} INFO - [2021-03-30 19:36:04,583] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:36:04,593] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.927 seconds
+[2021-03-30 19:36:38,216] {scheduler_job.py:182} INFO - Started process (PID=21693) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:36:38,222] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:36:38,223] {logging_mixin.py:104} INFO - [2021-03-30 19:36:38,223] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:36:42,810] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:36:42,824] {logging_mixin.py:104} INFO - [2021-03-30 19:36:42,823] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:36:42,856] {logging_mixin.py:104} INFO - [2021-03-30 19:36:42,854] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:36:42,872] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.662 seconds
+[2021-03-30 19:37:17,093] {scheduler_job.py:182} INFO - Started process (PID=21737) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:37:17,097] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:37:17,101] {logging_mixin.py:104} INFO - [2021-03-30 19:37:17,100] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:37:22,345] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:37:22,391] {logging_mixin.py:104} INFO - [2021-03-30 19:37:22,390] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:37:22,415] {logging_mixin.py:104} INFO - [2021-03-30 19:37:22,415] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:37:22,430] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.346 seconds
+[2021-03-30 19:38:04,044] {scheduler_job.py:182} INFO - Started process (PID=21802) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:04,049] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:38:04,052] {logging_mixin.py:104} INFO - [2021-03-30 19:38:04,051] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:09,382] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:09,402] {logging_mixin.py:104} INFO - [2021-03-30 19:38:09,401] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:38:09,423] {logging_mixin.py:104} INFO - [2021-03-30 19:38:09,422] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:38:09,448] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.417 seconds
+[2021-03-30 19:38:44,087] {scheduler_job.py:182} INFO - Started process (PID=21839) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:44,090] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:38:44,092] {logging_mixin.py:104} INFO - [2021-03-30 19:38:44,091] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:49,405] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:38:49,455] {logging_mixin.py:104} INFO - [2021-03-30 19:38:49,454] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:38:49,520] {logging_mixin.py:104} INFO - [2021-03-30 19:38:49,518] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:38:49,532] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.453 seconds
+[2021-03-30 19:43:19,450] {scheduler_job.py:182} INFO - Started process (PID=21965) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:43:19,455] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:43:19,457] {logging_mixin.py:104} INFO - [2021-03-30 19:43:19,456] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:43:30,713] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:43:30,896] {logging_mixin.py:104} INFO - [2021-03-30 19:43:30,893] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:43:30,999] {logging_mixin.py:104} INFO - [2021-03-30 19:43:30,997] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:43:31,105] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 11.664 seconds
+[2021-03-30 19:44:10,580] {scheduler_job.py:182} INFO - Started process (PID=22008) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:10,583] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:44:10,585] {logging_mixin.py:104} INFO - [2021-03-30 19:44:10,585] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:16,217] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:16,339] {logging_mixin.py:104} INFO - [2021-03-30 19:44:16,337] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:44:16,396] {logging_mixin.py:104} INFO - [2021-03-30 19:44:16,395] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:44:16,411] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.840 seconds
+[2021-03-30 19:44:51,998] {scheduler_job.py:182} INFO - Started process (PID=22045) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:52,009] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:44:52,012] {logging_mixin.py:104} INFO - [2021-03-30 19:44:52,012] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:57,863] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:44:57,887] {logging_mixin.py:104} INFO - [2021-03-30 19:44:57,886] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:44:57,914] {logging_mixin.py:104} INFO - [2021-03-30 19:44:57,913] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:44:57,934] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.948 seconds
+[2021-03-30 19:45:29,904] {scheduler_job.py:182} INFO - Started process (PID=22097) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:45:29,909] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:45:29,913] {logging_mixin.py:104} INFO - [2021-03-30 19:45:29,911] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:45:35,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:45:35,363] {logging_mixin.py:104} INFO - [2021-03-30 19:45:35,362] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:45:35,393] {logging_mixin.py:104} INFO - [2021-03-30 19:45:35,392] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:45:35,406] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 5.508 seconds
+[2021-03-30 19:46:08,856] {scheduler_job.py:182} INFO - Started process (PID=22128) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:08,859] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:46:08,863] {logging_mixin.py:104} INFO - [2021-03-30 19:46:08,862] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:12,528] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:12,544] {logging_mixin.py:104} INFO - [2021-03-30 19:46:12,543] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:46:12,564] {logging_mixin.py:104} INFO - [2021-03-30 19:46:12,563] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:46:12,574] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 3.730 seconds
+[2021-03-30 19:46:46,212] {scheduler_job.py:182} INFO - Started process (PID=22159) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:46,213] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:46:46,215] {logging_mixin.py:104} INFO - [2021-03-30 19:46:46,215] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:50,229] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:46:50,258] {logging_mixin.py:104} INFO - [2021-03-30 19:46:50,256] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:46:50,281] {logging_mixin.py:104} INFO - [2021-03-30 19:46:50,280] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:46:50,295] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 4.088 seconds
+[2021-03-30 19:47:23,910] {scheduler_job.py:182} INFO - Started process (PID=22193) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:47:23,922] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:47:23,928] {logging_mixin.py:104} INFO - [2021-03-30 19:47:23,927] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:47:31,229] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:47:31,273] {logging_mixin.py:104} INFO - [2021-03-30 19:47:31,269] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:47:31,336] {logging_mixin.py:104} INFO - [2021-03-30 19:47:31,335] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:47:31,361] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 7.472 seconds
+[2021-03-30 19:54:19,620] {scheduler_job.py:182} INFO - Started process (PID=22385) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:54:19,622] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:54:19,624] {logging_mixin.py:104} INFO - [2021-03-30 19:54:19,624] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:54:31,721] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:54:32,017] {logging_mixin.py:104} INFO - [2021-03-30 19:54:32,017] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:54:32,043] {logging_mixin.py:104} INFO - [2021-03-30 19:54:32,043] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:54:32,055] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 12.436 seconds
+[2021-03-30 19:58:12,817] {scheduler_job.py:182} INFO - Started process (PID=22494) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:58:12,818] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py for tasks to queue
+[2021-03-30 19:58:12,818] {logging_mixin.py:104} INFO - [2021-03-30 19:58:12,818] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:58:15,639] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CMAPS_SNOWFLAKE_INGESTION']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py
+[2021-03-30 19:58:15,701] {logging_mixin.py:104} INFO - [2021-03-30 19:58:15,701] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-30 19:58:15,715] {logging_mixin.py:104} INFO - [2021-03-30 19:58:15,715] {dag.py:2273} INFO - Setting next_dagrun for CMAPS_SNOWFLAKE_INGESTION to None
+[2021-03-30 19:58:15,722] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py took 2.905 seconds

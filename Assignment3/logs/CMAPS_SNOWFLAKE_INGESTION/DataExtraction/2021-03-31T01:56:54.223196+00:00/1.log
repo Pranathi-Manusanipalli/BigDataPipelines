@@ -1,0 +1,24 @@
+[2021-03-30 21:57:03,261] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataExtraction 2021-03-31T01:56:54.223196+00:00 [queued]>
+[2021-03-30 21:57:03,271] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataExtraction 2021-03-31T01:56:54.223196+00:00 [queued]>
+[2021-03-30 21:57:03,271] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-30 21:57:03,271] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-30 21:57:03,271] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-30 21:57:03,282] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): DataExtraction> on 2021-03-31T01:56:54.223196+00:00
+[2021-03-30 21:57:03,285] {standard_task_runner.py:52} INFO - Started process 25235 to run task
+[2021-03-30 21:57:03,299] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CMAPS_SNOWFLAKE_INGESTION', 'DataExtraction', '2021-03-31T01:56:54.223196+00:00', '--job-id', '20', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/cmaps_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpffw5gofe', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp1l06w6k9']
+[2021-03-30 21:57:03,303] {standard_task_runner.py:77} INFO - Job 20: Subtask DataExtraction
+[2021-03-30 21:57:03,395] {logging_mixin.py:104} INFO - Running <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataExtraction 2021-03-31T01:56:54.223196+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-30 21:57:03,429] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CMAPS_SNOWFLAKE_INGESTION
+AIRFLOW_CTX_TASK_ID=DataExtraction
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-31T01:56:54.223196+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-31T01:56:54.223196+00:00
+[2021-03-30 21:57:03,441] {logging_mixin.py:104} WARNING - /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/airflow/dags/cmaps_pipeline.py:23 ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+[2021-03-30 21:57:21,474] {logging_mixin.py:104} INFO - Files saved successfully
+[2021-03-30 21:57:21,497] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-30 21:57:21,504] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=CMAPS_SNOWFLAKE_INGESTION, task_id=DataExtraction, execution_date=20210331T015654, start_date=20210331T015703, end_date=20210331T015721
+[2021-03-30 21:57:21,525] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-30 21:57:21,576] {local_task_job.py:146} INFO - Task exited with return code 0

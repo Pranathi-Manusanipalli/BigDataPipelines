@@ -1,0 +1,60 @@
+[2021-03-30 22:34:04,153] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataLoadSnowflake 2021-03-31T02:32:07+00:00 [queued]>
+[2021-03-30 22:34:04,168] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataLoadSnowflake 2021-03-31T02:32:07+00:00 [queued]>
+[2021-03-30 22:34:04,168] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-30 22:34:04,168] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-30 22:34:04,168] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-30 22:34:04,182] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): DataLoadSnowflake> on 2021-03-31T02:32:07+00:00
+[2021-03-30 22:34:04,189] {standard_task_runner.py:52} INFO - Started process 26291 to run task
+[2021-03-30 22:34:04,206] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CMAPS_SNOWFLAKE_INGESTION', 'DataLoadSnowflake', '2021-03-31T02:32:07+00:00', '--job-id', '30', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/cmaps_pipeline.py', '--cfg-path', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmp06bems6l', '--error-file', '/var/folders/j6/755w2l7n4x1c9313788klj880000gq/T/tmpslf1dts9']
+[2021-03-30 22:34:04,209] {standard_task_runner.py:77} INFO - Job 30: Subtask DataLoadSnowflake
+[2021-03-30 22:34:04,313] {logging_mixin.py:104} INFO - Running <TaskInstance: CMAPS_SNOWFLAKE_INGESTION.DataLoadSnowflake 2021-03-31T02:32:07+00:00 [running]> on host 152.1.168.192.in-addr.arpa
+[2021-03-30 22:34:04,387] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CMAPS_SNOWFLAKE_INGESTION
+AIRFLOW_CTX_TASK_ID=DataLoadSnowflake
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-31T02:32:07+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-31T02:32:07+00:00
+[2021-03-30 22:34:08,009] {connection.py:218} INFO - Snowflake Connector for Python Version: 2.4.1, Python Version: 3.9.1, Platform: macOS-10.16-x86_64-i386-64bit
+[2021-03-30 22:34:08,015] {connection.py:773} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2021-03-30 22:34:10,024] {cursor.py:556} INFO - query: [USE ROLE SYSADMIN]
+[2021-03-30 22:34:10,160] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,161] {cursor.py:556} INFO - query: [CREATE WAREHOUSE IF NOT EXISTS CMAPS WITH WAREHOUSE_SIZE = XSMALL]
+[2021-03-30 22:34:10,344] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,345] {cursor.py:556} INFO - query: [USE WAREHOUSE CMAPS]
+[2021-03-30 22:34:10,452] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,453] {cursor.py:556} INFO - query: [CREATE DATABASE IF NOT EXISTS NASA_CMAPS]
+[2021-03-30 22:34:10,555] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,556] {cursor.py:556} INFO - query: [USE DATABASE NASA_CMAPS]
+[2021-03-30 22:34:10,645] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,652] {cursor.py:556} INFO - query: [CREATE SCHEMA IF NOT EXISTS DEV]
+[2021-03-30 22:34:10,742] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,743] {cursor.py:556} INFO - query: [USE SCHEMA DEV]
+[2021-03-30 22:34:10,837] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:10,838] {cursor.py:556} INFO - query: [CREATE TABLE IF NOT EXISTS TRAIN_TEST (unit_number INT, time_in_cycles INT, oper...]
+[2021-03-30 22:34:11,022] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:11,023] {cursor.py:556} INFO - query: [CREATE TABLE IF NOT EXISTS RUL(rul INT,fault STRING,unit_number INT)]
+[2021-03-30 22:34:11,192] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:11,194] {logging_mixin.py:104} INFO - Database objects created successfully
+[2021-03-30 22:34:11,202] {cursor.py:556} INFO - query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+[2021-03-30 22:34:11,526] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:11,527] {json_result.py:117} INFO - fetching data done
+[2021-03-30 22:34:15,614] {cursor.py:556} INFO - query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file:///var/fo...]
+[2021-03-30 22:34:15,886] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:19,900] {cursor.py:556} INFO - query: [COPY INTO "TRAIN_TEST" /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+[2021-03-30 22:34:24,996] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:24,997] {json_result.py:117} INFO - fetching data done
+[2021-03-30 22:34:24,998] {cursor.py:556} INFO - query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+[2021-03-30 22:34:25,091] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:25,092] {json_result.py:117} INFO - fetching data done
+[2021-03-30 22:34:25,102] {cursor.py:556} INFO - query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file:///var/fo...]
+[2021-03-30 22:34:25,202] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:26,773] {cursor.py:556} INFO - query: [COPY INTO "RUL" /* Python:snowflake.connector.pandas_tools.write_pandas() */ ("R...]
+[2021-03-30 22:34:27,933] {cursor.py:572} INFO - query execution done
+[2021-03-30 22:34:27,936] {json_result.py:117} INFO - fetching data done
+[2021-03-30 22:34:27,944] {logging_mixin.py:104} INFO - Database objects loaded successfully
+[2021-03-30 22:34:27,950] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-30 22:34:28,008] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=CMAPS_SNOWFLAKE_INGESTION, task_id=DataLoadSnowflake, execution_date=20210331T023207, start_date=20210331T023404, end_date=20210331T023428
+[2021-03-30 22:34:28,143] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-30 22:34:28,255] {local_task_job.py:146} INFO - Task exited with return code 0

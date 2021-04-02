@@ -1,0 +1,444 @@
+[2021-03-30 19:08:38,848] {scheduler_job.py:182} INFO - Started process (PID=20524) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:08:38,853] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:08:38,857] {logging_mixin.py:104} INFO - [2021-03-30 19:08:38,856] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:08:39,088] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:08:39,135] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,133] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:08:39,275] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,273] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:08:39,285] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,285] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:08:39,287] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,286] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:08:39,302] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,301] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:08:39,319] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,318] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:08:39,321] {logging_mixin.py:104} INFO - [2021-03-30 19:08:39,320] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:08:39,339] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.501 seconds
+[2021-03-30 19:13:00,680] {scheduler_job.py:182} INFO - Started process (PID=20649) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:13:00,684] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:13:00,687] {logging_mixin.py:104} INFO - [2021-03-30 19:13:00,686] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:13:00,867] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:13:00,960] {logging_mixin.py:104} INFO - [2021-03-30 19:13:00,957] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:13:01,043] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,042] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:13:01,053] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,047] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:13:01,055] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,054] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:13:01,078] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,077] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:13:01,138] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,138] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:13:01,152] {logging_mixin.py:104} INFO - [2021-03-30 19:13:01,150] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:13:01,175] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.503 seconds
+[2021-03-30 19:15:44,762] {scheduler_job.py:182} INFO - Started process (PID=20735) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:15:44,844] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:15:44,847] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,846] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:15:44,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:15:44,918] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,916] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:15:44,947] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,946] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:15:44,951] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,951] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:15:44,953] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,952] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:15:44,968] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,967] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:15:44,994] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,993] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:15:44,998] {logging_mixin.py:104} INFO - [2021-03-30 19:15:44,997] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:15:45,015] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.262 seconds
+[2021-03-30 19:16:27,270] {scheduler_job.py:182} INFO - Started process (PID=20782) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:16:27,273] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:16:27,277] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,275] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:16:27,329] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:16:27,359] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,358] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:16:27,399] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,398] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:16:27,403] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,403] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:16:27,406] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,405] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:16:27,422] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,421] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:16:27,453] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,453] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:16:27,455] {logging_mixin.py:104} INFO - [2021-03-30 19:16:27,454] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:16:27,472] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.214 seconds
+[2021-03-30 19:17:10,563] {scheduler_job.py:182} INFO - Started process (PID=20825) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:10,573] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:17:10,578] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,576] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:10,616] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:10,637] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,637] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:17:10,652] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,650] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:17:10,654] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,654] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:17:10,655] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,655] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:17:10,662] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,661] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:17:10,685] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,684] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:17:10,687] {logging_mixin.py:104} INFO - [2021-03-30 19:17:10,686] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:17:10,697] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.142 seconds
+[2021-03-30 19:17:50,042] {scheduler_job.py:182} INFO - Started process (PID=20863) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:50,049] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:17:50,052] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,051] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:50,113] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:17:50,146] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,145] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:17:50,189] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,186] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:17:50,193] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,192] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:17:50,195] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,194] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:17:50,208] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,208] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:17:50,225] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,222] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:17:50,230] {logging_mixin.py:104} INFO - [2021-03-30 19:17:50,229] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:17:50,255] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.221 seconds
+[2021-03-30 19:18:29,975] {scheduler_job.py:182} INFO - Started process (PID=20898) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:18:29,979] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:18:29,981] {logging_mixin.py:104} INFO - [2021-03-30 19:18:29,980] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:18:30,026] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:18:30,043] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,042] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:18:30,057] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,056] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:18:30,059] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,058] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:18:30,060] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,059] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:18:30,073] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,072] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:18:30,087] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,086] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:18:30,090] {logging_mixin.py:104} INFO - [2021-03-30 19:18:30,087] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:18:30,097] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.132 seconds
+[2021-03-30 19:21:34,801] {scheduler_job.py:182} INFO - Started process (PID=20969) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:21:34,805] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:21:34,808] {logging_mixin.py:104} INFO - [2021-03-30 19:21:34,807] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:21:34,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:21:34,957] {logging_mixin.py:104} INFO - [2021-03-30 19:21:34,954] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:21:35,057] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,056] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:21:35,107] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,106] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:21:35,108] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,107] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:21:35,119] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,118] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:21:35,176] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,175] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:21:35,177] {logging_mixin.py:104} INFO - [2021-03-30 19:21:35,176] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:21:35,192] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.404 seconds
+[2021-03-30 19:22:11,125] {scheduler_job.py:182} INFO - Started process (PID=21012) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:11,128] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:22:11,131] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,131] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:11,201] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:11,278] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,258] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:22:11,511] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,509] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:22:11,524] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,523] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:22:11,528] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,526] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:22:11,554] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,553] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:22:11,591] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,590] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:22:11,594] {logging_mixin.py:104} INFO - [2021-03-30 19:22:11,593] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:22:11,643] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.532 seconds
+[2021-03-30 19:22:49,267] {scheduler_job.py:182} INFO - Started process (PID=21042) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:49,275] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:22:49,277] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,277] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:49,430] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:22:49,500] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,499] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:22:49,544] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,542] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:22:49,548] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,547] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:22:49,553] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,549] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:22:49,743] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,742] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:22:49,818] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,814] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:22:49,821] {logging_mixin.py:104} INFO - [2021-03-30 19:22:49,820] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:22:49,840] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.580 seconds
+[2021-03-30 19:23:22,071] {scheduler_job.py:182} INFO - Started process (PID=21076) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:23:22,077] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:23:22,081] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,080] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:23:22,196] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:23:22,561] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,556] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:23:22,768] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,768] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:23:22,818] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,817] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:23:22,822] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,819] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:23:22,908] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,907] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:23:22,929] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,928] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:23:22,930] {logging_mixin.py:104} INFO - [2021-03-30 19:23:22,929] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:23:23,042] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.979 seconds
+[2021-03-30 19:24:00,032] {scheduler_job.py:182} INFO - Started process (PID=21111) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:00,043] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:24:00,049] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,046] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:00,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:00,161] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,160] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:24:00,196] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,194] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:24:00,205] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,199] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:24:00,207] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,206] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:24:00,226] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,225] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:24:00,262] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,262] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:24:00,264] {logging_mixin.py:104} INFO - [2021-03-30 19:24:00,263] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:24:00,277] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.264 seconds
+[2021-03-30 19:24:35,116] {scheduler_job.py:182} INFO - Started process (PID=21144) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:35,121] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:24:35,124] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,123] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:35,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:24:35,316] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,315] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:24:35,375] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,374] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:24:35,378] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,377] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:24:35,380] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,379] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:24:35,416] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,398] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:24:35,457] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,451] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:24:35,459] {logging_mixin.py:104} INFO - [2021-03-30 19:24:35,458] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:24:35,500] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.395 seconds
+[2021-03-30 19:25:13,883] {scheduler_job.py:182} INFO - Started process (PID=21180) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:13,887] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:25:13,890] {logging_mixin.py:104} INFO - [2021-03-30 19:25:13,889] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:13,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:13,972] {logging_mixin.py:104} INFO - [2021-03-30 19:25:13,972] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:25:13,996] {logging_mixin.py:104} INFO - [2021-03-30 19:25:13,995] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:25:13,998] {logging_mixin.py:104} INFO - [2021-03-30 19:25:13,998] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:25:14,000] {logging_mixin.py:104} INFO - [2021-03-30 19:25:13,999] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:25:14,015] {logging_mixin.py:104} INFO - [2021-03-30 19:25:14,014] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:25:14,030] {logging_mixin.py:104} INFO - [2021-03-30 19:25:14,029] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:25:14,032] {logging_mixin.py:104} INFO - [2021-03-30 19:25:14,031] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:25:14,047] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.175 seconds
+[2021-03-30 19:25:50,032] {scheduler_job.py:182} INFO - Started process (PID=21218) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:50,037] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:25:50,040] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,039] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:50,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:25:50,231] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,231] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:25:50,277] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,275] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:25:50,281] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,280] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:25:50,283] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,282] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:25:50,299] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,292] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:25:50,316] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,314] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:25:50,319] {logging_mixin.py:104} INFO - [2021-03-30 19:25:50,317] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:25:50,347] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.330 seconds
+[2021-03-30 19:26:22,614] {scheduler_job.py:182} INFO - Started process (PID=21251) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:26:22,618] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:26:22,623] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,622] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:26:22,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:26:22,718] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,718] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:26:22,767] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,764] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:26:22,771] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,770] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:26:22,775] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,773] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:26:22,786] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,786] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:26:22,798] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,797] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:26:22,804] {logging_mixin.py:104} INFO - [2021-03-30 19:26:22,801] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:26:22,814] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.210 seconds
+[2021-03-30 19:27:00,371] {scheduler_job.py:182} INFO - Started process (PID=21296) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:27:00,382] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:27:00,385] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,384] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:27:00,452] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:27:00,494] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,491] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:27:00,536] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,535] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:27:00,539] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,538] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:27:00,547] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,546] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:27:00,587] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,586] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:27:00,655] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,653] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:27:00,668] {logging_mixin.py:104} INFO - [2021-03-30 19:27:00,667] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:27:00,684] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.320 seconds
+[2021-03-30 19:32:27,809] {scheduler_job.py:182} INFO - Started process (PID=21406) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:32:27,814] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:32:27,816] {logging_mixin.py:104} INFO - [2021-03-30 19:32:27,815] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:32:27,897] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:32:28,187] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,186] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:32:28,218] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,218] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:32:28,223] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,222] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:32:28,224] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,224] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:32:28,307] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,306] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:32:28,340] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,337] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:32:28,341] {logging_mixin.py:104} INFO - [2021-03-30 19:32:28,341] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:32:28,352] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.553 seconds
+[2021-03-30 19:33:13,409] {scheduler_job.py:182} INFO - Started process (PID=21451) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:13,413] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:33:13,416] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,415] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:13,489] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:13,526] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,525] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:33:13,553] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,552] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:33:13,576] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,574] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:33:13,582] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,581] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:33:13,601] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,600] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:33:13,638] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,637] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:33:13,647] {logging_mixin.py:104} INFO - [2021-03-30 19:33:13,641] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:33:13,669] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.266 seconds
+[2021-03-30 19:33:44,229] {scheduler_job.py:182} INFO - Started process (PID=21481) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:44,236] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:33:44,239] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,238] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:44,287] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:33:44,320] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,318] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:33:44,340] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,340] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:33:44,344] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,342] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:33:44,346] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,345] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:33:44,354] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,353] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:33:44,373] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,373] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:33:44,377] {logging_mixin.py:104} INFO - [2021-03-30 19:33:44,375] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:33:44,390] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.168 seconds
+[2021-03-30 19:34:17,293] {scheduler_job.py:182} INFO - Started process (PID=21517) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:17,306] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:34:17,312] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,311] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:17,399] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:17,430] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,429] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:34:17,479] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,477] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:34:17,484] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,483] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:34:17,486] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,485] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:34:17,512] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,505] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:34:17,548] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,539] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:34:17,551] {logging_mixin.py:104} INFO - [2021-03-30 19:34:17,551] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:34:17,571] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.283 seconds
+[2021-03-30 19:34:53,083] {scheduler_job.py:182} INFO - Started process (PID=21559) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:53,089] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:34:53,093] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,092] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:53,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:34:53,186] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,186] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:34:53,216] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,215] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:34:53,231] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,231] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:34:53,233] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,232] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:34:53,248] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,246] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:34:53,273] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,272] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:34:53,278] {logging_mixin.py:104} INFO - [2021-03-30 19:34:53,278] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:34:53,305] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.229 seconds
+[2021-03-30 19:35:29,960] {scheduler_job.py:182} INFO - Started process (PID=21601) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:35:29,965] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:35:29,969] {logging_mixin.py:104} INFO - [2021-03-30 19:35:29,968] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:35:30,029] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:35:30,051] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,050] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:35:30,073] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,072] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:35:30,075] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,075] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:35:30,077] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,076] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:35:30,090] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,089] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:35:30,106] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,105] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:35:30,108] {logging_mixin.py:104} INFO - [2021-03-30 19:35:30,107] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:35:30,120] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.166 seconds
+[2021-03-30 19:36:07,515] {scheduler_job.py:182} INFO - Started process (PID=21652) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:07,519] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:36:07,520] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,520] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:07,564] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:07,589] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,588] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:36:07,607] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,607] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:36:07,609] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,609] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:36:07,610] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,610] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:36:07,623] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,623] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:36:07,641] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,640] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:36:07,643] {logging_mixin.py:104} INFO - [2021-03-30 19:36:07,642] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:36:07,653] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.143 seconds
+[2021-03-30 19:36:46,640] {scheduler_job.py:182} INFO - Started process (PID=21703) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:46,644] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:36:46,646] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,645] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:46,705] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:36:46,728] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,727] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:36:46,764] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,764] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:36:46,772] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,770] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:36:46,773] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,773] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:36:46,781] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,781] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:36:46,798] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,797] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:36:46,801] {logging_mixin.py:104} INFO - [2021-03-30 19:36:46,800] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:36:46,825] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.195 seconds
+[2021-03-30 19:37:26,480] {scheduler_job.py:182} INFO - Started process (PID=21751) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:37:26,484] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:37:26,487] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,486] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:37:26,562] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:37:26,629] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,628] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:37:26,664] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,663] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:37:26,667] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,667] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:37:26,668] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,668] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:37:26,681] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,681] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:37:26,696] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,695] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:37:26,698] {logging_mixin.py:104} INFO - [2021-03-30 19:37:26,697] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:37:26,725] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.253 seconds
+[2021-03-30 19:38:00,055] {scheduler_job.py:182} INFO - Started process (PID=21799) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:00,060] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:38:00,063] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,062] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:00,150] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:00,240] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,239] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:38:00,352] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,351] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:38:00,358] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,356] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:38:00,359] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,359] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:38:00,383] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,382] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:38:00,401] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,400] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:38:00,406] {logging_mixin.py:104} INFO - [2021-03-30 19:38:00,404] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:38:00,425] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.376 seconds
+[2021-03-30 19:38:35,390] {scheduler_job.py:182} INFO - Started process (PID=21829) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:35,397] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:38:35,399] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,398] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:35,448] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:38:35,471] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,470] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:38:35,491] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,490] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:38:35,498] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,497] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:38:35,500] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,499] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:38:35,519] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,519] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:38:35,535] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,534] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:38:35,538] {logging_mixin.py:104} INFO - [2021-03-30 19:38:35,537] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:38:35,545] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.162 seconds
+[2021-03-30 19:43:36,324] {scheduler_job.py:182} INFO - Started process (PID=21972) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:43:36,329] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:43:36,333] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,332] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:43:36,492] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:43:36,598] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,597] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:43:36,652] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,651] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:43:36,681] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,680] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:43:36,683] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,682] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:43:36,783] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,782] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:43:37,022] {logging_mixin.py:104} INFO - [2021-03-30 19:43:36,937] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:43:37,026] {logging_mixin.py:104} INFO - [2021-03-30 19:43:37,025] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:43:37,067] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.752 seconds
+[2021-03-30 19:44:09,272] {scheduler_job.py:182} INFO - Started process (PID=22007) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:09,277] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:44:09,279] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,278] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:09,324] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:09,349] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,349] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:44:09,372] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,371] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:44:09,375] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,375] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:44:09,376] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,376] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:44:09,383] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,382] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:44:09,402] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,401] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:44:09,404] {logging_mixin.py:104} INFO - [2021-03-30 19:44:09,403] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:44:09,413] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.149 seconds
+[2021-03-30 19:44:47,814] {scheduler_job.py:182} INFO - Started process (PID=22042) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:47,817] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:44:47,820] {logging_mixin.py:104} INFO - [2021-03-30 19:44:47,818] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:47,900] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:44:47,954] {logging_mixin.py:104} INFO - [2021-03-30 19:44:47,953] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:44:48,030] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,029] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:44:48,038] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,037] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:44:48,047] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,046] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:44:48,062] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,061] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:44:48,092] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,087] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:44:48,094] {logging_mixin.py:104} INFO - [2021-03-30 19:44:48,093] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:44:48,112] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.307 seconds
+[2021-03-30 19:45:38,120] {scheduler_job.py:182} INFO - Started process (PID=22102) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:45:38,125] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:45:38,128] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,127] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:45:38,196] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:45:38,489] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,488] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:45:38,557] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,556] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:45:38,560] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,559] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:45:38,562] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,561] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:45:38,760] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,759] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:45:38,865] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,863] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:45:38,868] {logging_mixin.py:104} INFO - [2021-03-30 19:45:38,866] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:45:38,910] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.805 seconds
+[2021-03-30 19:46:21,148] {scheduler_job.py:182} INFO - Started process (PID=22138) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:21,151] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:46:21,156] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,154] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:21,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:21,308] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,305] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:46:21,360] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,359] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:46:21,362] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,362] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:46:21,365] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,364] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:46:21,379] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,377] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:46:21,428] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,426] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:46:21,430] {logging_mixin.py:104} INFO - [2021-03-30 19:46:21,429] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:46:21,457] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.316 seconds
+[2021-03-30 19:46:58,138] {scheduler_job.py:182} INFO - Started process (PID=22169) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:58,152] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:46:58,159] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,158] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:58,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:46:58,252] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,251] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:46:58,312] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,311] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:46:58,319] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,318] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:46:58,322] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,321] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:46:58,335] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,335] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:46:58,360] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,359] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:46:58,364] {logging_mixin.py:104} INFO - [2021-03-30 19:46:58,363] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:46:58,375] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.256 seconds
+[2021-03-30 19:47:40,409] {scheduler_job.py:182} INFO - Started process (PID=22208) to work on /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:47:40,416] {scheduler_job.py:629} INFO - Processing file /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:47:40,422] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,420] {dagbag.py:448} INFO - Filling up the DagBag from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:47:40,529] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:47:40,601] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,601] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:47:40,656] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,655] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:47:40,663] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,662] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:47:40,667] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,665] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:47:40,698] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,696] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:47:40,730] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,729] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:47:40,733] {logging_mixin.py:104} INFO - [2021-03-30 19:47:40,731] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:47:40,755] {scheduler_job.py:190} INFO - Processing /Users/harika/Desktop/CSYE_7245/Assignment3/FastAPI/vlab/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.360 seconds
+[2021-03-30 19:57:25,067] {scheduler_job.py:182} INFO - Started process (PID=22477) to work on /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:57:25,071] {scheduler_job.py:629} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:57:25,073] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,073] {dagbag.py:448} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:57:25,228] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:57:25,264] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,263] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:57:25,286] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,286] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:57:25,290] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,290] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:57:25,290] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,290] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:57:25,307] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,307] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:57:25,325] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,325] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:57:25,326] {logging_mixin.py:104} INFO - [2021-03-30 19:57:25,326] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:57:25,340] {scheduler_job.py:190} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.276 seconds
+[2021-03-30 19:59:44,733] {scheduler_job.py:182} INFO - Started process (PID=22529) to work on /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:59:44,734] {scheduler_job.py:629} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2021-03-30 19:59:44,737] {logging_mixin.py:104} INFO - [2021-03-30 19:59:44,736] {dagbag.py:448} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:59:45,300] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2021-03-30 19:59:45,363] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,362] {dag.py:1818} INFO - Sync 3 DAGs
+[2021-03-30 19:59:45,401] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,401] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator to 2021-03-28 00:00:00+00:00
+[2021-03-30 19:59:45,402] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,402] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:59:45,406] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,402] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:59:45,422] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,421] {dag.py:1818} INFO - Sync 2 DAGs
+[2021-03-30 19:59:45,499] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,499] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2021-03-30 19:59:45,500] {logging_mixin.py:104} INFO - [2021-03-30 19:59:45,500] {dag.py:2273} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2021-03-30 19:59:45,511] {scheduler_job.py:190} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.779 seconds
