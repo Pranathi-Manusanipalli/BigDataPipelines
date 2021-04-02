@@ -20,8 +20,8 @@ Install the dependencies as outlines in the requirements.txt by running
 
 ### Instructions to run
 -  Basic usage of the API is available in 'main.py'
-- Run the server with uvicorn main:app --reload
-- Go to http://127.0.0.1:8000/docs and you should see the interactive API documentation
+- Run the server with `uvicorn main:app --reload`
+- Go to `http://127.0.0.1:8000/docs` and you should see the interactive API documentation
 - Run the pytests defined in the 'test_main.py' file using the following commands
 
 - `pytest -m configtest -v`  - To run the tests marked as 'configtest'
