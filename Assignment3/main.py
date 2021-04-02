@@ -1,7 +1,4 @@
 from fastapi import FastAPI
-from typing import Optional
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from pydantic import BaseModel
 from fastapi import Security, Depends, FastAPI, HTTPException
 from snowflake_connect import snowflake_connect
 from query import snowflake_query
@@ -12,8 +9,6 @@ from fastapi.security.api_key import APIKeyQuery, APIKeyCookie, APIKeyHeader, AP
 from starlette.status import HTTP_403_FORBIDDEN
 import secrets
 
-# oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-# API_KEY = "a"
 API_KEY_NAME = "access_token"
 api_key_query = APIKeyQuery(name=API_KEY_NAME, auto_error=False)
 
@@ -29,97 +24,16 @@ def get_api_key(
         )
 auto_error=False
 
-fake_users_db = {
-    "tom": {
-        "username": "Tom",
-        "full_name": "Tom",
-        "email": "tom@example.com",
-        "hashed_password": "fakehashedpassword",
-        "disabled": False,
-    },
-    "sam": {
-        "username": "sam",
-        "full_name": "Sam Anders",
-        "email": "alice@example.com",
-        "hashed_password": "fakehashedsecret2",
-        "disabled": True,
-    },
-}
-
-def fake_hash_password(password: str):
-    return "fakehashed" + password
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-
-
-class User(BaseModel):
-    username: str
-    email: Optional[str] = None
-    full_name: Optional[str] = None
-    disabled: Optional[bool] = None
-
-
-class UserInDB(User):
-    hashed_password: str
-
-
-def get_user(db, username: str):
-    if username in db:
-        user_dict = db[username]
-        return UserInDB(**user_dict)
-
-
-def fake_decode_token(token):
-    # This doesn't provide any security at all
-    # Check the next version
-    user = get_user(fake_users_db, token)
-    return user
-
-
-
-async def get_current_user(token: str = Depends(oauth2_scheme)):
-
-    user = fake_decode_token(token)
-
-    if not user:
-
-        raise HTTPException(
-
-            status_code=status.HTTP_401_UNAUTHORIZED,
-
-            detail="Invalid authentication credentials",
-
-            headers={"WWW-Authenticate": "Bearer"},
-
-        )
-
-    return user
-
-
-async def get_current_active_user(current_user: User = Depends(get_current_user)):
-
-    if current_user.disabled:
-
-        raise HTTPException(status_code=400, detail="Inactive user")
-
-    return current_user
-
 @app.get("/")
 def root():
     return{"message":"Welcome to NASA Turbofan Jet Engine Data"}
 
-
-@app.post("/generatetoken")
-async def generatetoken(form_data: OAuth2PasswordRequestForm = Depends()):
-    user_dict = fake_users_db.get(form_data.username)
-    if not user_dict:
-        raise HTTPException(status_code=400, detail="Incorrect username or password")
-    user = UserInDB(**user_dict)
-    hashed_password = fake_hash_password(form_data.password)
-    if not hashed_password == user.hashed_password:
-        raise HTTPException(status_code=400, detail="Incorrect username or password")
+@app.get("/generatetoken")
+async def generatetoken():
+    # global API_KEY
+    
     os.environ['API_KEY']=secrets.token_urlsafe()
     return os.getenv('API_KEY')
-    # return {"access_token": user.username, "token_type": "bearer"}
 
 @app.post("/pipeline/config")
 def start_server(api_key: APIKey = Depends(get_api_key)):
