@@ -25,7 +25,7 @@ Install the dependencies as outlines in the requirements.txt by running
 - `pytest -m starttest -v`  - To run the tests marked as starttest
 - `pytest -m valuetest -v` - To run the tests marked as valuetests
 
-- To do load test using locust, run the following command in the terminal `locust` which starts a web user interface at a specific port number, in our case it is localhost:8089
+- To do load testing using locust, run the following command in the terminal **`locust`** which starts a web user interface at a specific port number, in our case it is localhost:8089
 
 - Unittesting.ipynb -> Jupyter notebook to run API test cases
 
