@@ -17,7 +17,52 @@ For testing
 
 
 ### Folder Structure - 
-
+Assignment4/
+├── Mask_AnonymizeAPI/
+│   ├── edgar/
+│   │   ├── api/
+│   │   │   ├── main.py
+│   │   │   ├── package.bash: Run this file to zip the contents and push to lambda 
+│   │   │   ├── requirements.txt: Requirements file
+│   │   │   ├── update.bash: Run this file to update the contents to existing lambda
+│   │   │   └── v1/
+│   │   │       ├── endpoints/
+│   │   │       │   ├── api1.py: API code file 
+│   │   │       │   ├── api2.py: API code file 
+│   │   │       │   └── api3.py: API code file 
+│   │   │       └── routers.py
+│   │   └── lambda.zip : zipped site packages 
+│   └── README.md
+├── ModelServingAPI/
+│   ├── albert.py : TFX Pipeline built using Albert model
+│   ├── Dockerfile : Docker file
+│   ├── main.py : FASTAPI file to serve the model
+│   ├── Model/ : Saved model
+│   │   ├── assets/
+│   │   │   └── 30k-clean.model
+│   │   ├── saved_model.pb
+│   │   └── variables/
+│   │       ├── variables.data-00000-of-00001
+│   │       └── variables.index
+│   └── requirements.txt
+├── README.md
+├── streamlit/
+│   ├── main.py: Streamlit file
+│   └── requirements.txt : Requirements file
+└── Unittesting/
+    ├── locustfile.py: Locust file
+    └── pytest/
+        ├── confest.py: Setup file for running pytest
+        ├── main.py: API file
+        ├── Model/ : Saved model
+        │   ├── assets/
+        │   │   └── 30k-clean.model
+        │   ├── saved_model.pb
+        │   └── variables/
+        │       ├── variables.data-00000-of-00001
+        │       └── variables.index
+        ├── requirements.txt : Requirements file
+        └── test_main.py : pytest file
 
 
 
