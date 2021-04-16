@@ -50,6 +50,7 @@ https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prud
 * The Model Serving API can be started by running `uvicorn main:app --reload`.
 `/download` - Downloads the model from s3 to local which is then used in our prediction 
 `/predict` - Using the saved model, we do the sentiment prediction in this route by passing list of strings
+`/get_prediction` - Using the saved model, we do the sentiment prediction in this route by passing link to a file
 
 This API needs to be dockerized as 
  - Dockerizing Application
