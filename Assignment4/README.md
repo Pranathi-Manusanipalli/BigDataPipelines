@@ -40,7 +40,7 @@ This access token is active for 120 minutes and  can be used to authorize the AP
 https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prudhvics/sec-edgar/call_transcripts/AGEN
 
 
-`/api2` - Takes the s3 url as input and outputs the list of entities detected and store back to s3<br>https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prudhvics/sec-edgar/call_transcripts/AGEN
+`/api2` - Takes the s3 url as input and outputs the list of PII entities detected <br>https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prudhvics/sec-edgar/call_transcripts/AGEN
 
 `/api3` - Takes the list of entities that needs to be anonymized and masked as inputs and outputs the files back to s3 with the data anonymized and masked<br>https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api3?input=s3://prudhvics/sec-edgar/call_transcripts/ALTG&output=s3://prudhvics/api3_masked/&anon_entities=NAME&mask_entities=ADDRESS&mask_entities=SSN
 
