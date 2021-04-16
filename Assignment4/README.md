@@ -17,7 +17,7 @@ For testing
 
 
 ### Folder Structure - 
-`
+```
 Assignment4/
 ├── Mask_AnonymizeAPI/
 │   ├── edgar/
@@ -65,7 +65,7 @@ Assignment4/
         ├── requirements.txt : Requirements file
         └── test_main.py : pytest file
 
-`
+```
 
 ### Instructions to run - 
 **Mask_AnonymizeAPI** 
