@@ -22,7 +22,7 @@ For testing
 
 
 ### Instructions to run - 
-Mask_AnonymizeAPI 
+**Mask_AnonymizeAPI** 
 * Install the dependecies by running ` pip install -r requirements.txt`
 * Go to the folder containing the main.py file containing the basic API usage code, which in our case is `cd edgar/api`
 * Now, start the fastapi by running `uvicorn main:app --reload`
@@ -32,7 +32,7 @@ Mask_AnonymizeAPI
 `/api3` - Takes the list of entities that needs to be anonymized and masked as inputs and outputs the files back to s3 with the data anonymized and masked.
 
 
-ModelServingAPI
+**ModelServingAPI**
 * Install the dependecies by running ` pip install -r requirements.txt`
 * Running the TFX Pipeline using Albert model pretrained on IMDB data and testing using our EDGAR data, results in a model which is saved in s3
 * The Model Serving API can be started by running `uvicorn main:app --reload`.
@@ -47,16 +47,16 @@ This API needs to be dockerized as
     `docker run -d -p 8000:8000 imagename`
 Now the sentiment API is up and running and can be connected on http://0.0.0.0:8000/predict
 
-Streamlit
+**Streamlit**
 * Install the dependecies by running ` pip install -r requirements.txt`
 * Start the web application by running the following command
 ` streamlit run main.py`
 
-Unittesting
+**Unittesting**
 * Install the dependecies by running ` pip install -r requirements.txt`
 * Run the pytests defined in the 'test_main.py' file using the following commands
 `pytest -m valuetest -v`
 * To do load testing using locust, run the command **`locust`** in the terminal which starts a web user interface at a specific port number, in our case it is localhost:8089
 
-Detailed Claat Document - https://codelabs-preview.appspot.com/?file_id=1d3v1_H75l7_SEldPHcDvTksFhZpgHmQW9e2eDJ4_93g#0
+**Detailed Claat Document** - https://codelabs-preview.appspot.com/?file_id=1d3v1_H75l7_SEldPHcDvTksFhZpgHmQW9e2eDJ4_93g#0
 
