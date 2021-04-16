@@ -25,12 +25,24 @@ For testing
 **Mask_AnonymizeAPI** 
 * Install the dependecies by running ` pip install -r requirements.txt`
 * Go to the folder containing the main.py file containing the basic API usage code, which in our case is `cd edgar/api`
-* Now, start the fastapi by running `uvicorn main:app --reload`
-* Go to `http://127.0.0.1:8000/docs` and you should see the interactive API documentation for the 3 routes defined
-`/api1` - Takes the s3 url and fetch the data
-`/api2` - Takes the s3 url as input and outputs the list of entities detected and store back to s3
-`/api3` - Takes the list of entities that needs to be anonymized and masked as inputs and outputs the files back to s3 with the data anonymized and masked.
+The API endpoints are secured using AWS Cognito.
 
+Steps to access the API:
+This CURL command returns an access token
+
+`curl -X POST --user <app-client-id>:<app-secret-id> 'https://<your-domain-name>.auth.us-east-1.amazoncognito.com/oauth2/token?grant_type=client_credentials' -H 'Content-Type: application/x-www-form-urlencoded'`
+
+This access token is active for 120 minutes and  can be used to authorize the API 
+
+`curl -X POST '<Your-API-Endpoint' -H 'Content-Type: image/png' --data-binary @'test_images/0.png' -H 'Authorization: <your-auth-token>'`
+ 
+`/api1` - Takes the s3 url and fetch the data<br>
+https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prudhvics/sec-edgar/call_transcripts/AGEN
+
+
+`/api2` - Takes the s3 url as input and outputs the list of entities detected and store back to s3<br>https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api2?url=s3://prudhvics/sec-edgar/call_transcripts/AGEN
+
+`/api3` - Takes the list of entities that needs to be anonymized and masked as inputs and outputs the files back to s3 with the data anonymized and masked<br>https://w1q69ke9j0.execute-api.us-east-1.amazonaws.com/DEV/v1/api3?input=s3://prudhvics/sec-edgar/call_transcripts/ALTG&output=s3://prudhvics/api3_masked/&anon_entities=NAME&mask_entities=ADDRESS&mask_entities=SSN
 
 **ModelServingAPI**
 * Install the dependecies by running ` pip install -r requirements.txt`
