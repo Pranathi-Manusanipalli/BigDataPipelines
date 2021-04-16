@@ -1,0 +1,6 @@
+boto3
+smart_open
+streamlit
+pandas
+altair
+requests

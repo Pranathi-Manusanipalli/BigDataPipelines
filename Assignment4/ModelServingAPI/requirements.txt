@@ -1,0 +1,10 @@
+tensorflow
+pandas
+click
+boto3
+smart_open
+tensorflow_text
+fsspec
+s3fs
+uvicorn
+fastapi
