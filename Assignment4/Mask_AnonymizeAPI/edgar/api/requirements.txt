@@ -1,0 +1,11 @@
+fastapi==0.61.1
+mangum==0.10.0
+boto3==1.16.6
+s3fs
+fsspec
+uvicorn
+requests
+pandas
+smart_open
+tensorflow
+tensorflow-text
