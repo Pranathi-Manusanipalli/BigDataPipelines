@@ -14,7 +14,7 @@ FINANCIAL ANALYST<br><br>
 
 **Functions:**<br>
 
-Upload new invoice transaction files for categorization(Batch)
+Upload new invoice transaction files for categorization(Batch)<br>
 Uploads an invoice image and gets the associated predictions( category ) from the Model Inference API<br><br>
 
 **Technology Stack:**<br>
