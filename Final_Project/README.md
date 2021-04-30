@@ -33,16 +33,36 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 
 ## Setup & Depployments
 
-Create a GCP account and activate your account to get 300$ free credit<br>
+**Create a GCP account and activate your account to get 300$ free credit**<br>
 Steps:
 1. Go to https://cloud.google.com/ and click on ‘TRY IT FREE‘.<br>
 2. Now, it will ask you to login to your Gmail account and choose your country and accept the terms & conditions<br>
 3. In the third step, you have to fill your details, like account type, Name, Address, credit card details, tax information, etc. If you have old Gmail account and all the information is already there it would take it and you might not have to fill all the details.<br>
 4. After filling all the details click on “Start my free trial“.<br>
-5. Now Google will setup your cloud account and in few seconds your Google Cloud Platform account will be ready.<br>
+5. Now Google will setup your cloud account and in few seconds your Google Cloud Platform account will be ready.<br><br>
+
+**Creation of project**<br>
+- In the dropdown beside search bar click on it and then click new project and create one<br><br>
 
 For detailed account creation with screenshots visit: https://www.storagetutorials.com/create-free-trial-google-cloud-platform/<br>
 
-Enabling API's
-- In the search bar on the Search for API's and Services --> then click on Library --> Search for Cloud Functions, Cloud Run, Cloud Storage, Cloud Build, Cloud Composer and enable them
+**Enabling API's**
+- In the search bar on the Search for API's and Services --> then click on Library --> Search for Cloud Functions, Cloud Run, Cloud Storage, Cloud Build, Cloud Composer, Bigquery and enable them<br><br>
+
+**Deploying Airflow Pipelines on Cloud Composer**<br>
+
+- Search for composer in the search panel<br>
+- Click on create<br>
+- Give the following options:<br>
+  -  name: <name of composer environment><br>
+  -  Location: us-central1<br>
+  -  nodes:3<br>
+  -  Zone: us-central1-c<br>
+  -  Machine type: n1-standard-2<br>
+  -  Image Version: composer-1.16.2-airflow-1.10.15<br>
+  -  Pyhton version: 3<br>
+ Just change only the above mentioned options and click on Create<br><br>
+  
+
+
 
