@@ -15,8 +15,6 @@ Pranathi Manusanipalli<br>
 **WebApp**
 [Streamlit App](https://streamlit-invoice-categorization-ii5x4gm7ra-uc.a.run.app/)
 
-**Test Cases**
-[Document](https://docs.google.com/document/d/1hIODK3c7_jv2IwUiM9_H1juXbgY0DLuzitMQSkxqWiA/edit#)
 
 **Problem Statement:**<br><br>
 Organization xyz is spending millions of dollars on various resources/products required for the company to run smoothly but has no definitive analytics and categorization tool that helps them with all their spends. The input can be CSV or batch files.Our goal is to predict the category of the invoice based on invoice description.We build end to end pipelines that handle extraction,preprocessing, perform model training and model serving functionalities with ease.
