@@ -44,6 +44,10 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 - Apache Airflow
 - Pytest
 
+## Architecture<br><br>
+
+![](images/invoice_categorization_project.jpeg)
+
 ## Setup & Depployments
 
 **Create a GCP account and activate your account to get 300$ free credit**<br>
