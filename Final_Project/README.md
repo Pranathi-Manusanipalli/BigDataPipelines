@@ -118,7 +118,7 @@ Setting up docker and linking them with google Containerized Repositories:<br>
 - To access the API use `SERVICE URL/predict`<br>
 
 ## Deploying Streamlit APP on Google Cloud run<br>
-- cd into FastAPI folder<br> 
+- cd into Streamlit folder<br> <br>
 Setting up docker and linking them with google Containerized Repositories:<br>
 
 - Dockerizing Application
