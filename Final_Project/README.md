@@ -16,6 +16,9 @@ Pranathi Manusanipalli<br>
 **WebApp**
 [Streamlit App](https://streamlit-invoice-categorization-ii5x4gm7ra-uc.a.run.app/)
 
+**Google DataStudio Report**<br>
+[Google DataStudio Report](https://datastudio.google.com/u/5/reporting/d5320412-115f-415f-959c-c5d87bdcff19/page/1M)
+
 
 **Problem Statement:**<br><br>
 Organization xyz is spending millions of dollars on various resources/products required for the company to run smoothly but has no definitive analytics and categorization tool that helps them with all their spends. The input can be CSV or batch files.Our goal is to predict the category of the invoice based on invoice description.We build end to end pipelines that handle extraction,preprocessing, perform model training and model serving functionalities with ease.
@@ -46,6 +49,47 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 ## Architecture<br><br>
 
 ![](images/invoice_categorization_project.jpeg)
+
+### GIT structure<br><br>
+```
+Final_Project/ - Main Project Folder
+├── Airflow/ - Folder Containing the Airflow Pipelines(DAG's)
+│   ├── ETL_INFERENCE.py - DAG to do the ETL on initial training data
+│   ├── ETL_TRAIN.py - DAG to fetch the training data, train the classification model and save the model in Cloud storage
+│   ├── ML_MODEL_TRAIN.py - DAG to do ETL on newly coming transactions aand stage them into tables
+│   ├── MODEL_INFERENCE.py - DAG that takes the new transactions from stage and predects the categories for invoices by inferencing dockerized FastAPI model
+│   └── requirements.txt - Contains the required Libraries in setting up Airflow Environment on Cloud Composer
+├── FastAPI/ - Folder containg the files for dockerized ML API
+│   ├── Dockerfile - File requirement to build Docker Container with ML model 
+│   ├── main.py - Contains all the code required to build the ML model FastAPI inference
+│   └── requirements.txt - Contains the required Libraries to run the FastAPI
+├── images/ - Ccntains all the images embedded into README
+│   ├── ETL_INFERENCE.png
+│   ├── ETL_TRAIN.png
+│   ├── invoice_categorization_project.jpeg
+│   ├── ML_MODEL_TRAIN.png
+│   ├── Mlflow_UI.png
+│   ├── MODEL_INFERENCE.png
+│   └── pytest.png
+├── Mlflow/
+│   ├── data/
+│   │   ├── composer_stage_MODEL_TRAINSample.csv - Contains all the date required for training
+│   │   ├── README.md
+│   │   ├── TESTSample.csv - Testing Data
+│   │   └── TRAINSample.csv - Training Data
+│   ├── Mlflow.ipynb
+│   ├── requirements.txt - required libraries for MLflow
+│   
+├── PyTest/
+│   ├── confest.py - To initialize client for pytest
+│   ├── main.py - Main file to run the pytest app
+│   └── test_pytest.py - Contains all the test cases to be tested
+├── README.md
+└── Streamlit/ - Conatins all the files for Dockering Streamlit APP
+    ├── Dockerfile - Contains the steps to excute while dockerizing the app
+    ├── requirements.txt - Required libraries for Streamlit app
+    └── streamtest.py - Has all the code of the app 
+```
 
 ## Setup & Deployments
 
@@ -183,6 +227,8 @@ In this example, we have used f1_score and accuracy_score of the model as evalut
 
  `pytest -m valuetest -v ` <br>
  ![Pytest](images/pytest.png)
+ 
+
 
  
 
