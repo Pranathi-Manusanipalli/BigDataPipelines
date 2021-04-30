@@ -96,6 +96,7 @@ Final_Project/ - Main Project Folder
 
 ## Setup & Deployments
 
+Git Clone this Repository<br>
 **Create a GCP account and activate your account to get 300$ free credit**<br>
 Steps:
 1. Go to https://cloud.google.com/ and click on ‘TRY IT FREE‘.<br>
@@ -237,7 +238,8 @@ In this example, we have used f1_score and accuracy_score of the model as evalut
  https://cloud.google.com/composer/docs/quickstart<br>
  https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python<br>
  https://www.kaggle.com/shahkan/text-classification-using-logistic-regression<br>
- Airflow DAG's,FastAPI and Streamlit codes from Labs
+ https://codelabs.developers.google.com/codelabs/cloud-vision-api-python#7<br>
+ https://github.com/turner-anderson/streamlit-cropper
  
 
 
