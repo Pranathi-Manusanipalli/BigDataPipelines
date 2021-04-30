@@ -97,7 +97,7 @@ Setting up docker and linking them with google Containerized Repositories:<br>
 
     `docker build -t <imagename> .`
   
-    `docker run -d -p 5000:5000 imagename`
+    `docker run -d -p 8000:8000 imagename`
 
 ***Deploying the app on Google Cloud Run:***<br>
 
@@ -116,6 +116,29 @@ Setting up docker and linking them with google Containerized Repositories:<br>
   - Create<br>
 - Once Cloud Run service is created we will get the service url and our API is up and running<br>
 - To access the API use `SERVICE URL/predict`<br>
+
+## Deploying Streamlit APP on Google Cloud run<br>
+- cd into FastAPI folder<br> 
+Setting up docker and linking them with google Containerized Repositories:<br>
+
+- Dockerizing Application
+
+    `docker build -t <imagename> .`
+  
+    `docker run -d -p 8501:8501 imagename`
+    
+- Create a tag for your image<br>
+  `docker tag imagename us.gcr.io/project-id/imagename` <br>
+- Push the docker image<br>
+  `docker push us.gcr.io/project-id/imagename` <br>
+- Now to go to Cloud run and create a service with following parameters: <br>
+  - select the image from the container repository which we pushed<br>
+  - Memory: min 4GB<br>
+  - Create<br>
+- Once Cloud Run service is created we will get the service url and our APP is up and running<br>
+- To access the APP use `<SERVICE URL>`<br>
+    
+ 
 
 
 
