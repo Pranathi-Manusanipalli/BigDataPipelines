@@ -13,3 +13,5 @@ Upload new invoice transaction files for categorization(Batch)
 Uploads an invoice image and gets the associated predictions( category ) from the Model Inference API
 
 ***Technology Stack:***
+
+
