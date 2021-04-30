@@ -48,7 +48,7 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 
 ![](images/invoice_categorization_project.jpeg)
 
-## Setup & Depployments
+## Setup & Deployments
 
 **Create a GCP account and activate your account to get 300$ free credit**<br>
 Steps:
