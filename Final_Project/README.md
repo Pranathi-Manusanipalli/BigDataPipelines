@@ -178,7 +178,7 @@ In this example, we have used f1_score and accuracy_score of the model as evalut
 ### Pytest
 - Run the pytests defined in the 'test_pytest.py' file using the following commands
 
- `pytest -m valuetest -v `
+ `pytest -m valuetest -v ` <br>
  ![Pytest](images/pytest.png)
 
  
