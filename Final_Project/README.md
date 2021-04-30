@@ -50,19 +50,19 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 
 ![](images/invoice_categorization_project.jpeg)
 
-### GIT structure<br><br>
+### Folder Structure<br><br>
 ```
 Final_Project/ - Main Project Folder
 ├── Airflow/ - Folder Containing the Airflow Pipelines(DAG's)
 │   ├── ETL_INFERENCE.py - DAG to do the ETL on initial training data
 │   ├── ETL_TRAIN.py - DAG to fetch the training data, train the classification model and save the model in Cloud storage
-│   ├── ML_MODEL_TRAIN.py - DAG to do ETL on newly coming transactions aand stage them into tables
-│   ├── MODEL_INFERENCE.py - DAG that takes the new transactions from stage and predects the categories for invoices by inferencing dockerized FastAPI model
-│   └── requirements.txt - Contains the required Libraries in setting up Airflow Environment on Cloud Composer
+│   ├── ML_MODEL_TRAIN.py - DAG to do ETL on newly coming transactions and stage them into tables
+│   ├── MODEL_INFERENCE.py - DAG that takes the new transactions from stage and predicts the categories for invoices by inferencing dockerized FastAPI model
+│   └── requirements.txt - Contains the required libraries in setting up Airflow Environment on Cloud Composer
 ├── FastAPI/ - Folder containg the files for dockerized ML API
 │   ├── Dockerfile - File requirement to build Docker Container with ML model 
 │   ├── main.py - Contains all the code required to build the ML model FastAPI inference
-│   └── requirements.txt - Contains the required Libraries to run the FastAPI
+│   └── requirements.txt - Contains the required libraries to run the FastAPI
 ├── images/ - Ccntains all the images embedded into README
 │   ├── ETL_INFERENCE.png
 │   ├── ETL_TRAIN.png
@@ -73,7 +73,7 @@ Final_Project/ - Main Project Folder
 │   └── pytest.png
 ├── Mlflow/
 │   ├── data/
-│   │   ├── composer_stage_MODEL_TRAINSample.csv - Contains all the date required for training
+│   │   ├── composer_stage_MODEL_TRAINSample.csv - Contains all the data required for training
 │   │   ├── README.md
 │   │   ├── TESTSample.csv - Testing Data
 │   │   └── TRAINSample.csv - Training Data
@@ -88,7 +88,7 @@ Final_Project/ - Main Project Folder
 └── Streamlit/ - Conatins all the files for Dockering Streamlit APP
     ├── Dockerfile - Contains the steps to excute while dockerizing the app
     ├── requirements.txt - Required libraries for Streamlit app
-    └── streamtest.py - Has all the code of the app 
+    └── streamtest.py -  Code to build Streamlit app 
 ```
 
 ## Setup & Deployments
