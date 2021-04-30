@@ -5,6 +5,19 @@ Prudhvi Chandra Sekharamahanti<br>
 Harika Reddy Gurram<br>
 Pranathi Manusanipalli<br>
 
+**Quick Links**
+[Project Proposal](https://codelabs-preview.appspot.com/?file_id=1nvAtSC_nDl4NXlOl7yEZyio5rzNPpYlNWLXtEISqmS4#0)
+[Project Presentation](https://codelabs-preview.appspot.com/?file_id=1uJjYrvPsVZbaoJAwq59MD0GCj4ow-jY00OaOuAx7HW4#0)
+
+**Images on DockerHub.com**
+[fastapi-project](https://hub.docker.com/r/prudh/project)
+
+**WebApp**
+[Streamlit App](https://streamlit-invoice-categorization-ii5x4gm7ra-uc.a.run.app/)
+
+**Test Cases**
+[Document](https://docs.google.com/document/d/1hIODK3c7_jv2IwUiM9_H1juXbgY0DLuzitMQSkxqWiA/edit#)
+
 **Problem Statement:**<br><br>
 Organization xyz is spending millions of dollars on various resources/products required for the company to run smoothly but has no definitive analytics and categorization tool that helps them with all their spends. The input can be CSV or batch files.Our goal is to predict the category of the invoice based on invoice description.We build end to end pipelines that handle extraction,preprocessing, perform model training and model serving functionalities with ease.
 
@@ -138,6 +151,26 @@ Setting up docker and linking them with google Containerized Repositories:<br>
 - Once Cloud Run service is created we will get the service url and our APP is up and running<br>
 - To access the APP use `<SERVICE URL>`<br>
     
+## Mlflow 
+MLFLOW is a open source project for tracking ML End to End life cycle project management.
+Here, we are utilizing the Mlflow Tracking component of the Mlflow to record and compare parameters, metrics and results.
+
+### Setup
+Install Mlflow using `pip install mlflow`
+
+### Instructions to run 
+Using the data files from data/ folder, we train and test our model.
+Run the Mlflow notebook which has the below steps
+- Create Mlflow tracking client
+- Create experiment
+- Create run
+- Creating the auxiliary function that defines the evaluation metrics for the model
+- Start the run as defined in the TRAINING function in our notebook
+- Finally, Visualize the experiments by running the `mlflow ui` command. This starts the server on our local host http://127.0.0.1:5000 where we can view the results of the runs and model artifacts which are stored in our local as well.
+
+In this example, we have used f1_score and accuracy_score of the model as evalutaion metrics
+![Mlflow ui](images/Mlflow_UI.png)
+
  
 
 
