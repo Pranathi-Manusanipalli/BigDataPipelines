@@ -93,9 +93,13 @@ Adding Dags to Environment Bucket:<br>
 Running Airflow Dags:<br>
 - Here we have 4 designed for the project purpose<br>
   - ETL_TRAIN: DAG to do the ETL on initial training data<br>
+  ![ETL_TRAIN](images/ETL_TRAIN.png) <br>
   - ML_MODEL_TRAIN: DAG to fetch the training data, train the classification model and save the model in Cloud storage<br>
+  ![ML_MODEL_TRAIN](images/ML_MODEL_TRAIN.png) <br>
   - ETL_INFERENCE: DAG to do ETL on newly coming transactions aand stage them into tables<br>
+  ![ETL_INFERENCE](images/ETL_INFERENCE.png) <br>
   - MODEL_INFERENCE: DAG that takes the new transactions from stage and predects the categories for invoices by inferencing dockerized FastAPI model<br>
+  ![MODEL_INFERENCE](images/MODEL_INFERENCE.png) <br><br>
 - Inorder to successfully run the pipelines following steps to be implemented:<br>
    Training:<br>
   - First upload the training_data.csv file in invoice_images/train_data data<br>
