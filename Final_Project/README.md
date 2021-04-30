@@ -90,7 +90,32 @@ Running Airflow Dags:<br>
   - We no need to trigger any DAG's manually for inference/prediction on new transactions automatically which will be clearly discussed in used case section below<br><br>
 
 **Deploying Dockerized FastAPI for serving the model**<br><br>
-Setting up docker and linking them with google Containerized Repositories:
+- cd into FastAPI folder<br> 
+Setting up docker and linking them with google Containerized Repositories:<br>
+
+- Dockerizing Application
+
+    `docker build -t <imagename> .`
+  
+    `docker run -d -p 5000:5000 imagename`
+
+***Deploying the app on Google Cloud Run:***<br>
+
+- Install Google Cloud SDK 
+- Authenticate the SDK using<br>
+  `google auth login`<br>
+- Authenicate docker to push images to Google Cloud Container Repositories<br>
+  `google auth configure-docker`<br>
+- Create a tag for your image<br>
+  `docker tag imagename us.gcr.io/project-id/imagename` <br>
+- Push the docker image<br>
+  `docker push us.gcr.io/project-id/imagename` <br>
+- Now to go to Cloud run and create a service with following parameters: <br>
+  - select the image from the container repository which we pushed<br>
+  - Memory: min 4GB<br>
+  - Create<br>
+- Once Cloud Run service is created we will get the service url and our API is up and running<br>
+- To access the API use `SERVICE URL/predict`<br>
 
 
 
