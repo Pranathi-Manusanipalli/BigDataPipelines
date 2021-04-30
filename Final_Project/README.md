@@ -175,6 +175,12 @@ Run the Mlflow notebook which has the below steps
 In this example, we have used f1_score and accuracy_score of the model as evalutaion metrics
 ![Mlflow ui](images/Mlflow_UI.png)
 
+### Pytest
+- Run the pytests defined in the 'test_pytest.py' file using the following commands
+
+ `pytest -m valuetest -v `
+ ![Pytest](images/pytest.png)
+
  
 
 
