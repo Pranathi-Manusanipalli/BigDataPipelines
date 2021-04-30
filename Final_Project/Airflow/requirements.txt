@@ -1,0 +1,5 @@
+scikit-learn
+sqlalchemy==1.3.18
+pandas_gbq
+fsspec
+gcsfs
