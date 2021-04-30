@@ -49,7 +49,7 @@ For detailed account creation with screenshots visit: https://www.storagetutoria
 **Enabling API's**
 - In the search bar on the Search for API's and Services --> then click on Library --> Search for Cloud Functions, Cloud Run, Cloud Storage, Cloud Build, Cloud Composer, Bigquery and enable them<br><br>
 
-**Deploying Airflow Pipelines on Cloud Composer**<br>
+## Deploying Airflow Pipelines on Cloud Composer<br>
 
 - Search for composer in the search panel<br>
 - Click on create<br>
@@ -89,7 +89,7 @@ Running Airflow Dags:<br>
   Inference:<br>
   - We no need to trigger any DAG's manually for inference/prediction on new transactions automatically which will be clearly discussed in used case section below<br><br>
 
-**Deploying Dockerized FastAPI for serving the model**<br><br>
+## Deploying Dockerized FastAPI for serving the model<br><br>
 - cd into FastAPI folder<br> 
 Setting up docker and linking them with google Containerized Repositories:<br>
 
