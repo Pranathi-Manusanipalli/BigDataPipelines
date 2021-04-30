@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+google-cloud-core
+google-cloud-storage
+pandas
+sklearn
