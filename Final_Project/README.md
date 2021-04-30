@@ -5,18 +5,18 @@ Prudhvi Chandra Sekharamahanti<br>
 Harika Reddy Gurram<br>
 Pranathi Manusanipalli<br>
 
-**Quick Links**
+**Quick Links:**<br>
 
 [Project Proposal](https://codelabs-preview.appspot.com/?file_id=1nvAtSC_nDl4NXlOl7yEZyio5rzNPpYlNWLXtEISqmS4#0)<br>
 [Project Presentation Report](https://codelabs-preview.appspot.com/?file_id=1uJjYrvPsVZbaoJAwq59MD0GCj4ow-jY00OaOuAx7HW4#0)
 
-**Images on DockerHub.com**
+**Images on DockerHub.com**<br>
 [fastapi-project](https://hub.docker.com/r/prudh/project)
 
-**WebApp**
+**WebApp:**<br>
 [Streamlit App](https://streamlit-invoice-categorization-ii5x4gm7ra-uc.a.run.app/)
 
-**Google DataStudio Report**<br>
+**Google DataStudio Report:**<br>
 [Google DataStudio Report](https://datastudio.google.com/u/5/reporting/d5320412-115f-415f-959c-c5d87bdcff19/page/1M)
 
 
