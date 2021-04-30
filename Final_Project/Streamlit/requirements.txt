@@ -1,0 +1,10 @@
+streamlit
+streamlit_cropper
+pandas
+pandas_gbq
+google-cloud-vision
+google-cloud-storage
+google-cloud-core
+google-cloud-core
+fsspec
+gcsfs
