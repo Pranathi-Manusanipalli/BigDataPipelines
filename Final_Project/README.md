@@ -232,10 +232,12 @@ In this example, we have used f1_score and accuracy_score of the model as evalut
  ![Pytest](images/pytest.png)
  
  
- ## References:
+ ## References:<br><br>
  
- https://cloud.google.com/composer/docs/quickstart
- https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python
+ https://cloud.google.com/composer/docs/quickstart<br>
+ https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python<br>
+ https://www.kaggle.com/shahkan/text-classification-using-logistic-regression<br>
+ Airflow DAG's,FastAPI and Streamlit codes from Labs
  
 
 
