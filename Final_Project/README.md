@@ -89,6 +89,12 @@ Running Airflow Dags:<br>
   Inference:<br>
   - We no need to trigger any DAG's manually for inference/prediction on new transactions automatically which will be clearly discussed in used case section below<br><br>
 
+**Deploying Dockerized FastAPI for serving the model**<br><br>
+Setting up docker and linking them with google Containerized Repositories:
+
+
+
+
   
 
 
