@@ -78,10 +78,16 @@ Running Airflow Dags:<br>
 - Here we have 4 designed for the project purpose<br>
   - ETL_TRAIN: DAG to do the ETL on initial training data<br>
   - ML_MODEL_TRAIN: DAG to fetch the training data, train the classification model and save the model in Cloud storage<br>
-  - ETL_INFERENCE: DAG to do ETL on newly coming transactions aand stage them into tables
-  - MODEL_INFERENCE: DAG that takes the new transactions from stage and predects the categories for invoices by inferencing dockerized FastAPI model
-
-
+  - ETL_INFERENCE: DAG to do ETL on newly coming transactions aand stage them into tables<br>
+  - MODEL_INFERENCE: DAG that takes the new transactions from stage and predects the categories for invoices by inferencing dockerized FastAPI model<br>
+- Inorder to successfully run the pipelines following steps to be implemented:<br>
+   Training:<br>
+  - First upload the training_data.csv file in invoice_images/train_data data<br>
+  - In composer homepage on GCP we have url to access Airflow, here it is: https://jf9eec1d3b656d340p-tp.appspot.com/admin/.<br>
+  - click on TRAINING_ETL_DAG whhich does the ETL and automatically triggers ML_MODEL_TRAIN_DAG which trains and loads the model<br>
+  - Thus we accomplished the initial task of traning<br>
+  Inference:<br>
+  - We no need to trigger any DAG's manually for inference/prediction on new transactions automatically which will be clearly discussed in used case section below<br><br>
 
   
 
