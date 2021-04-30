@@ -6,7 +6,7 @@ Harika Reddy Gurram<br>
 Pranathi Manusanipalli<br>
 
 **Quick Links**
-[Project Proposal](https://codelabs-preview.appspot.com/?file_id=1nvAtSC_nDl4NXlOl7yEZyio5rzNPpYlNWLXtEISqmS4#0)
+[Project Proposal](https://codelabs-preview.appspot.com/?file_id=1nvAtSC_nDl4NXlOl7yEZyio5rzNPpYlNWLXtEISqmS4#0)<br>
 [Project Presentation](https://codelabs-preview.appspot.com/?file_id=1uJjYrvPsVZbaoJAwq59MD0GCj4ow-jY00OaOuAx7HW4#0)
 
 **Images on DockerHub.com**
