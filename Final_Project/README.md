@@ -231,6 +231,12 @@ In this example, we have used f1_score and accuracy_score of the model as evalut
  `pytest -m valuetest -v ` <br>
  ![Pytest](images/pytest.png)
  
+ 
+ ## References:
+ 
+ https://cloud.google.com/composer/docs/quickstart
+ https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python
+ 
 
 
  
