@@ -103,9 +103,9 @@ Setting up docker and linking them with google Containerized Repositories:<br>
 
 - Install Google Cloud SDK 
 - Authenticate the SDK using<br>
-  `google auth login`<br>
+  `gcloud auth login`<br>
 - Authenicate docker to push images to Google Cloud Container Repositories<br>
-  `google auth configure-docker`<br>
+  `gcloud auth configure-docker`<br>
 - Create a tag for your image<br>
   `docker tag imagename us.gcr.io/project-id/imagename` <br>
 - Push the docker image<br>
