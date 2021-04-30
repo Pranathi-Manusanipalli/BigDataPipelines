@@ -17,7 +17,10 @@ Pranathi Manusanipalli<br>
 [Streamlit App](https://streamlit-invoice-categorization-ii5x4gm7ra-uc.a.run.app/)
 
 **Google DataStudio Report:**<br>
-[Google DataStudio Report](https://datastudio.google.com/u/5/reporting/d5320412-115f-415f-959c-c5d87bdcff19/page/1M)
+[Google DataStudio Report](https://datastudio.google.com/u/5/reporting/d5320412-115f-415f-959c-c5d87bdcff19/page/1M)<br>
+
+**Streamlit Demo Video**<br>
+[Streamlit Demo Video](https://storage.googleapis.com/invoices_image/Streamlit_Demo.mp4)
 
 
 **Problem Statement:**<br><br>
