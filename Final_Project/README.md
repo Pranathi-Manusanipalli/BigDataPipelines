@@ -33,7 +33,7 @@ Uploads an invoice image and gets the associated predictions( category ) from th
 
 ## Setup & Depployments
 
-- Create a GCP account and activate your account to get 300$ free credit<br>
+Create a GCP account and activate your account to get 300$ free credit<br>
 Steps:
 1. Go to https://cloud.google.com/ and click on ‘TRY IT FREE‘.<br>
 2. Now, it will ask you to login to your Gmail account and choose your country and accept the terms & conditions<br>
@@ -43,6 +43,6 @@ Steps:
 
 For detailed account creation with screenshots visit: https://www.storagetutorials.com/create-free-trial-google-cloud-platform/<br>
 
-- Enabling API's
-  In the search bar on the Search for API's and Services --> then click on Library --> Search for Cloud Functions, Cloud Run, Cloud Storage, Cloud Build, Cloud Composer and enable them
+Enabling API's
+- In the search bar on the Search for API's and Services --> then click on Library --> Search for Cloud Functions, Cloud Run, Cloud Storage, Cloud Build, Cloud Composer and enable them
 
